@@ -16,7 +16,9 @@
         "/html/*.json",
         "/http/*.json",
         "/javascript/*.json",
+        "/manifests/*.json",
         "/mathml/*.json",
+        "/mediatypes/*.json",
         "/svg/*.json",
         "/webdriver/*.json",
         "/webextensions/*.json"

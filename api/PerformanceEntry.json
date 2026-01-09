@@ -4,25 +4,23 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry",
         "spec_url": "https://w3c.github.io/performance-timeline/#dom-performanceentry",
+        "tags": [
+          "web-features:performance"
+        ],
         "support": {
+          "bun": {
+            "version_added": "1.0.22"
+          },
           "chrome": [
             {
               "version_added": "46"
             },
             {
-              "version_added": "25",
-              "prefix": "webkit"
+              "prefix": "webkit",
+              "version_added": "25"
             }
           ],
-          "chrome_android": [
-            {
-              "version_added": "46"
-            },
-            {
-              "version_added": "25",
-              "prefix": "webkit"
-            }
-          ],
+          "chrome_android": "mirror",
           "deno": {
             "version_added": "1.2"
           },
@@ -32,57 +30,31 @@
           "firefox": {
             "version_added": "35"
           },
-          "firefox_android": {
-            "version_added": "35"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": "10"
           },
-          "nodejs": {
-            "version_added": "8.5.0"
-          },
-          "opera": [
+          "nodejs": [
             {
-              "version_added": "33"
+              "version_added": "19.0.0"
             },
             {
-              "version_added": "15",
-              "prefix": "webkit"
+              "version_added": "8.5.0",
+              "version_removed": "19.0.0",
+              "partial_implementation": true,
+              "notes": "Available as a part of the `perf_hooks` module."
             }
           ],
-          "opera_android": [
-            {
-              "version_added": "33"
-            },
-            {
-              "version_added": "14",
-              "prefix": "webkit"
-            }
-          ],
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "11"
           },
-          "safari_ios": {
-            "version_added": "11"
-          },
-          "samsunginternet_android": [
-            {
-              "version_added": "5.0"
-            },
-            {
-              "prefix": "webkit",
-              "version_added": "1.5"
-            }
-          ],
-          "webview_android": [
-            {
-              "version_added": "46"
-            },
-            {
-              "version_added": "≤37",
-              "prefix": "webkit"
-            }
-          ]
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -90,17 +62,71 @@
           "deprecated": false
         }
       },
+      "worker_support": {
+        "__compat": {
+          "description": "Available in workers",
+          "tags": [
+            "web-features:performance"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "62"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.2"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": "60"
+            },
+            "firefox_android": "mirror",
+            "nodejs": [
+              {
+                "version_added": "19.0.0"
+              },
+              {
+                "version_added": "11.7.0",
+                "version_removed": "19.0.0",
+                "partial_implementation": true,
+                "notes": "Available as a part of the `perf_hooks` module."
+              }
+            ],
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "duration": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/duration",
           "spec_url": "https://w3c.github.io/performance-timeline/#dom-performanceentry-duration",
+          "tags": [
+            "web-features:performance"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.22"
+            },
             "chrome": {
               "version_added": "28"
             },
-            "chrome_android": {
-              "version_added": "28"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.2"
             },
@@ -110,33 +136,25 @@
             "firefox": {
               "version_added": "35"
             },
-            "firefox_android": {
-              "version_added": "35"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
             "nodejs": {
               "version_added": "8.5.0"
             },
-            "opera": {
-              "version_added": "15"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
             "opera_android": {
               "version_added": "14"
             },
             "safari": {
               "version_added": "11"
             },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -149,13 +167,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/entryType",
           "spec_url": "https://w3c.github.io/performance-timeline/#dom-performanceentry-entrytype",
+          "tags": [
+            "web-features:performance"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.22"
+            },
             "chrome": {
               "version_added": "28"
             },
-            "chrome_android": {
-              "version_added": "28"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.2"
             },
@@ -165,33 +187,25 @@
             "firefox": {
               "version_added": "35"
             },
-            "firefox_android": {
-              "version_added": "35"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
             "nodejs": {
               "version_added": "8.5.0"
             },
-            "opera": {
-              "version_added": "15"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
             "opera_android": {
               "version_added": "14"
             },
             "safari": {
               "version_added": "11"
             },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -204,13 +218,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/name",
           "spec_url": "https://w3c.github.io/performance-timeline/#dom-performanceentry-name",
+          "tags": [
+            "web-features:performance"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.22"
+            },
             "chrome": {
               "version_added": "28"
             },
-            "chrome_android": {
-              "version_added": "28"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.2"
             },
@@ -220,33 +238,25 @@
             "firefox": {
               "version_added": "35"
             },
-            "firefox_android": {
-              "version_added": "35"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
             "nodejs": {
               "version_added": "8.5.0"
             },
-            "opera": {
-              "version_added": "15"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
             "opera_android": {
               "version_added": "14"
             },
             "safari": {
               "version_added": "11"
             },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -259,13 +269,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/startTime",
           "spec_url": "https://w3c.github.io/performance-timeline/#dom-performanceentry-starttime",
+          "tags": [
+            "web-features:performance"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.22"
+            },
             "chrome": {
               "version_added": "28"
             },
-            "chrome_android": {
-              "version_added": "28"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.2"
             },
@@ -275,33 +289,25 @@
             "firefox": {
               "version_added": "35"
             },
-            "firefox_android": {
-              "version_added": "35"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
             "nodejs": {
               "version_added": "8.5.0"
             },
-            "opera": {
-              "version_added": "15"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
             "opera_android": {
               "version_added": "14"
             },
             "safari": {
               "version_added": "11"
             },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -314,13 +320,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/toJSON",
           "spec_url": "https://w3c.github.io/performance-timeline/#dom-performanceentry-tojson",
+          "tags": [
+            "web-features:performance"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.22"
+            },
             "chrome": {
               "version_added": "45"
             },
-            "chrome_android": {
-              "version_added": "45"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.2"
             },
@@ -330,87 +340,20 @@
             "firefox": {
               "version_added": "35"
             },
-            "firefox_android": {
-              "version_added": "35"
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "nodejs": {
               "version_added": "8.5.0"
             },
-            "opera": {
-              "version_added": "32"
-            },
-            "opera_android": {
-              "version_added": "32"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "11"
             },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "45"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "worker_support": {
-        "__compat": {
-          "description": "Available in workers",
-          "support": {
-            "chrome": {
-              "version_added": "62"
-            },
-            "chrome_android": {
-              "version_added": "62"
-            },
-            "deno": {
-              "version_added": "1.2"
-            },
-            "edge": {
-              "version_added": "15"
-            },
-            "firefox": {
-              "version_added": "60"
-            },
-            "firefox_android": {
-              "version_added": "60"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "nodejs": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "49"
-            },
-            "opera_android": {
-              "version_added": "46"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "62"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

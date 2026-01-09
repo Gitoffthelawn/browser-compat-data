@@ -4,13 +4,17 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageChannel",
         "spec_url": "https://html.spec.whatwg.org/multipage/web-messaging.html#message-channels",
+        "tags": [
+          "web-features:channel-messaging"
+        ],
         "support": {
+          "bun": {
+            "version_added": "1.0.0"
+          },
           "chrome": {
-            "version_added": "1"
+            "version_added": "2"
           },
-          "chrome_android": {
-            "version_added": "18"
-          },
+          "chrome_android": "mirror",
           "deno": {
             "version_added": "1.12"
           },
@@ -20,9 +24,7 @@
           "firefox": {
             "version_added": "41"
           },
-          "firefox_android": {
-            "version_added": "41"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": "10"
           },
@@ -31,10 +33,13 @@
               "version_added": "15.0.0"
             },
             {
-              "version_added": "10.5.0",
-              "notes": "Must be imported from the <code>worker_threads</code> module."
+              "version_added": "11.7.0",
+              "version_removed": "15.0.0",
+              "partial_implementation": true,
+              "notes": "Available as a part of the `worker_threads` module."
             }
           ],
+          "oculus": "mirror",
           "opera": {
             "version_added": "10.6"
           },
@@ -44,15 +49,10 @@
           "safari": {
             "version_added": "5"
           },
-          "safari_ios": {
-            "version_added": "4.2"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
-          "webview_android": {
-            "version_added": "4.4"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -62,16 +62,20 @@
       },
       "MessageChannel": {
         "__compat": {
+          "description": "`MessageChannel()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageChannel/MessageChannel",
           "spec_url": "https://html.spec.whatwg.org/multipage/web-messaging.html#dom-messagechannel-dev",
-          "description": "<code>MessageChannel()</code> constructor",
+          "tags": [
+            "web-features:channel-messaging"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.12"
             },
@@ -81,21 +85,14 @@
             "firefox": {
               "version_added": "41"
             },
-            "firefox_android": {
-              "version_added": "41"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
-            "nodejs": [
-              {
-                "version_added": "15.0.0"
-              },
-              {
-                "version_added": "10.5.0",
-                "notes": "Must be imported from the <code>worker_threads</code> module."
-              }
-            ],
+            "nodejs": {
+              "version_added": "11.7.0"
+            },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -105,15 +102,10 @@
             "safari": {
               "version_added": "5"
             },
-            "safari_ios": {
-              "version_added": "4.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -126,13 +118,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageChannel/port1",
           "spec_url": "https://html.spec.whatwg.org/multipage/web-messaging.html#dom-messagechannel-port1-dev",
+          "tags": [
+            "web-features:channel-messaging"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.12"
             },
@@ -142,15 +138,14 @@
             "firefox": {
               "version_added": "41"
             },
-            "firefox_android": {
-              "version_added": "41"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
             "nodejs": {
-              "version_added": "10.5.0"
+              "version_added": "11.7.0"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -160,15 +155,10 @@
             "safari": {
               "version_added": "5"
             },
-            "safari_ios": {
-              "version_added": "4.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -181,13 +171,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageChannel/port2",
           "spec_url": "https://html.spec.whatwg.org/multipage/web-messaging.html#dom-messagechannel-port2-dev",
+          "tags": [
+            "web-features:channel-messaging"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.12"
             },
@@ -197,15 +191,14 @@
             "firefox": {
               "version_added": "41"
             },
-            "firefox_android": {
-              "version_added": "41"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
             "nodejs": {
-              "version_added": "10.5.0"
+              "version_added": "11.7.0"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -215,15 +208,10 @@
             "safari": {
               "version_added": "5"
             },
-            "safari_ios": {
-              "version_added": "4.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

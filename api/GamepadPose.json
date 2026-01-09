@@ -4,13 +4,14 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose",
         "spec_url": "https://w3c.github.io/gamepad/extensions.html#gamepadpose-interface",
+        "tags": [
+          "web-features:gamepad-vr"
+        ],
         "support": {
           "chrome": {
             "version_added": false
           },
-          "chrome_android": {
-            "version_added": false
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "15",
             "version_removed": "79"
@@ -18,30 +19,17 @@
           "firefox": {
             "version_added": "55"
           },
-          "firefox_android": {
-            "version_added": "55"
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": false
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
-          "webview_android": {
-            "version_added": false
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -49,17 +37,52 @@
           "deprecated": false
         }
       },
-      "angularAcceleration": {
+      "secure_context_required": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/angularAcceleration",
-          "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-angularacceleration",
+          "description": "Secure context required",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "91"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
               "version_added": false
             },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "angularAcceleration": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/angularAcceleration",
+          "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-angularacceleration",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
@@ -67,30 +90,17 @@
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -103,13 +113,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/angularVelocity",
           "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-angularvelocity",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
@@ -117,30 +128,17 @@
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -153,13 +151,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/hasOrientation",
           "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-hasorientation",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
@@ -167,30 +166,17 @@
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -203,13 +189,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/hasPosition",
           "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-hasposition",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
@@ -217,30 +204,17 @@
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -253,13 +227,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/linearAcceleration",
           "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-linearacceleration",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
@@ -267,30 +242,17 @@
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -303,13 +265,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/linearVelocity",
           "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-linearvelocity",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
@@ -317,30 +280,17 @@
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -353,13 +303,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/orientation",
           "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-orientation",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
@@ -367,30 +318,17 @@
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -403,13 +341,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/GamepadPose/position",
           "spec_url": "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-position",
+          "tags": [
+            "web-features:gamepad-vr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
@@ -417,78 +356,17 @@
             "firefox": {
               "version_added": "55"
             },
-            "firefox_android": {
-              "version_added": "55"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "secure_context_required": {
-        "__compat": {
-          "description": "Secure context required",
-          "support": {
-            "chrome": {
-              "version_added": false
-            },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "91"
-            },
-            "firefox_android": {
-              "version_added": "91"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,

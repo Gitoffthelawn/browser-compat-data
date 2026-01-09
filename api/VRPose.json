@@ -3,136 +3,122 @@
     "VRPose": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose",
+        "tags": [
+          "web-features:webvr"
+        ],
         "support": {
           "chrome": {
             "version_added": false
           },
-          "chrome_android": {
-            "version_added": "56",
-            "version_removed": "80",
-            "notes": [
-              "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
-              "Daydream View supported in Chrome 56.",
-              "Google Cardboard supported in Chrome 57."
-            ],
-            "flags": [
-              {
-                "type": "preference",
-                "name": "WebVR"
-              }
-            ]
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "15",
             "version_removed": "79"
           },
           "firefox": [
             {
-              "version_added": "55",
-              "notes": "Windows support was enabled in Firefox 55."
+              "version_added": "98",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.vr.enabled",
+                  "value_to_set": "true"
+                }
+              ]
             },
             {
               "version_added": "64",
-              "notes": "macOS support was enabled in Firefox 64."
+              "version_removed": "98",
+              "notes": "Only on macOS and Windows."
+            },
+            {
+              "version_added": "55",
+              "version_removed": "64",
+              "notes": "Only on Windows."
             }
           ],
           "firefox_android": {
-            "version_added": "55"
+            "version_added": "55",
+            "version_removed": "98"
           },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": false
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
+          "safari_ios": "mirror",
           "samsunginternet_android": {
             "version_added": "6.0",
             "notes": "Google Cardboard supported in Samsung Internet 7.0."
           },
-          "webview_android": {
-            "version_added": false
-          }
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
-          "standard_track": true,
+          "experimental": false,
+          "standard_track": false,
           "deprecated": true
         }
       },
       "angularAcceleration": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/angularAcceleration",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": "56",
-              "version_removed": "80",
-              "notes": [
-                "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
-                "Daydream View supported in Chrome 56.",
-                "Google Cardboard supported in Chrome 57."
-              ],
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "WebVR"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
             },
             "firefox": [
               {
-                "version_added": "55",
-                "notes": "Windows support was enabled in Firefox 55."
+                "version_added": "98",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.vr.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
               },
               {
                 "version_added": "64",
-                "notes": "macOS support was enabled in Firefox 64."
+                "version_removed": "98",
+                "notes": "Only on macOS and Windows."
+              },
+              {
+                "version_added": "55",
+                "version_removed": "64",
+                "notes": "Only on Windows."
               }
             ],
             "firefox_android": {
-              "version_added": "55"
+              "version_added": "55",
+              "version_removed": "98"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "6.0",
               "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
+            "experimental": false,
+            "standard_track": false,
             "deprecated": true
           }
         }
@@ -140,163 +126,60 @@
       "angularVelocity": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/angularVelocity",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": "56",
-              "version_removed": "80",
-              "notes": [
-                "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
-                "Daydream View supported in Chrome 56.",
-                "Google Cardboard supported in Chrome 57."
-              ],
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "WebVR"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
             },
             "firefox": [
               {
-                "version_added": "55",
-                "notes": "Windows support was enabled in Firefox 55."
+                "version_added": "98",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.vr.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
               },
               {
                 "version_added": "64",
-                "notes": "macOS support was enabled in Firefox 64."
+                "version_removed": "98",
+                "notes": "Only on macOS and Windows."
+              },
+              {
+                "version_added": "55",
+                "version_removed": "64",
+                "notes": "Only on Windows."
               }
             ],
             "firefox_android": {
-              "version_added": "55"
+              "version_added": "55",
+              "version_removed": "98"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "6.0",
               "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": true
-          }
-        }
-      },
-      "hasOrientation": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/hasOrientation",
-          "support": {
-            "chrome": {
-              "version_added": false
-            },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": false,
-            "deprecated": true
-          }
-        }
-      },
-      "hasPosition": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/hasPosition",
-          "support": {
-            "chrome": {
-              "version_added": false
-            },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": false,
             "deprecated": true
           }
@@ -305,68 +188,61 @@
       "linearAcceleration": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/linearAcceleration",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": "56",
-              "version_removed": "80",
-              "notes": [
-                "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
-                "Daydream View supported in Chrome 56.",
-                "Google Cardboard supported in Chrome 57."
-              ],
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "WebVR"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
             },
             "firefox": [
               {
-                "version_added": "55",
-                "notes": "Windows support was enabled in Firefox 55."
+                "version_added": "98",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.vr.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
               },
               {
                 "version_added": "64",
-                "notes": "macOS support was enabled in Firefox 64."
+                "version_removed": "98",
+                "notes": "Only on macOS and Windows."
+              },
+              {
+                "version_added": "55",
+                "version_removed": "64",
+                "notes": "Only on Windows."
               }
             ],
             "firefox_android": {
-              "version_added": "55"
+              "version_added": "55",
+              "version_removed": "98"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "6.0",
               "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
+            "experimental": false,
+            "standard_track": false,
             "deprecated": true
           }
         }
@@ -374,68 +250,61 @@
       "linearVelocity": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/linearVelocity",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": "56",
-              "version_removed": "80",
-              "notes": [
-                "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
-                "Daydream View supported in Chrome 56.",
-                "Google Cardboard supported in Chrome 57."
-              ],
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "WebVR"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
             },
             "firefox": [
               {
-                "version_added": "55",
-                "notes": "Windows support was enabled in Firefox 55."
+                "version_added": "98",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.vr.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
               },
               {
                 "version_added": "64",
-                "notes": "macOS support was enabled in Firefox 64."
+                "version_removed": "98",
+                "notes": "Only on macOS and Windows."
+              },
+              {
+                "version_added": "55",
+                "version_removed": "64",
+                "notes": "Only on Windows."
               }
             ],
             "firefox_android": {
-              "version_added": "55"
+              "version_added": "55",
+              "version_removed": "98"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "6.0",
               "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
+            "experimental": false,
+            "standard_track": false,
             "deprecated": true
           }
         }
@@ -443,68 +312,61 @@
       "orientation": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/orientation",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": "56",
-              "version_removed": "80",
-              "notes": [
-                "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
-                "Daydream View supported in Chrome 56.",
-                "Google Cardboard supported in Chrome 57."
-              ],
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "WebVR"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
             },
             "firefox": [
               {
-                "version_added": "55",
-                "notes": "Windows support was enabled in Firefox 55."
+                "version_added": "98",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.vr.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
               },
               {
                 "version_added": "64",
-                "notes": "macOS support was enabled in Firefox 64."
+                "version_removed": "98",
+                "notes": "Only on macOS and Windows."
+              },
+              {
+                "version_added": "55",
+                "version_removed": "64",
+                "notes": "Only on Windows."
               }
             ],
             "firefox_android": {
-              "version_added": "55"
+              "version_added": "55",
+              "version_removed": "98"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "6.0",
               "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
+            "experimental": false,
+            "standard_track": false,
             "deprecated": true
           }
         }
@@ -512,116 +374,60 @@
       "position": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/position",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": "56",
-              "version_removed": "80",
-              "notes": [
-                "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
-                "Daydream View supported in Chrome 56.",
-                "Google Cardboard supported in Chrome 57."
-              ],
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "WebVR"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15",
               "version_removed": "79"
             },
             "firefox": [
               {
-                "version_added": "55",
-                "notes": "Windows support was enabled in Firefox 55."
+                "version_added": "98",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.vr.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
               },
               {
                 "version_added": "64",
-                "notes": "macOS support was enabled in Firefox 64."
+                "version_removed": "98",
+                "notes": "Only on macOS and Windows."
+              },
+              {
+                "version_added": "55",
+                "version_removed": "64",
+                "notes": "Only on Windows."
               }
             ],
             "firefox_android": {
-              "version_added": "55"
+              "version_added": "55",
+              "version_removed": "98"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
               "version_added": "6.0",
               "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": true
-          }
-        }
-      },
-      "timestamp": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VRPose/timestamp",
-          "support": {
-            "chrome": {
-              "version_added": false
-            },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": "15",
-              "version_removed": "79"
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": false,
             "deprecated": true
           }

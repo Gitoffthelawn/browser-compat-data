@@ -3,23 +3,17 @@
     "PositionSensorVRDevice": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/PositionSensorVRDevice",
+        "tags": [
+          "web-features:webvr"
+        ],
         "support": {
           "chrome": {
-            "version_added": "65",
-            "version_removed": "80",
-            "notes": "Support in Chrome was only available in Nightly/Canary builds. To find information on Chrome's WebVR implementation status including supporting builds, check out <a href='http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html'>Bringing VR to Chrome</a> by Brandon Jones."
-          },
-          "chrome_android": {
             "version_added": false
           },
-          "edge": {
-            "version_added": "79",
-            "version_removed": "80",
-            "notes": "Support in Edge was only available in Nightly/Canary builds. To find information on Edge's WebVR implementation status including supporting builds, check out <a href='http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html'>Bringing VR to Chrome</a> by Brandon Jones."
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": "39",
-            "notes": "The support for this feature is currently disabled by default in Firefox. To enable WebVR support in Firefox Nightly/Developer Edition, you can go to <code>about:config</code> and enable the <code>dom.vr*</code> prefs. A better option however is to install the <a href='http://www.mozvr.com/downloads/webvr-addon-0.1.0.xpi'>WebVR Enabler Add-on</a>, which does this for you and sets up other necessary parts of the <a href='https://developer.mozilla.org/docs/Web/API/WebVR_API/WebVR_environment_setup'>environment</a>.",
             "flags": [
               {
                 "type": "preference",
@@ -27,46 +21,20 @@
               }
             ]
           },
-          "firefox_android": [
-            {
-              "version_added": "39",
-              "notes": "The support for this feature is currently disabled by default in Firefox. To enable WebVR support in Firefox Nightly/Developer Edition, you can go to <code>about:config</code> and enable the <code>dom.vr*</code> prefs. A better option however is to install the <a href='http://www.mozvr.com/downloads/webvr-addon-0.1.0.xpi'>WebVR Enabler Add-on</a>, which does this for you and sets up other necessary parts of the <a href='https://developer.mozilla.org/docs/Web/API/WebVR_API/WebVR_environment_setup'>environment</a>.",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.vr*"
-                }
-              ]
-            },
-            {
-              "version_added": "44",
-              "notes": "The <code>dom.vr*</code> prefs are enabled by default at this point, in Nightly/Aurora editions."
-            }
-          ],
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": false
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
-          "webview_android": {
-            "version_added": false
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": false,
           "deprecated": true
         }
@@ -74,23 +42,17 @@
       "getImmediateState": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PositionSensorVRDevice/getImmediateState",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
-              "version_added": "65",
-              "version_removed": "80",
-              "notes": "Support in Chrome was only available in Nightly/Canary builds. To find information on Chrome's WebVR implementation status including supporting builds, check out <a href='http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html'>Bringing VR to Chrome</a> by Brandon Jones."
-            },
-            "chrome_android": {
               "version_added": false
             },
-            "edge": {
-              "version_added": "79",
-              "version_removed": "80",
-              "notes": "Support in Edge was only available in Nightly/Canary builds. To find information on Edge's WebVR implementation status including supporting builds, check out <a href='http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html'>Bringing VR to Chrome</a> by Brandon Jones."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "39",
-              "notes": "The support for this feature is currently disabled by default in Firefox. To enable WebVR support in Firefox Nightly/Developer Edition, you can go to <code>about:config</code> and enable the <code>dom.vr*</code> prefs. A better option however is to install the <a href='http://www.mozvr.com/downloads/webvr-addon-0.1.0.xpi'>WebVR Enabler Add-on</a>, which does this for you and sets up other necessary parts of the <a href='https://developer.mozilla.org/docs/Web/API/WebVR_API/WebVR_environment_setup'>environment</a>.",
               "flags": [
                 {
                   "type": "preference",
@@ -98,46 +60,20 @@
                 }
               ]
             },
-            "firefox_android": [
-              {
-                "version_added": "39",
-                "notes": "The support for this feature is currently disabled by default in Firefox. To enable WebVR support in Firefox Nightly/Developer Edition, you can go to <code>about:config</code> and enable the <code>dom.vr*</code> prefs. A better option however is to install the <a href='http://www.mozvr.com/downloads/webvr-addon-0.1.0.xpi'>WebVR Enabler Add-on</a>, which does this for you and sets up other necessary parts of the <a href='https://developer.mozilla.org/docs/Web/API/WebVR_API/WebVR_environment_setup'>environment</a>.",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.vr*"
-                  }
-                ]
-              },
-              {
-                "version_added": "44",
-                "notes": "The <code>dom.vr*</code> prefs are enabled by default at this point, in Nightly/Aurora editions."
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": false,
             "deprecated": true
           }
@@ -146,23 +82,17 @@
       "getState": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PositionSensorVRDevice/getState",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
-              "version_added": "65",
-              "version_removed": "80",
-              "notes": "Support in Chrome was only available in Nightly/Canary builds. To find information on Chrome's WebVR implementation status including supporting builds, check out <a href='http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html'>Bringing VR to Chrome</a> by Brandon Jones."
-            },
-            "chrome_android": {
               "version_added": false
             },
-            "edge": {
-              "version_added": "79",
-              "version_removed": "80",
-              "notes": "Support in Edge was only available in Nightly/Canary builds. To find information on Edge's WebVR implementation status including supporting builds, check out <a href='http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html'>Bringing VR to Chrome</a> by Brandon Jones."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "39",
-              "notes": "The support for this feature is currently disabled by default in Firefox. To enable WebVR support in Firefox Nightly/Developer Edition, you can go to <code>about:config</code> and enable the <code>dom.vr*</code> prefs. A better option however is to install the <a href='http://www.mozvr.com/downloads/webvr-addon-0.1.0.xpi'>WebVR Enabler Add-on</a>, which does this for you and sets up other necessary parts of the <a href='https://developer.mozilla.org/docs/Web/API/WebVR_API/WebVR_environment_setup'>environment</a>.",
               "flags": [
                 {
                   "type": "preference",
@@ -170,46 +100,20 @@
                 }
               ]
             },
-            "firefox_android": [
-              {
-                "version_added": "39",
-                "notes": "The support for this feature is currently disabled by default in Firefox. To enable WebVR support in Firefox Nightly/Developer Edition, you can go to <code>about:config</code> and enable the <code>dom.vr*</code> prefs. A better option however is to install the <a href='http://www.mozvr.com/downloads/webvr-addon-0.1.0.xpi'>WebVR Enabler Add-on</a>, which does this for you and sets up other necessary parts of the <a href='https://developer.mozilla.org/docs/Web/API/WebVR_API/WebVR_environment_setup'>environment</a>.",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.vr*"
-                  }
-                ]
-              },
-              {
-                "version_added": "44",
-                "notes": "The <code>dom.vr*</code> prefs are enabled by default at this point, in Nightly/Aurora editions."
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": false,
             "deprecated": true
           }
@@ -218,23 +122,17 @@
       "resetSensor": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PositionSensorVRDevice/resetSensor",
+          "tags": [
+            "web-features:webvr"
+          ],
           "support": {
             "chrome": {
-              "version_added": "65",
-              "version_removed": "80",
-              "notes": "Support in Chrome was only available in Nightly/Canary builds. To find information on Chrome's WebVR implementation status including supporting builds, check out <a href='http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html'>Bringing VR to Chrome</a> by Brandon Jones."
-            },
-            "chrome_android": {
               "version_added": false
             },
-            "edge": {
-              "version_added": "79",
-              "version_removed": "80",
-              "notes": "Support in Edge was only available in Nightly/Canary builds. To find information on Edge's WebVR implementation status including supporting builds, check out <a href='http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html'>Bringing VR to Chrome</a> by Brandon Jones."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "39",
-              "notes": "The support for this feature is currently disabled by default in Firefox. To enable WebVR support in Firefox Nightly/Developer Edition, you can go to <code>about:config</code> and enable the <code>dom.vr*</code> prefs. A better option however is to install the <a href='http://www.mozvr.com/downloads/webvr-addon-0.1.0.xpi'>WebVR Enabler Add-on</a>, which does this for you and sets up other necessary parts of the <a href='https://developer.mozilla.org/docs/Web/API/WebVR_API/WebVR_environment_setup'>environment</a>.",
               "flags": [
                 {
                   "type": "preference",
@@ -242,46 +140,20 @@
                 }
               ]
             },
-            "firefox_android": [
-              {
-                "version_added": "39",
-                "notes": "The support for this feature is currently disabled by default in Firefox. To enable WebVR support in Firefox Nightly/Developer Edition, you can go to <code>about:config</code> and enable the <code>dom.vr*</code> prefs. A better option however is to install the <a href='http://www.mozvr.com/downloads/webvr-addon-0.1.0.xpi'>WebVR Enabler Add-on</a>, which does this for you and sets up other necessary parts of the <a href='https://developer.mozilla.org/docs/Web/API/WebVR_API/WebVR_environment_setup'>environment</a>.",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.vr*"
-                  }
-                ]
-              },
-              {
-                "version_added": "44",
-                "notes": "The <code>dom.vr*</code> prefs are enabled by default at this point, in Nightly/Aurora editions."
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": false,
             "deprecated": true
           }

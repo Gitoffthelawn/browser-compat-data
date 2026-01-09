@@ -3,37 +3,27 @@
     "selectors": {
       "autofill": {
         "__compat": {
-          "description": "<code>:autofill</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:autofill",
-          "spec_url": "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-autofill",
+          "description": "`:autofill`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:autofill",
+          "spec_url": [
+            "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-autofill",
+            "https://drafts.csswg.org/selectors/#selectordef-autofill"
+          ],
+          "tags": [
+            "web-features:autofill"
+          ],
           "support": {
             "chrome": [
               {
-                "version_added": "96"
+                "version_added": "110"
               },
               {
-                "version_added": "1",
-                "prefix": "-webkit-"
+                "prefix": "-webkit-",
+                "version_added": "1"
               }
             ],
-            "chrome_android": [
-              {
-                "version_added": "96"
-              },
-              {
-                "version_added": "18",
-                "prefix": "-webkit-"
-              }
-            ],
-            "edge": [
-              {
-                "version_added": "96"
-              },
-              {
-                "version_added": "79",
-                "prefix": "-webkit-"
-              }
-            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": [
               {
                 "version_added": "86"
@@ -43,38 +33,17 @@
                 "version_added": "86"
               }
             ],
-            "firefox_android": [
-              {
-                "version_added": "86"
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "86"
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": [
-              {
-                "version_added": "82"
-              },
-              {
-                "version_added": "15",
-                "prefix": "-webkit-"
-              }
-            ],
-            "opera_android": {
-              "version_added": "14",
-              "prefix": "-webkit-"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": [
               {
                 "version_added": "15"
               },
               {
-                "version_added": "3",
-                "prefix": "-webkit-"
+                "prefix": "-webkit-",
+                "version_added": "3"
               }
             ],
             "safari_ios": [
@@ -82,23 +51,13 @@
                 "version_added": "15"
               },
               {
-                "version_added": "1",
-                "prefix": "-webkit-"
+                "prefix": "-webkit-",
+                "version_added": "1"
               }
             ],
-            "samsunginternet_android": {
-              "version_added": "1.0",
-              "prefix": "-webkit-"
-            },
-            "webview_android": [
-              {
-                "version_added": "96"
-              },
-              {
-                "version_added": "1",
-                "prefix": "-webkit-"
-              }
-            ]
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

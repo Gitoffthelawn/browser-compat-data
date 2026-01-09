@@ -2,73 +2,31 @@
   "api": {
     "Sanitizer": {
       "__compat": {
-        "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer",
-        "spec_url": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "spec_url": "https://wicg.github.io/sanitizer-api/#sanitizer",
+        "tags": [
+          "web-features:sanitizer"
+        ],
         "support": {
           "chrome": {
-            "version_added": "93",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "enable-experimental-web-platform-features",
-                "value_to_set": "enabled"
-              }
-            ]
+            "version_added": false,
+            "notes": "Chrome 105 to Chrome 118 (inclusive) supported this interface name with a significantly different specification."
           },
-          "chrome_android": {
-            "version_added": false
-          },
-          "edge": {
-            "version_added": "93",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "enable-experimental-web-platform-features",
-                "value_to_set": "enabled"
-              }
-            ]
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
-            "version_added": "83",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "dom.security.sanitizer.enabled",
-                "value_to_set": "true"
-              }
-            ]
+            "version_added": "148"
           },
-          "firefox_android": {
-            "version_added": false
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": "79",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "enable-experimental-web-platform-features",
-                "value_to_set": "enabled"
-              }
-            ]
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
-          "webview_android": {
-            "version_added": false
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -78,74 +36,31 @@
       },
       "Sanitizer": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/Sanitizer",
+          "description": "`Sanitizer()` constructor",
           "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer",
-          "description": "<code>Sanitizer()</code> constructor",
+          "tags": [
+            "web-features:sanitizer"
+          ],
           "support": {
             "chrome": {
-              "version_added": "93",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
-            "chrome_android": {
               "version_added": false
             },
-            "edge": {
-              "version_added": "93",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": "83",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.security.sanitizer.enabled",
-                  "value_to_set": "true"
-                }
-              ]
+              "version_added": "148"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -154,75 +69,33 @@
           }
         }
       },
-      "sanitize": {
+      "allowAttribute": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/sanitize",
-          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitize",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/allowAttribute",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-allowattribute",
+          "tags": [
+            "web-features:sanitizer"
+          ],
           "support": {
             "chrome": {
-              "version_added": "93",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
-            "chrome_android": {
               "version_added": false
             },
-            "edge": {
-              "version_added": "93",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": "83",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.security.sanitizer.enabled",
-                  "value_to_set": "true"
-                }
-              ]
+              "version_added": "148"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -231,75 +104,278 @@
           }
         }
       },
-      "sanitizeFor": {
+      "allowElement": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/sanitizeFor",
-          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizefor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/allowElement",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-allowelement",
+          "tags": [
+            "web-features:sanitizer"
+          ],
           "support": {
             "chrome": {
-              "version_added": "93",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
-            "chrome_android": {
               "version_added": false
             },
-            "edge": {
-              "version_added": "93",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": "94",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.security.sanitizer.enabled",
-                  "value_to_set": "true"
-                }
-              ]
+              "version_added": "148"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "enable-experimental-web-platform-features",
-                  "value_to_set": "enabled"
-                }
-              ]
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "get": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/get",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-get",
+          "tags": [
+            "web-features:sanitizer"
+          ],
+          "support": {
+            "chrome": {
               "version_added": false
             },
-            "samsunginternet_android": {
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "148"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
               "version_added": false
             },
-            "webview_android": {
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "removeAttribute": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/removeAttribute",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-removeattribute",
+          "tags": [
+            "web-features:sanitizer"
+          ],
+          "support": {
+            "chrome": {
               "version_added": false
-            }
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "148"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "removeElement": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/removeElement",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-removeelement",
+          "tags": [
+            "web-features:sanitizer"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "148"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "removeUnsafe": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/removeUnsafe",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-removeunsafe",
+          "tags": [
+            "web-features:sanitizer"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "148"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "replaceElementWithChildren": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/replaceElementWithChildren",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-replaceelementwithchildren",
+          "tags": [
+            "web-features:sanitizer"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "148"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "setComments": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/setComments",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-setcomments",
+          "tags": [
+            "web-features:sanitizer"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "148"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "setDataAttributes": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/setDataAttributes",
+          "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-setdataattributes",
+          "tags": [
+            "web-features:sanitizer"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "148"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,

@@ -20,20 +20,25 @@ All data must conform to the schema, plus several additional consistency and sty
 
 For more information on the schema for feature data, see [`compat-data-schema.md`](../schemas/compat-data-schema.md) and [`compat-data.schema.json`](../schemas/compat-data.schema.json).
 
-For more information on the schema for browser data, see see [`browsers-schema.md`](../schemas/browsers-schema.md) and [`browsers.schema.json`](../schemas/browsers.schema.json).
+For more information on the schema for browser data, see [`browsers-schema.md`](../schemas/browsers-schema.md) and [`browsers.schema.json`](../schemas/browsers.schema.json).
 
 ## Generate statistics
 
-To see how changes will affect the statistics of real (either `false` or a version number, as defined in [issue 3555](https://github.com/mdn/browser-compat-data/issues/3555)), true, and null values, you can run `npm run stats [folder]`. This generates a Markdown-formatted table of the percentages of real, true, and null values for the eight primary browsers that browser-compat-data is focusing on. The script also takes an optional argument regarding a specific folder (such as `api` or `javascript`), which will print statistics result for only that folder. Additionally, you can run the script with `--all` to get statistics for all browsers tracked in BCD, not just the primary eight.
+To see how changes will affect the statistics of exact (formerly "real") and ranged values, you can run `npm run stats [folder]`. This generates a Markdown-formatted table of the percentages of exact and ranged values for the eight primary browsers that browser-compat-data is focusing on. The script also takes an optional argument regarding a specific folder (such as `api` or `javascript`), which will print statistics result for only that folder. Additionally, you can run the script with `--all` to get statistics for all browsers tracked in BCD, not just the primary eight.
+
+> [!NOTE]
+> Originally, this script was designed to track "real" (either `false` or a version number, as defined in [issue 3555](https://github.com/mdn/browser-compat-data/issues/3555)), ranged, true, and null values in order to track the progress of a project to eliminate "non-real" (true and null) values. Since the project was completed, the script was simplified to display just exact and ranged values.
 
 ## Traverse features
 
-To find all the entries that are non-real, or of a specified value, you can run `npm run traverse <browser> [folder] [value]`.
+To find all the entries that are of a specified value, you can run `npm run traverse -- [options] [folder]`.
 
-The browser may be any single browser defined in the [`browsers/` folder](../browsers/).
+By default, the script will traverse and print the dotted path to every feature. One or more positional arguments can limit the traversal to a specific folder (for example, `api`). Additional options can limit the features listed to features with data matching specific browser and version values.
 
-The folder may be omitted or set to `all` to search through all data folders, or a comma-separated list of folders to search through.
+Run `npm run traverse -- --help` for a complete list of options and examples.
 
-The value may be omitted to search for all non-real values (or more specifically, `true` and `null` values), or any value accepted by `version_added` and `version_removed`.
+The `-b` or `--browser` argument may be any browser in the [`browsers/` folder](https://github.com/mdn/browser-compat-data/blob/main/browsers/). This argument may be repeated to traverse multiple browsers. By default, the script will traverse all browsers.
 
-For example, to search for all Safari entries that are non-real, run `npm run traverse safari`. To search for all WebView entries that are marked as `true` in `api` and `javascript`, run `npm run traverse webview_android api,javascript true`. To search for all Firefox entries supported since `10` across all folders, run `npm run traverse firefox all 10`.
+The `-f` or `--filter` argument may be any value accepted by `version_added` or `version_removed`. This argument may be repeated to test multiple values. By default, the script will traverse all features regardless of their value.
+
+Examples: to search for all Safari entries that are not supported, run `npm run traverse -- -b safari -f false`. To search for all WebView entries that are mirroring from upstream in `api` and `javascript`, run `npm run traverse api,javascript -- -b webview_android -f mirror`. To search for all Firefox entries supported since `10` across all folders, run `npm run traverse -- -b firefox -f 10`.

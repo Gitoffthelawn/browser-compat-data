@@ -1,67 +1,49 @@
 # Publishing a new version of `@mdn/browser-compat-data`
 
-[Project owners](/GOVERNANCE.md#owners) publish new releases of [`@mdn/browser-compat-data`](https://www.npmjs.com/package/@mdn/browser-compat-data) on npm.
-MDN staff [deploy the package to the MDN site](contributing.md#updating-compatibility-tables-on-mdn).
-Usually, this happens every Thursday (MDN never deploys to production on Fridays).
+New releases of the [`@mdn/browser-compat-data`](https://www.npmjs.com/package/@mdn/browser-compat-data) NPM package are published twice per week on Tuesday and Friday, except during year-end holidays.
 
-## Before you begin
+The release process is mostly automated using two GitHub workflows:
 
-Any project owner (or release designee) can complete the following steps to publish a new version, but please coordinate releases with [@ddbeck](https://github.com/ddbeck).
+1. The [`release-pr` workflow](https://github.com/mdn/browser-compat-data/blob/main/.github/workflows/release-pr.yml) manages a pull request that bumps the `package.json` version and updates the release notes.
+2. The [`release` workflow](https://github.com/mdn/browser-compat-data/blob/main/.github/workflows/release.yml) creates the GitHub release and tag, publishes the release on NPM, and triggers MDN deployment.
 
-The steps in this process assume:
+The release itself is triggered manually, to help ensure that as many ready pull requests make it into the release.
 
-- `NPM_TOKEN` is set in the repository secrets. If the token is invalidated or unset, a member of the `@mdn` organization on npm must [create a new token](https://docs.npmjs.com/creating-and-viewing-authentication-tokens) and [add it to the repository's secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository).
+## Performing a release
 
-## Prepare for an upcoming release
+Any project owner (or release designee) can complete the following steps to publish a new version.
 
-Anticipate a release by keeping a running draft pull request to prepare documentation and metadata for the release. See [#9466](https://github.com/mdn/browser-compat-data/pull/9466) as an example.
+To publish a release:
 
-Start preparing a release when:
+1. _If this is a major or minor release_: Align with project owners on the release notes entries, i.e. "Breaking changes" for major releases, and "Notable changes" for major/minor releases.
+2. Mark the release pull request (titled `Release vX.Y.Z`) as ready for review.
+3. Ensure that the pull request is up-to-date, i.e. that all checks have passed on the latest `main` commit, and that no other pull request is merged right before.
+4. _If this is a major or minor release_: Add the release notes entries manually to the `RELEASE_NOTES.md` on the `release` branch (_below_ the release date).
+5. Merge the pull request.
 
-- the first pull request labeled [needs-release-note 📰](https://github.com/mdn/browser-compat-data/pulls?q=is%3Apr+label%3A%22needs-release-note+%3Anewspaper%3A%22+) has been merged after the most-recent release
-- you're ready to issue a new release
+## Behind the scenes
 
-whichever comes first.
+The release pull request is managed by the [`release-pr` workflow](https://github.com/mdn/browser-compat-data/blob/main/.github/workflows/release-pr.yml), which runs `npm run release` with a personal access token (PAT) that is owned by [@mdn-bot](https://github.com/mdn-bot), and has read and write access to code and pull requests on the repository.
 
-1. Start a new branch for the upcoming release. For example, run `git switch -c release-YYYY-MM-DD`, where `YYYY-MM-DD` is the target release date.
+The [release script](https://github.com/mdn/browser-compat-data/tree/main/scripts/release) performs the following steps:
 
-2. Increment the package version with `npm version --no-git-tag-version` and commit the change.
+1. Fetches the latest `main` branch.
+2. Determines the previous release version.
+3. Determines whether a major or minor version bump is needed, based on pull requests with the `semver-major-bump` or `semver-minor-bump` label merged since the previous release.
+4. Updates the `package.json` by running `npm version`.
+5. Updates the `RELEASE_NOTES.md` by determining release notes based on the following input:
+   - Release and repository statistics.
+   - List of added and removed features, determined by iterating over all merged pull requests since the previous release, and enumerating all features before and after the merge commit.
+6. Commits and pushes the changes to the `release` branch.
+7. Creates or updates the release pull request accordingly.
 
-   For example, to increment the version for a routine data update with no breaking changes or new features, run `npm version --no-git-tag-version patch`, then commit the changes to the package metadata files.
+Merging the release pull request yields the following result:
 
-   If needed, you can repeat this step on the same branch, using a `minor` or `major` argument (instead of `patch`), to increment the version for newly-introduced features or breaking changes (see [_Semantic versioning policy_](../README.md#semantic-versioning-policy)).
-
-3. Add a section for the upcoming release to [`RELEASE_NOTES.md`](../RELEASE_NOTES.md). Use the previous release as a template. Omit or leave a placeholder for the statistics.
-
-4. Push the release branch to your remote, then open a draft pull request.
-
-5. Until you're ready to issue a release, add more release notes to the draft pull request, when such changes are merged.
-
-## Finalizing a release
-
-When a release is imminent:
-
-1. Confirm that all pull requests labeled [needs-release-note 📰](https://github.com/mdn/browser-compat-data/pulls?q=is%3Apr+label%3A%22needs-release-note+%3Anewspaper%3A%22+) have been entered into the release notes. Run `npm run release-pulls` to get a link to all of the labeled pull requests since the previous release to `HEAD`.
-
-2. Add the release statistics to the release notes. Switch to the `main` branch, then run `npm run release-stats`. After completing the prompts, copy the output, switch back to the release branch, and add the statistics to `RELEASE_NOTES.md`.
-
-3. Push any outstanding changes to the release branch.
-
-4. Mark the pull request as ready for review. If applicable or desired, seek a review, then merge the pull request.
-
-The package is now ready to be published.
-
-## Publish to npm
-
-1. Start a draft [release on GitHub](https://github.com/mdn/browser-compat-data/releases).
-
-   - In the _Tag version_ and _Release title_ fields, enter `vX.Y.Z` where `X.Y.Z` in the version number in `package.json`.
-   - In the _Describe this release_ field, paste the release note text from `RELEASE_NOTES.md`.
-
-   _Note_: If you're not ready to publish to npm, click **Save draft** in GitHub and resume this process later.
-
-2. Click **Publish release** to create the tag and trigger the workflow that publishes to npm. Wait for the release [GitHub Actions workflow](https://github.com/mdn/browser-compat-data/actions) to finish successfully.
-
-3. Check [`@mdn/browser-compat-data` on npm](https://www.npmjs.com/package/@mdn/browser-compat-data) to see if the release shows up correctly.
-
-The package is now published and you have finished releasing BCD! 🎉
+1. The merge commit triggers the `create-release` job of the [`release` workflow](https://github.com/mdn/browser-compat-data/blob/main/.github/workflows/release.yml) workflow.
+2. The `create-release` job publishes a [GitHub release](https://github.com/mdn/browser-compat-data/releases) and [tag](https://github.com/mdn/browser-compat-data/tags) based on the updated `package.json` and release notes.
+3. The published GitHub release triggers the `publish-release` job of the `release` workflow.
+4. The `publish-release` job performs the following steps:
+   - Builds the release.
+   - Publishes the release to NPM.
+   - Adds the `data.json` as an asset to the GitHub release.
+   - Dispatches a `bcd_release` event on the [mdn/bcd-utils](https://github.com/mdn/bcd-utils) repository, which triggers the deployment of the new BCD release on MDN.

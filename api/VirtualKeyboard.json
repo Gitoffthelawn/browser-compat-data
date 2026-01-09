@@ -2,44 +2,33 @@
   "api": {
     "VirtualKeyboard": {
       "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/VirtualKeyboard",
         "spec_url": "https://w3c.github.io/virtual-keyboard/#the-virtualkeyboard-interface",
+        "tags": [
+          "web-features:virtual-keyboard"
+        ],
         "support": {
           "chrome": {
             "version_added": "94"
           },
-          "chrome_android": {
-            "version_added": "94"
-          },
-          "edge": {
-            "version_added": "94"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://bugzil.la/1730568"
           },
-          "firefox_android": {
-            "version_added": false
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": "80"
-          },
-          "opera_android": {
-            "version_added": "66"
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://webkit.org/b/230225"
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
-          "webview_android": {
-            "version_added": "94"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -49,44 +38,31 @@
       },
       "boundingRect": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VirtualKeyboard/boundingRect",
           "spec_url": "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-boundingrect",
+          "tags": [
+            "web-features:virtual-keyboard"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -97,45 +73,32 @@
       },
       "geometrychange_event": {
         "__compat": {
-          "description": "<code>geometrychange</code> event",
+          "description": "`geometrychange` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VirtualKeyboard/geometrychange_event",
           "spec_url": "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-ongeometrychange",
+          "tags": [
+            "web-features:virtual-keyboard"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -146,44 +109,31 @@
       },
       "hide": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VirtualKeyboard/hide",
           "spec_url": "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-hide",
+          "tags": [
+            "web-features:virtual-keyboard"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -194,44 +144,31 @@
       },
       "overlaysContent": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VirtualKeyboard/overlaysContent",
           "spec_url": "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-overlayscontent",
+          "tags": [
+            "web-features:virtual-keyboard"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -242,44 +179,31 @@
       },
       "show": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VirtualKeyboard/show",
           "spec_url": "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-show",
+          "tags": [
+            "web-features:virtual-keyboard"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,

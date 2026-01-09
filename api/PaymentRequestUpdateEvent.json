@@ -4,12 +4,15 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequestUpdateEvent",
         "spec_url": "https://w3c.github.io/payment-request/#paymentrequestupdateevent-interface",
+        "tags": [
+          "web-features:payment-request"
+        ],
         "support": {
           "chrome": {
             "version_added": "60"
           },
           "chrome_android": {
-            "version_added": "56"
+            "version_added": "53"
           },
           "edge": {
             "version_added": "15"
@@ -29,43 +32,19 @@
               }
             ]
           },
-          "firefox_android": {
-            "version_added": "55",
-            "version_removed": "79",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "dom.payments.request.enabled",
-                "value_to_set": "true"
-              },
-              {
-                "name": "dom.payments.request.supportedRegions",
-                "type": "preference",
-                "value_to_set": "A comma-delimited list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>)."
-              }
-            ]
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": "47"
-          },
-          "opera_android": {
-            "version_added": "43"
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "11.1"
           },
-          "safari_ios": {
-            "version_added": "11.3"
-          },
-          "samsunginternet_android": {
-            "version_added": "6.0"
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
-            "version_added": false
-          }
+            "version_added": "136"
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -75,15 +54,18 @@
       },
       "PaymentRequestUpdateEvent": {
         "__compat": {
-          "description": "<code>PaymentRequestUpdateEvent()</code> constructor",
+          "description": "`PaymentRequestUpdateEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequestUpdateEvent/PaymentRequestUpdateEvent",
           "spec_url": "https://w3c.github.io/payment-request/#constructor-0",
+          "tags": [
+            "web-features:payment-request"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
             "chrome_android": {
-              "version_added": "56"
+              "version_added": "53"
             },
             "edge": {
               "version_added": "15"
@@ -98,38 +80,19 @@
                 }
               ]
             },
-            "firefox_android": {
-              "version_added": "55",
-              "version_removed": "79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.payments.request.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "11.1"
             },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": false
-            }
+              "version_added": "136"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -138,17 +101,56 @@
           }
         }
       },
+      "secure_context_required": {
+        "__compat": {
+          "description": "Secure context required",
+          "tags": [
+            "web-features:payment-request"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "122"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "136"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "updateWith": {
         "__compat": {
+          "description": "`updateWith()`",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequestUpdateEvent/updateWith",
           "spec_url": "https://w3c.github.io/payment-request/#dom-paymentrequestupdateevent-updatewith",
-          "description": "<code>updateWith()</code>",
+          "tags": [
+            "web-features:payment-request"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
             "chrome_android": {
-              "version_added": "56"
+              "version_added": "53"
             },
             "edge": {
               "version_added": "15"
@@ -163,38 +165,19 @@
                 }
               ]
             },
-            "firefox_android": {
-              "version_added": "55",
-              "version_removed": "79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.payments.request.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "11.1"
             },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": false
-            }
+              "version_added": "136"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

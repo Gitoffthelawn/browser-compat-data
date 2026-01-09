@@ -4,13 +4,17 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy",
         "spec_url": "https://streams.spec.whatwg.org/#blqs-class",
+        "tags": [
+          "web-features:streams"
+        ],
         "support": {
+          "bun": {
+            "version_added": "1.0.0"
+          },
           "chrome": {
             "version_added": "52"
           },
-          "chrome_android": {
-            "version_added": "52"
-          },
+          "chrome_android": "mirror",
           "deno": {
             "version_added": "1.0"
           },
@@ -20,56 +24,51 @@
           "firefox": {
             "version_added": "65"
           },
-          "firefox_android": {
-            "version_added": "65"
-          },
-          "ie": {
-            "version_added": false
-          },
-          "nodejs": {
-            "version_added": "16.5.0",
-            "notes": [
-              "Must be imported using either <code>require('stream/web')</code> or <code>import * from 'stream/web'</code>.",
-              "Experimental implementation."
-            ]
-          },
-          "opera": {
-            "version_added": "39"
-          },
-          "opera_android": {
-            "version_added": "41"
-          },
+          "firefox_android": "mirror",
+          "nodejs": [
+            {
+              "version_added": "18.0.0"
+            },
+            {
+              "version_added": "16.5.0",
+              "version_removed": "18.0.0",
+              "partial_implementation": true,
+              "notes": "Available as a part of the `stream/web` module."
+            }
+          ],
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "10.1"
           },
-          "safari_ios": {
-            "version_added": "10.3"
-          },
-          "samsunginternet_android": {
-            "version_added": "6.0"
-          },
-          "webview_android": {
-            "version_added": "52"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
       },
       "ByteLengthQueuingStrategy": {
         "__compat": {
+          "description": "`ByteLengthQueuingStrategy()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy/ByteLengthQueuingStrategy",
           "spec_url": "https://streams.spec.whatwg.org/#blqs-constructor",
-          "description": "<code>ByteLengthQueuingStrategy()</code> constructor",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
-              "version_added": "59"
+              "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "59"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -79,36 +78,23 @@
             "firefox": {
               "version_added": "65"
             },
-            "firefox_android": {
-              "version_added": "65"
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "nodejs": {
               "version_added": "16.5.0"
             },
-            "opera": {
-              "version_added": "46"
-            },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
-            "webview_android": {
-              "version_added": "59"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -116,13 +102,19 @@
       },
       "highWaterMark": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy/highWaterMark",
+          "spec_url": "https://streams.spec.whatwg.org/#ref-for-blqs-high-water-mark①",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
-              "version_added": "78"
+              "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "78"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -130,42 +122,25 @@
               "version_added": "16"
             },
             "firefox": {
-              "version_added": "65",
-              "partial_implementation": true,
-              "notes": "The property is defined on the instance instead of the prototype object. See <a href='https://bugzil.la/1684316'>bug 1684316</a>."
+              "version_added": "65"
             },
-            "firefox_android": {
-              "version_added": "65",
-              "partial_implementation": true,
-              "notes": "The property is defined on the instance instead of the prototype object. See <a href='https://bugzil.la/1684316'>bug 1684316</a>."
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "nodejs": {
               "version_added": "16.5.0"
             },
-            "opera": {
-              "version_added": "65"
-            },
-            "opera_android": {
-              "version_added": "56"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "15.4"
+              "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "15.4"
-            },
-            "samsunginternet_android": {
-              "version_added": "12.0"
-            },
-            "webview_android": {
-              "version_added": "78"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -175,13 +150,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy/size",
           "spec_url": "https://streams.spec.whatwg.org/#blqs-size",
+          "tags": [
+            "web-features:streams"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
               "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "52"
-            },
+            "chrome_android": "mirror",
             "deno": {
               "version_added": "1.0"
             },
@@ -191,36 +170,23 @@
             "firefox": {
               "version_added": "65"
             },
-            "firefox_android": {
-              "version_added": "65"
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "nodejs": {
               "version_added": "16.5.0"
             },
-            "opera": {
-              "version_added": "39"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "52"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

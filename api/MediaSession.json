@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaSession",
         "spec_url": "https://w3c.github.io/mediasession/#the-mediasession-interface",
+        "tags": [
+          "web-features:media-session"
+        ],
         "support": {
           "chrome": {
             "version_added": "73"
@@ -11,50 +14,28 @@
           "chrome_android": {
             "version_added": "57"
           },
-          "edge": {
-            "version_added": "79"
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "82"
           },
-          "firefox": [
-            {
-              "version_added": "82"
-            },
-            {
-              "version_added": "71",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.media.mediasession.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            }
-          ],
           "firefox_android": {
             "version_added": "82",
             "partial_implementation": true,
             "notes": "Firefox exposes the API, but does not provide a corresponding user-facing media control interface."
           },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": "60"
-          },
-          "opera_android": {
-            "version_added": "43"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "15"
           },
-          "safari_ios": {
-            "version_added": "15"
-          },
-          "samsunginternet_android": {
-            "version_added": "7.0"
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
-            "version_added": false
-          }
+            "version_added": false,
+            "impl_url": "https://crbug.com/40611412"
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -66,6 +47,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaSession/metadata",
           "spec_url": "https://w3c.github.io/mediasession/#dom-mediasession-metadata",
+          "tags": [
+            "web-features:media-session"
+          ],
           "support": {
             "chrome": {
               "version_added": "73"
@@ -73,50 +57,27 @@
             "chrome_android": {
               "version_added": "57"
             },
-            "edge": {
-              "version_added": "79"
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "82"
             },
-            "firefox": [
-              {
-                "version_added": "82"
-              },
-              {
-                "version_added": "71",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.media.mediasession.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
             "firefox_android": {
               "version_added": "82",
               "partial_implementation": true,
               "notes": "Firefox exposes the API, but does not provide a corresponding user-facing media control interface."
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "60"
-            },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15"
             },
-            "safari_ios": {
-              "version_added": "15"
-            },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -129,6 +90,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaSession/playbackState",
           "spec_url": "https://w3c.github.io/mediasession/#dom-mediasession-playbackstate",
+          "tags": [
+            "web-features:media-session"
+          ],
           "support": {
             "chrome": {
               "version_added": "73"
@@ -136,50 +100,27 @@
             "chrome_android": {
               "version_added": "57"
             },
-            "edge": {
-              "version_added": "79"
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "82"
             },
-            "firefox": [
-              {
-                "version_added": "82"
-              },
-              {
-                "version_added": "71",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.media.mediasession.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
             "firefox_android": {
               "version_added": "82",
               "partial_implementation": true,
               "notes": "Firefox exposes the API, but does not provide a corresponding user-facing media control interface."
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "60"
-            },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15"
             },
-            "safari_ios": {
-              "version_added": "15"
-            },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -190,9 +131,12 @@
       },
       "setActionHandler": {
         "__compat": {
+          "description": "`setActionHandler()`",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaSession/setActionHandler",
           "spec_url": "https://w3c.github.io/mediasession/#dom-mediasession-setactionhandler",
-          "description": "<code>setActionHandler()</code>",
+          "tags": [
+            "web-features:media-session"
+          ],
           "support": {
             "chrome": {
               "version_added": "73"
@@ -200,101 +144,584 @@
             "chrome_android": {
               "version_added": "57"
             },
-            "edge": {
-              "version_added": "79"
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "82"
             },
-            "firefox": [
-              {
-                "version_added": "82"
-              },
-              {
-                "version_added": "71",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.media.mediasession.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
             "firefox_android": {
               "version_added": "82",
               "partial_implementation": true,
               "notes": "Firefox exposes the API, but does not provide a corresponding user-facing media control interface."
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "60"
-            },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15"
             },
-            "safari_ios": {
-              "version_added": "15"
-            },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
+        },
+        "hangup_type": {
+          "__compat": {
+            "description": "`\"hangup\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "93"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "nextslide_type": {
+          "__compat": {
+            "description": "`\"nextslide\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "111"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "nexttrack_type": {
+          "__compat": {
+            "description": "`\"nexttrack\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "73"
+              },
+              "chrome_android": {
+                "version_added": "57"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "pause_type": {
+          "__compat": {
+            "description": "`\"pause\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "73"
+              },
+              "chrome_android": {
+                "version_added": "57"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "play_type": {
+          "__compat": {
+            "description": "`\"play\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "73"
+              },
+              "chrome_android": {
+                "version_added": "57"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "previousslide_type": {
+          "__compat": {
+            "description": "`\"previousslide\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "111"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "previoustrack_type": {
+          "__compat": {
+            "description": "`\"previoustrack\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "73"
+              },
+              "chrome_android": {
+                "version_added": "57"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "seekbackward_type": {
+          "__compat": {
+            "description": "`\"seekbackward\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "73"
+              },
+              "chrome_android": {
+                "version_added": "57"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "seekforward_type": {
+          "__compat": {
+            "description": "`\"seekforward\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "73"
+              },
+              "chrome_android": {
+                "version_added": "57"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "seekto_type": {
+          "__compat": {
+            "description": "`\"seekto\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "78"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "skipad_type": {
+          "__compat": {
+            "description": "`\"skipad\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "128"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "stop_type": {
+          "__compat": {
+            "description": "`\"stop\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "77"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "82"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "15"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "togglecamera_type": {
+          "__compat": {
+            "description": "`\"togglecamera\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "93"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "18.4"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "togglemicrophone_type": {
+          "__compat": {
+            "description": "`\"togglemicrophone\"` type",
+            "tags": [
+              "web-features:media-session"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "93"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "18.4"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
         }
       },
       "setCameraActive": {
         "__compat": {
+          "description": "`setCameraActive()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaSession/setCameraActive",
           "spec_url": "https://w3c.github.io/mediasession/#dom-mediasession-setcameraactive",
+          "tags": [
+            "web-features:media-session"
+          ],
           "support": {
             "chrome": {
               "version_added": "93"
             },
-            "chrome_android": {
-              "version_added": "93"
-            },
-            "edge": {
-              "version_added": "93"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "79"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "18.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -302,47 +729,37 @@
       },
       "setMicrophoneActive": {
         "__compat": {
+          "description": "`setMicrophoneActive()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaSession/setMicrophoneActive",
           "spec_url": "https://w3c.github.io/mediasession/#dom-mediasession-setmicrophoneactive",
+          "tags": [
+            "web-features:media-session"
+          ],
           "support": {
             "chrome": {
               "version_added": "93"
             },
-            "chrome_android": {
-              "version_added": "93"
-            },
-            "edge": {
-              "version_added": "93"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "79"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "18.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -350,63 +767,78 @@
       },
       "setPositionState": {
         "__compat": {
+          "description": "`setPositionState()`",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaSession/setPositionState",
           "spec_url": "https://w3c.github.io/mediasession/#dom-mediasession-setpositionstate",
-          "description": "<code>setPositionState()</code>",
+          "tags": [
+            "web-features:media-session"
+          ],
           "support": {
             "chrome": {
-              "version_added": "73"
+              "version_added": "81"
             },
             "chrome_android": {
               "version_added": "57"
             },
-            "edge": {
-              "version_added": "79"
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "82"
             },
-            "firefox": [
-              {
-                "version_added": "82"
-              },
-              {
-                "version_added": "71",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.media.mediasession.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
             "firefox_android": {
               "version_added": "82",
               "partial_implementation": true,
               "notes": "Firefox exposes the API, but does not provide a corresponding user-facing media control interface."
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "60"
-            },
-            "opera_android": {
-              "version_added": "43"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15"
             },
-            "safari_ios": {
-              "version_added": "15"
-            },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "setScreenshareActive": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaSession/setScreenshareActive",
+          "spec_url": "https://w3c.github.io/mediasession/#dom-mediasession-setscreenshareactive",
+          "tags": [
+            "web-features:media-session"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "18.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }

@@ -3,28 +3,28 @@
     "at-rules": {
       "font-face": {
         "__compat": {
-          "description": "<code>@font-face</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face",
+          "description": "`@font-face`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face",
           "spec_url": "https://drafts.csswg.org/css-fonts/#font-face-rule",
+          "tags": [
+            "web-features:font-face"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "4"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10"
             },
@@ -34,15 +34,12 @@
             "safari": {
               "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
-              "version_added": "≤37"
-            }
+              "version_added": "2.2"
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -50,52 +47,205 @@
             "deprecated": false
           }
         },
+        "OpenType_CBDT_CBLC": {
+          "__compat": {
+            "description": "OpenType CBDT and CBLC rendering",
+            "tags": [
+              "web-features:font-face"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "66"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "OpenType_COLRv0": {
+          "__compat": {
+            "description": "OpenType COLRv0 rendering",
+            "tags": [
+              "web-features:colrv0"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "53"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "31"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "11.1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "OpenType_COLRv1": {
+          "__compat": {
+            "description": "OpenType COLRv1 rendering",
+            "tags": [
+              "web-features:colrv1"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "98"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "107"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "OpenType_SBIX": {
+          "__compat": {
+            "description": "OpenType SBIX rendering",
+            "tags": [
+              "web-features:font-face"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "66"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "9.1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "OpenType_SVG": {
+          "__compat": {
+            "description": "OpenType SVG rendering",
+            "tags": [
+              "web-features:svg"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "31"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "12.1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
         "SVG_fonts": {
           "__compat": {
             "description": "SVG fonts",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
                 "version_removed": "38"
               },
-              "chrome_android": {
-                "version_added": "18",
-                "version_removed": "38"
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15",
-                "version_removed": "25"
-              },
-              "opera_android": {
-                "version_added": "14",
-                "version_removed": "25"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3.1"
               },
               "safari_ios": {
                 "version_added": "3"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0",
-                "version_removed": "3.0"
-              },
-              "webview_android": {
-                "version_added": "≤37",
-                "version_removed": "38"
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -107,25 +257,27 @@
         "WOFF": {
           "__compat": {
             "description": "WOFF",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Fonts/WOFF",
+            "spec_url": "https://w3c.github.io/woff/woff1/spec/Overview.html#OverallStructure",
+            "tags": [
+              "web-features:font-face"
+            ],
             "support": {
               "chrome": {
                 "version_added": "6"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.5"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "11.1"
               },
@@ -135,15 +287,10 @@
               "safari": {
                 "version_added": "5.1"
               },
-              "safari_ios": {
-                "version_added": "5"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "4.4"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -155,31 +302,26 @@
         "WOFF_2": {
           "__compat": {
             "description": "WOFF 2",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Fonts/WOFF",
+            "spec_url": "https://w3c.github.io/woff/woff2/#FileStructure",
+            "tags": [
+              "web-features:font-face"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "14"
               },
               "firefox": {
                 "version_added": "39"
               },
-              "firefox_android": {
-                "version_added": "39"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10",
                 "notes": "Supported only on macOS 10.12 (Sierra) and later."
@@ -187,12 +329,9 @@
               "safari_ios": {
                 "version_added": "10"
               },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -203,45 +342,31 @@
         },
         "ascent-override": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/ascent-override",
             "spec_url": "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc",
+            "tags": [
+              "web-features:font-metric-overrides"
+            ],
             "support": {
               "chrome": {
                 "version_added": "87"
               },
-              "chrome_android": {
-                "version_added": "87"
-              },
-              "edge": {
-                "version_added": "87"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "89"
               },
-              "firefox_android": {
-                "version_added": "89"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "73"
-              },
-              "opera_android": {
-                "version_added": "62"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "14.0"
-              },
-              "webview_android": {
-                "version_added": "87"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -252,45 +377,31 @@
         },
         "descent-override": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/descent-override",
             "spec_url": "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc",
+            "tags": [
+              "web-features:font-metric-overrides"
+            ],
             "support": {
               "chrome": {
                 "version_added": "87"
               },
-              "chrome_android": {
-                "version_added": "87"
-              },
-              "edge": {
-                "version_added": "87"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "89"
               },
-              "firefox_android": {
-                "version_added": "89"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "73"
-              },
-              "opera_android": {
-                "version_added": "62"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "14.0"
-              },
-              "webview_android": {
-                "version_added": "87"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -301,45 +412,33 @@
         },
         "font-display": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-display",
             "spec_url": "https://drafts.csswg.org/css-fonts/#font-display-desc",
+            "tags": [
+              "web-features:font-display"
+            ],
             "support": {
               "chrome": {
-                "version_added": "72"
+                "version_added": "60"
               },
-              "chrome_android": {
-                "version_added": "72"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "58"
               },
-              "firefox_android": {
-                "version_added": "58"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "60"
-              },
-              "opera_android": {
-                "version_added": "51"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "11.1"
               },
-              "safari_ios": {
-                "version_added": "11.3"
-              },
+              "safari_ios": "mirror",
               "samsunginternet_android": {
                 "version_added": "11.0"
               },
-              "webview_android": {
-                "version_added": "72"
-              }
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -350,27 +449,27 @@
         },
         "font-family": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-family",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-family",
             "spec_url": "https://drafts.csswg.org/css-fonts/#font-family-desc",
+            "tags": [
+              "web-features:font-face"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.5"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10"
               },
@@ -380,15 +479,12 @@
               "safari": {
                 "version_added": "3.1"
               },
-              "safari_ios": {
-                "version_added": "2"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "2.2"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -399,59 +495,39 @@
         },
         "font-feature-settings": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-feature-settings",
+            "spec_url": "https://drafts.csswg.org/css-fonts/#font-rend-desc",
+            "tags": [
+              "web-features:font-feature-settings"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "140"
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": [
                 {
                   "version_added": "34",
-                  "notes": "The <a href='http://mpeg.chiariglione.org/standards/mpeg-4/open-font-format/text-isoiec-cd-14496-22-3rd-edition' >ISO/IEC CD 14496-22 3rd edition</a> suggests using the <code>ssty</code> feature to provide glyph variants more suitable for use in scripts (for example primes used as superscripts). Starting with Firefox 29, this is done automatically by the <a href='https://developer.mozilla.org/docs/Web/MathML'>MathML</a> rendering engine. The ISO/IEC CD 14496-22 3rd edition also suggests applying the <code>dtls</code> feature to letters when placing mathematical accents to get dotless forms (for example dotless i, j with a hat). Starting with Firefox 35, this is done automatically by the MathML rendering engine. You can override the default values determined by the MathML rendering engine with CSS."
+                  "notes": "The [ISO/IEC CD 14496-22 3rd edition](https://mpeg.chiariglione.org/standards/mpeg-4/open-font-format/text-isoiec-cd-14496-22-3rd-edition) suggests using the `ssty` feature to provide glyph variants more suitable for use in scripts (for example primes used as superscripts). Starting with Firefox 29, this is done automatically by the [MathML](https://developer.mozilla.org/docs/Web/MathML) rendering engine. The ISO/IEC CD 14496-22 3rd edition also suggests applying the `dtls` feature to letters when placing mathematical accents to get dotless forms (for example dotless i, j with a hat). Starting with Firefox 35, this is done automatically by the MathML rendering engine. You can override the default values determined by the MathML rendering engine with CSS."
                 },
                 {
                   "prefix": "-moz-",
                   "version_added": "15",
-                  "notes": "From Firefox 4 to Firefox 14 (inclusive), Firefox supported an older, slightly different syntax. See <a href='http://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/'>OpenType Font Feature support in Firefox 4</a>."
+                  "notes": "From Firefox 4 to Firefox 14 (inclusive), Firefox supported an older, slightly different syntax. See [OpenType Font Feature support in Firefox 4](https://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/)."
                 }
               ],
-              "firefox_android": [
-                {
-                  "version_added": "34",
-                  "notes": "The <a href='http://mpeg.chiariglione.org/standards/mpeg-4/open-font-format/text-isoiec-cd-14496-22-3rd-edition' >ISO/IEC CD 14496-22 3rd edition</a> suggests using the <code>ssty</code> feature to provide glyph variants more suitable for use in scripts (for example primes used as superscripts). Starting with Firefox 29, this is done automatically by the <a href='https://developer.mozilla.org/docs/Web/MathML'>MathML</a> rendering engine. The ISO/IEC CD 14496-22 3rd edition also suggests applying the <code>dtls</code> feature to letters when placing mathematical accents to get dotless forms (for example dotless i, j with a hat). Starting with Firefox 35, this is done automatically by the MathML rendering engine. You can override the default values determined by the MathML rendering engine with CSS."
-                },
-                {
-                  "prefix": "-moz-",
-                  "version_added": "15",
-                  "notes": "From Firefox 4 to Firefox 14 (inclusive), Firefox supported an older, slightly different syntax. See <a href='http://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/'>OpenType Font Feature support in Firefox 4</a>."
-                }
-              ],
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "10"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -462,76 +538,68 @@
         },
         "font-stretch": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-stretch",
             "spec_url": "https://drafts.csswg.org/css-fonts/#font-prop-desc",
+            "tags": [
+              "web-features:font-stretch"
+            ],
             "support": {
               "chrome": {
                 "version_added": "62"
               },
-              "chrome_android": {
-                "version_added": "62"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "17"
               },
               "firefox": {
                 "version_added": "62"
               },
-              "firefox_android": {
-                "version_added": "62"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "49"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "41"
               },
               "safari": {
                 "version_added": "10.1"
               },
-              "safari_ios": {
-                "version_added": "10.3"
-              },
+              "safari_ios": "mirror",
               "samsunginternet_android": {
                 "version_added": "6.0"
               },
-              "webview_android": {
-                "version_added": "62"
-              }
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
               "standard_track": true,
-              "deprecated": false
+              "deprecated": true
             }
           }
         },
         "font-style": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-style",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-style",
             "spec_url": "https://drafts.csswg.org/css-fonts/#font-prop-desc",
+            "tags": [
+              "web-features:font-style"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.5"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10"
               },
@@ -541,15 +609,10 @@
               "safari": {
                 "version_added": "3.1"
               },
-              "safari_ios": {
-                "version_added": "2"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -560,27 +623,25 @@
         },
         "font-variant": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variant",
-            "spec_url": "https://drafts.csswg.org/css-fonts/#font-variant-prop",
+            "tags": [
+              "web-features:font-variant"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.5"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10"
               },
@@ -590,64 +651,45 @@
               "safari": {
                 "version_added": "3.1"
               },
-              "safari_ios": {
-                "version_added": "2"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
-              "standard_track": true,
+              "standard_track": false,
               "deprecated": false
             }
           }
         },
         "font-variation-settings": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-variation-settings",
             "spec_url": "https://drafts.csswg.org/css-fonts/#font-rend-desc",
+            "tags": [
+              "web-features:font-variation-settings"
+            ],
             "support": {
               "chrome": {
-                "version_added": "62"
+                "version_added": "140"
               },
-              "chrome_android": {
-                "version_added": "62"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "62"
               },
-              "firefox_android": {
-                "version_added": "62"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "49"
-              },
-              "opera_android": {
-                "version_added": "46"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "8.0"
-              },
-              "webview_android": {
-                "version_added": "62"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -658,27 +700,27 @@
         },
         "font-weight": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-weight",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-weight",
             "spec_url": "https://drafts.csswg.org/css-fonts/#font-prop-desc",
+            "tags": [
+              "web-features:font-weight"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.5"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10"
               },
@@ -688,15 +730,10 @@
               "safari": {
                 "version_added": "3.1"
               },
-              "safari_ios": {
-                "version_added": "2"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -705,47 +742,66 @@
             }
           }
         },
-        "line-gap-override": {
+        "font-width": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/line-gap-override",
-            "spec_url": "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc",
+            "spec_url": "https://drafts.csswg.org/css-fonts/#descdef-font-face-font-width",
             "support": {
               "chrome": {
-                "version_added": "87"
+                "version_added": false
               },
-              "chrome_android": {
-                "version_added": "87"
-              },
-              "edge": {
-                "version_added": "87"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": "89"
-              },
-              "firefox_android": {
-                "version_added": "89"
-              },
-              "ie": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": "73"
-              },
-              "opera_android": {
-                "version_added": "62"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "18.4"
               },
               "safari_ios": {
                 "version_added": false
               },
-              "samsunginternet_android": {
-                "version_added": "14.0"
-              },
-              "webview_android": {
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "line-gap-override": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/line-gap-override",
+            "spec_url": "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc",
+            "tags": [
+              "web-features:font-metric-overrides"
+            ],
+            "support": {
+              "chrome": {
                 "version_added": "87"
-              }
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "89"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -756,58 +812,33 @@
         },
         "size-adjust": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/size-adjust",
             "spec_url": "https://drafts.csswg.org/css-fonts-5/#size-adjust-desc",
+            "tags": [
+              "web-features:font-size-adjust"
+            ],
             "support": {
               "chrome": {
                 "version_added": "92"
               },
-              "chrome_android": {
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
                 "version_added": "92"
               },
-              "edge": {
-                "version_added": "92"
-              },
-              "firefox": [
-                {
-                  "version_added": "92"
-                },
-                {
-                  "version_added": "89",
-                  "version_removed": "92",
-                  "flags": [
-                    {
-                      "type": "preference",
-                      "name": "layout.css.size-adjust.enabled",
-                      "value_to_set": "true"
-                    }
-                  ]
-                }
-              ],
-              "firefox_android": {
-                "version_added": "92"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "78"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": false
               },
               "safari": {
-                "version_added": false
+                "version_added": "17"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "16.0"
-              },
-              "webview_android": {
-                "version_added": "92"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -818,27 +849,27 @@
         },
         "src": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/src",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/src",
             "spec_url": "https://drafts.csswg.org/css-fonts/#src-desc",
+            "tags": [
+              "web-features:font-face"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.5"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10"
               },
@@ -848,15 +879,12 @@
               "safari": {
                 "version_added": "3.1"
               },
-              "safari_ios": {
-                "version_added": "2"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "2.2"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -864,46 +892,70 @@
               "deprecated": false
             }
           },
-          "format_keyword": {
+          "drop_invalid_item": {
             "__compat": {
-              "description": "<code>format(keyword)</code>",
+              "description": "Drop invalid item (not src string)",
+              "tags": [
+                "web-features:font-face"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": "108",
+                  "partial_implementation": true,
+                  "notes": "Chrome drops invalid item for `tech()` but not other invalid values"
                 },
-                "chrome_android": {
-                  "version_added": false
-                },
-                "edge": {
-                  "version_added": false
-                },
+                "chrome_android": "mirror",
+                "edge": "mirror",
                 "firefox": {
+                  "version_added": "109"
+                },
+                "firefox_android": "mirror",
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "format_keyword": {
+            "__compat": {
+              "description": "`format(keyword)`",
+              "tags": [
+                "web-features:font-face"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "108"
                 },
-                "ie": {
-                  "version_added": false
+                "chrome_android": "mirror",
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "105"
                 },
-                "opera": {
-                  "version_added": false
-                },
-                "opera_android": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "4"
                 },
                 "safari_ios": {
                   "version_added": "5"
                 },
-                "samsunginternet_android": {
-                  "version_added": false
-                },
-                "webview_android": {
-                  "version_added": false
-                }
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -914,44 +966,32 @@
           },
           "format_variations": {
             "__compat": {
-              "description": "<code>format('*-variations')</code>",
+              "description": "`format('*-variations')`",
+              "tags": [
+                "web-features:font-face"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "66"
                 },
-                "chrome_android": {
-                  "version_added": "66"
-                },
+                "chrome_android": "mirror",
                 "edge": {
                   "version_added": "17"
                 },
                 "firefox": {
                   "version_added": "62"
                 },
-                "firefox_android": {
-                  "version_added": "62"
-                },
-                "ie": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": "53"
-                },
-                "opera_android": {
-                  "version_added": "47"
-                },
+                "firefox_android": "mirror",
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
                   "version_added": "11"
                 },
-                "safari_ios": {
-                  "version_added": "11"
-                },
-                "samsunginternet_android": {
-                  "version_added": "9.0"
-                },
-                "webview_android": {
-                  "version_added": "66"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -959,49 +999,76 @@
                 "deprecated": false
               }
             }
+          },
+          "tech_keyword": {
+            "__compat": {
+              "description": "`tech(keyword)`",
+              "tags": [
+                "web-features:font-face"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "108"
+                },
+                "chrome_android": "mirror",
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "107"
+                },
+                "firefox_android": "mirror",
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "17"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
           }
         },
         "unicode-range": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/unicode-range",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/unicode-range",
             "spec_url": "https://drafts.csswg.org/css-fonts/#unicode-range-desc",
+            "tags": [
+              "web-features:font-face"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "36"
               },
-              "firefox_android": {
-                "version_added": "36"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "9"
               },
-              "opera": {
-                "version_added": "15"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3.1"
               },
               "safari_ios": {
                 "version_added": "3"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

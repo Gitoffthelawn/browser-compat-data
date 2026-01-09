@@ -2,7 +2,11 @@
   "api": {
     "ContactAddress": {
       "__compat": {
-        "spec_url": "https://w3c.github.io/contact-api/spec/#contactaddress",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress",
+        "spec_url": "https://w3c.github.io/contact-picker/#contactaddress",
+        "tags": [
+          "web-features:contact-picker"
+        ],
         "support": {
           "chrome": {
             "version_added": false
@@ -10,36 +14,27 @@
           "chrome_android": {
             "version_added": "84"
           },
-          "edge": {
-            "version_added": false
-          },
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://bugzil.la/1756767"
           },
-          "firefox_android": {
-            "version_added": false
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": false
-          },
-          "opera_android": {
-            "version_added": "60"
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
+          "safari_ios": "mirror",
           "samsunginternet_android": {
-            "version_added": "14.0"
+            "version_added": "14.0",
+            "version_removed": "22.0",
+            "partial_implementation": true,
+            "notes": "This API was exposed but failed upon opening a contact selector."
           },
-          "webview_android": {
-            "version_added": "84"
-          }
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -49,7 +44,11 @@
       },
       "addressLine": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-addressLine",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/addressLine",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-addressline",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -57,36 +56,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -97,7 +87,11 @@
       },
       "city": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-city",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/city",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-city",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -105,36 +99,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -145,7 +130,11 @@
       },
       "country": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-country",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/country",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-country",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -153,36 +142,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -193,7 +173,11 @@
       },
       "dependentLocality": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-dependentLocality",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/dependentLocality",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-dependentlocality",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -201,36 +185,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -241,7 +216,11 @@
       },
       "organization": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-organization",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/organization",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-organization",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -249,36 +228,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -289,7 +259,11 @@
       },
       "phone": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-phone",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/phone",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-phone",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -297,36 +271,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -337,7 +302,11 @@
       },
       "postalCode": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-postalCode",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/postalCode",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-postalcode",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -345,36 +314,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -385,7 +345,11 @@
       },
       "recipient": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-recipient",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/recipient",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-recipient",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -393,36 +357,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -433,7 +388,11 @@
       },
       "region": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-region",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/region",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-region",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -441,36 +400,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -481,7 +431,11 @@
       },
       "sortingCode": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-sortingCode",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/sortingCode",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-sortingcode",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -489,36 +443,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -529,7 +474,11 @@
       },
       "toJSON": {
         "__compat": {
-          "spec_url": "https://w3c.github.io/contact-api/spec/#dom-contactaddress-toJSON",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ContactAddress/toJSON",
+          "spec_url": "https://w3c.github.io/contact-picker/#dom-contactaddress-tojson",
+          "tags": [
+            "web-features:contact-picker"
+          ],
           "support": {
             "chrome": {
               "version_added": false
@@ -537,36 +486,27 @@
             "chrome_android": {
               "version_added": "84"
             },
-            "edge": {
-              "version_added": false
-            },
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1756767"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": {
-              "version_added": "14.0"
+              "version_added": "14.0",
+              "version_removed": "22.0",
+              "partial_implementation": true,
+              "notes": "This API was exposed but failed upon opening a contact selector."
             },
-            "webview_android": {
-              "version_added": "84"
-            }
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,

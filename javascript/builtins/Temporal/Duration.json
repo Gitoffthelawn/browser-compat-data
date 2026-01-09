@@ -1,0 +1,1305 @@
+{
+  "javascript": {
+    "builtins": {
+      "Temporal": {
+        "Duration": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration",
+            "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal-duration-objects",
+            "tags": [
+              "web-features:temporal"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "144"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.40",
+                "flags": [
+                  {
+                    "type": "runtime_flag",
+                    "name": "--unstable-temporal"
+                  }
+                ]
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "139"
+              },
+              "firefox_android": "mirror",
+              "nodejs": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "preview",
+                "impl_url": "https://webkit.org/b/223166"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          },
+          "Duration": {
+            "__compat": {
+              "description": "`Duration()` constructor",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/Duration",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal-duration-constructor",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "abs": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/abs",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.abs",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "add": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/add",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.add",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "blank": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/blank",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.blank",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "compare": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/compare",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.compare",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "days": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/days",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.days",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "from": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/from",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.from",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "hours": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/hours",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.hours",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "microseconds": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/microseconds",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.microseconds",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "milliseconds": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/milliseconds",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.milliseconds",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "minutes": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/minutes",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.minutes",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "months": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/months",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.months",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "nanoseconds": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/nanoseconds",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.nanoseconds",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "negated": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/negated",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.negated",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "round": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/round",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.round",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "seconds": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/seconds",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.seconds",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "sign": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/sign",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.sign",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "subtract": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/subtract",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.subtract",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "toJSON": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toJSON",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.tojson",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "toLocaleString": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toLocaleString",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.tolocalestring",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "toString": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toString",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.tostring",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "total": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/total",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.total",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "valueOf": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/valueOf",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.valueof",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "weeks": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/weeks",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.weeks",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "with": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/with",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.duration.prototype.with",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "years": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/years",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.duration.prototype.years",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "144"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "139"
+                },
+                "firefox_android": "mirror",
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "preview",
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -2,47 +2,37 @@
   "api": {
     "FragmentDirective": {
       "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/FragmentDirective",
+        "spec_url": "https://wicg.github.io/scroll-to-text-fragment/#fragmentdirective",
+        "tags": [
+          "web-features:scroll-to-text-fragment"
+        ],
         "support": {
           "chrome": {
             "version_added": "81"
           },
-          "chrome_android": {
-            "version_added": "81"
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "83"
           },
           "firefox": {
-            "version_added": false
+            "version_added": "131"
           },
-          "firefox_android": {
-            "version_added": false
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": "68"
-          },
-          "opera_android": {
-            "version_added": "58"
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": "18.4"
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": "13.0"
-          },
-          "webview_android": {
-            "version_added": "81"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
-          "standard_track": false,
+          "experimental": false,
+          "standard_track": true,
           "deprecated": false
         }
       }

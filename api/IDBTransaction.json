@@ -4,27 +4,21 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction",
         "spec_url": "https://w3c.github.io/IndexedDB/#transaction",
+        "tags": [
+          "web-features:indexeddb"
+        ],
         "support": {
           "chrome": [
             {
               "version_added": "24"
             },
             {
+              "prefix": "webkit",
               "version_added": "23",
-              "version_removed": "57",
-              "prefix": "webkit"
+              "version_removed": "57"
             }
           ],
-          "chrome_android": [
-            {
-              "version_added": "25"
-            },
-            {
-              "version_added": "25",
-              "version_removed": "57",
-              "prefix": "webkit"
-            }
-          ],
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "12"
           },
@@ -33,18 +27,18 @@
               "version_added": "16"
             },
             {
+              "prefix": "moz",
               "version_added": "10",
-              "version_removed": "16",
-              "prefix": "moz"
+              "version_removed": "16"
             }
           ],
           "firefox_android": {
             "version_added": "22"
           },
           "ie": {
-            "version_added": "10",
-            "partial_implementation": true
+            "version_added": "10"
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "15"
           },
@@ -52,31 +46,12 @@
             "version_added": "14"
           },
           "safari": {
-            "version_added": "7"
-          },
-          "safari_ios": {
             "version_added": "8"
           },
-          "samsunginternet_android": [
-            {
-              "version_added": "1.5"
-            },
-            {
-              "version_removed": "7.0",
-              "prefix": "webkit",
-              "version_added": "1.5"
-            }
-          ],
-          "webview_android": [
-            {
-              "version_added": "4.4"
-            },
-            {
-              "version_added": "≤37",
-              "version_removed": "57",
-              "prefix": "webkit"
-            }
-          ]
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -84,17 +59,57 @@
           "deprecated": false
         }
       },
-      "abort": {
+      "worker_support": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/abort",
-          "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-abort②",
+          "description": "Available in workers",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
             },
+            "firefox": {
+              "version_added": "37"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "10"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "abort": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/abort",
+          "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-abort②",
+          "tags": [
+            "web-features:indexeddb"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -105,27 +120,18 @@
               "version_added": "22"
             },
             "ie": {
-              "version_added": "10",
-              "partial_implementation": true
+              "version_added": "10"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
               "version_added": "8"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -136,20 +142,17 @@
       },
       "abort_event": {
         "__compat": {
-          "description": "<code>abort</code> event",
+          "description": "`abort` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/abort_event",
-          "spec_url": [
-            "https://w3c.github.io/IndexedDB/#eventdef-transaction-abort",
-            "https://w3c.github.io/IndexedDB/#dom-idbtransaction-onabort",
-            "https://w3c.github.io/IndexedDB/#dom-idbdatabase-onabort"
+          "spec_url": "https://w3c.github.io/IndexedDB/#eventdef-idbtransaction-abort",
+          "tags": [
+            "web-features:indexeddb"
           ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -160,27 +163,18 @@
               "version_added": "22"
             },
             "ie": {
-              "version_added": "10",
-              "partial_implementation": true
+              "version_added": "10"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
               "version_added": "8"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -193,43 +187,29 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/commit",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-commit②",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "76"
             },
-            "chrome_android": {
-              "version_added": "76"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "74"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "63"
-            },
-            "opera_android": {
-              "version_added": "54"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15"
             },
-            "safari_ios": {
-              "version_added": "15"
-            },
-            "samsunginternet_android": {
-              "version_added": "12.0"
-            },
-            "webview_android": {
-              "version_added": "76"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -240,19 +220,17 @@
       },
       "complete_event": {
         "__compat": {
-          "description": "<code>complete</code> event",
+          "description": "`complete` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/complete_event",
-          "spec_url": [
-            "https://w3c.github.io/IndexedDB/#eventdef-transaction-complete",
-            "https://w3c.github.io/IndexedDB/#dom-idbtransaction-oncomplete"
+          "spec_url": "https://w3c.github.io/IndexedDB/#eventdef-idbtransaction-complete",
+          "tags": [
+            "web-features:indexeddb"
           ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -263,27 +241,18 @@
               "version_added": "22"
             },
             "ie": {
-              "version_added": "10",
-              "partial_implementation": true
+              "version_added": "10"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
               "version_added": "8"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -296,13 +265,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/db",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-db①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -313,27 +283,18 @@
               "version_added": "22"
             },
             "ie": {
-              "version_added": "10",
-              "partial_implementation": true
+              "version_added": "10"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
               "version_added": "8"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -346,43 +307,31 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/durability",
           "spec_url": "https://w3c.github.io/IndexedDB/#dom-idbtransaction-durability",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "83"
             },
-            "chrome_android": {
-              "version_added": "83"
-            },
-            "edge": {
-              "version_added": "83"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "126"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
             "opera": {
               "version_added": "70"
             },
-            "opera_android": {
-              "version_added": "59"
-            },
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15"
             },
-            "safari_ios": {
-              "version_added": "15"
-            },
-            "samsunginternet_android": {
-              "version_added": "13.0"
-            },
-            "webview_android": {
-              "version_added": "83"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -395,13 +344,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/error",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-error①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -412,27 +362,18 @@
               "version_added": "22"
             },
             "ie": {
-              "version_added": "10",
-              "partial_implementation": true
+              "version_added": "10"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
               "version_added": "8"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -442,44 +383,32 @@
         },
         "DOMException": {
           "__compat": {
-            "description": "<code>DOMException</code> value instead of <code>DOMError</code>",
+            "description": "`DOMException` value instead of `DOMError`",
+            "tags": [
+              "web-features:indexeddb"
+            ],
             "support": {
               "chrome": {
                 "version_added": "48"
               },
-              "chrome_android": {
-                "version_added": "48"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "≤18"
               },
               "firefox": {
                 "version_added": "58"
               },
-              "firefox_android": {
-                "version_added": "58"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "35"
-              },
-              "opera_android": {
-                "version_added": "35"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": false
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "48"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -491,20 +420,17 @@
       },
       "error_event": {
         "__compat": {
-          "description": "<code>error</code> event",
+          "description": "`error` event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/error_event",
-          "spec_url": [
-            "https://w3c.github.io/IndexedDB/#eventdef-request-error",
-            "https://w3c.github.io/IndexedDB/#dom-idbtransaction-onerror",
-            "https://w3c.github.io/IndexedDB/#dom-idbdatabase-onerror"
+          "spec_url": "https://w3c.github.io/IndexedDB/#eventdef-idbrequest-error",
+          "tags": [
+            "web-features:indexeddb"
           ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -515,27 +441,18 @@
               "version_added": "22"
             },
             "ie": {
-              "version_added": "10",
-              "partial_implementation": true
+              "version_added": "10"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
               "version_added": "8"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -548,13 +465,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/mode",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-mode①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -565,27 +483,18 @@
               "version_added": "22"
             },
             "ie": {
-              "version_added": "10",
-              "partial_implementation": true
+              "version_added": "10"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
               "version_added": "8"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -598,13 +507,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/objectStore",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-objectstore①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -615,27 +525,18 @@
               "version_added": "22"
             },
             "ie": {
-              "version_added": "10",
-              "partial_implementation": true
+              "version_added": "10"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "7"
-            },
-            "safari_ios": {
               "version_added": "8"
             },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -648,91 +549,31 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/objectStoreNames",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-objectstorenames①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "48"
             },
-            "chrome_android": {
-              "version_added": "48"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "10"
             },
             "firefox_android": {
               "version_added": "22"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "35"
-            },
-            "opera_android": {
-              "version_added": "35"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "48"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "worker_support": {
-        "__compat": {
-          "description": "Available in workers",
-          "support": {
-            "chrome": {
-              "version_added": "23"
-            },
-            "chrome_android": {
-              "version_added": "25"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "37"
-            },
-            "firefox_android": {
-              "version_added": "37"
-            },
-            "ie": {
-              "version_added": "10"
-            },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
-            "safari": {
-              "version_added": "10"
-            },
-            "safari_ios": {
-              "version_added": "10"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

@@ -4,95 +4,71 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData",
         "spec_url": "https://w3c.github.io/webcodecs/#audiodata-interface",
+        "tags": [
+          "web-features:webcodecs"
+        ],
         "support": {
           "chrome": {
             "version_added": "94"
           },
-          "chrome_android": {
-            "version_added": "94"
-          },
-          "edge": {
-            "version_added": "94"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": "130"
           },
           "firefox_android": {
             "version_added": false
           },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": "80"
-          },
-          "opera_android": {
-            "version_added": "66"
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": "26"
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
-          "webview_android": {
-            "version_added": "94"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
       },
       "AudioData": {
         "__compat": {
+          "description": "`AudioData()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/AudioData",
-          "description": "<code>AudioData()</code> constructor",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-audiodata",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -102,46 +78,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/allocationSize",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-allocationsize",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -151,46 +115,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/clone",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-clone",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -200,46 +152,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/close",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-close",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -249,46 +189,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/copyTo",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-copyto",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -298,46 +226,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/duration",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-duration",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -347,46 +263,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/format",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-format",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -396,46 +300,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/numberOfChannels",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-numberofchannels",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -445,46 +337,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/numberOfFrames",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-numberofframes",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -494,46 +374,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/sampleRate",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-samplerate",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -543,46 +411,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioData/timestamp",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-audiodata-timestamp",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
             },
-            "chrome_android": {
-              "version_added": "94"
-            },
-            "edge": {
-              "version_added": "94"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "130"
             },
             "firefox_android": {
               "version_added": false
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "80"
-            },
-            "opera_android": {
-              "version_added": "66"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "26"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": "94"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

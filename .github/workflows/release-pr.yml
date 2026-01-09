@@ -1,0 +1,55 @@
+name: Release PR
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+concurrency:
+  group: ${{ github.workflow }}
+
+jobs:
+  manage-release-pr:
+    if: github.repository == 'mdn/browser-compat-data' && github.secret_source == 'Actions' && !startsWith(github.event.head_commit.message, 'Release v')
+    name: Manage release PR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+          token: ${{ secrets.GH_TOKEN }}
+          # Need credentials to push the `release` branch.
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+        with:
+          node-version-file: ".nvmrc"
+          package-manager-cache: false
+          registry-url: "https://registry.npmjs.org/"
+
+      - name: "Setup git"
+        run: |
+          git config user.email 108879845+mdn-bot@users.noreply.github.com
+          git config user.name mdn-bot
+
+      - name: Install
+        env:
+          # Temporary workaround to install lefthook hooks.
+          CI: ""
+        run: npm ci
+
+      - name: Release
+        run: npm run release

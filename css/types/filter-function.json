@@ -3,8 +3,12 @@
     "types": {
       "filter-function": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function",
-          "spec_url": "https://drafts.fxtf.org/filter-effects/#typedef-filter-function",
+          "description": "`<filter-function>`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function",
+          "spec_url": "https://drafts.csswg.org/filter-effects/#typedef-filter-function",
+          "tags": [
+            "web-features:filter"
+          ],
           "support": {
             "chrome": {
               "version_added": "18"
@@ -18,30 +22,21 @@
             "firefox": {
               "version_added": "35"
             },
-            "firefox_android": {
-              "version_added": "35"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "15"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
             "opera_android": {
               "version_added": "14"
             },
             "safari": {
               "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "4.4"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -51,9 +46,12 @@
         },
         "blur": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/blur()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-blur",
-            "description": "<code>blur()</code>",
+            "description": "`blur()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/blur",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-blur",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -67,30 +65,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -101,9 +90,12 @@
         },
         "brightness": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/brightness()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-brightness",
-            "description": "<code>brightness()</code>",
+            "description": "`brightness()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/brightness",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-brightness",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -117,30 +109,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -151,9 +134,12 @@
         },
         "contrast": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/contrast()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-contrast",
-            "description": "<code>contrast()</code>",
+            "description": "`contrast()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/contrast",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-contrast",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -167,30 +153,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -201,9 +178,12 @@
         },
         "drop-shadow": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/drop-shadow()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow",
-            "description": "<code>drop-shadow()</code>",
+            "description": "`drop-shadow()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/drop-shadow",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-drop-shadow",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -217,30 +197,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -251,9 +222,12 @@
         },
         "grayscale": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-grayscale",
-            "description": "<code>grayscale()</code>",
+            "description": "`grayscale()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/grayscale",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-grayscale",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -267,30 +241,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -301,9 +266,12 @@
         },
         "hue-rotate": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-hue-rotate",
-            "description": "<code>hue-rotate()</code>",
+            "description": "`hue-rotate()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/hue-rotate",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-hue-rotate",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -317,30 +285,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -351,9 +310,12 @@
         },
         "invert": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/invert()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-invert",
-            "description": "<code>invert()</code>",
+            "description": "`invert()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/invert",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-invert",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -367,30 +329,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -401,9 +354,12 @@
         },
         "opacity": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/opacity()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-opacity",
-            "description": "<code>opacity()</code>",
+            "description": "`opacity()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/opacity",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-opacity",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -417,30 +373,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -451,9 +398,12 @@
         },
         "saturate": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/saturate()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-saturate",
-            "description": "<code>saturate()</code>",
+            "description": "`saturate()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/saturate",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-saturate",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -467,30 +417,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -501,9 +442,12 @@
         },
         "sepia": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia()",
-            "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-sepia",
-            "description": "<code>sepia()</code>",
+            "description": "`sepia()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/sepia",
+            "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-sepia",
+            "tags": [
+              "web-features:filter"
+            ],
             "support": {
               "chrome": {
                 "version_added": "18"
@@ -517,30 +461,21 @@
               "firefox": {
                 "version_added": "35"
               },
-              "firefox_android": {
-                "version_added": "35"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
               "opera_android": {
                 "version_added": "14"
               },
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "6.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "4.4"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

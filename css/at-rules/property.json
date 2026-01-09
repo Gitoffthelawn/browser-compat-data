@@ -3,98 +3,70 @@
     "at-rules": {
       "property": {
         "__compat": {
-          "description": "<code>@property</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property",
+          "description": "`@property`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property",
           "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#at-property-rule",
+          "tags": [
+            "web-features:registered-custom-properties"
+          ],
           "support": {
             "chrome": {
               "version_added": "85"
             },
-            "chrome_android": {
-              "version_added": "85"
-            },
-            "edge": {
-              "version_added": "85"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "128"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "71"
-            },
-            "opera_android": {
-              "version_added": "60"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "14.0"
-            },
-            "webview_android": {
-              "version_added": "85"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
         },
         "inherits": {
           "__compat": {
-            "description": "<code>inherits</code> descriptor",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/inherits",
+            "description": "`inherits` descriptor",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/inherits",
             "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#inherits-descriptor",
+            "tags": [
+              "web-features:registered-custom-properties"
+            ],
             "support": {
               "chrome": {
                 "version_added": "85"
               },
-              "chrome_android": {
-                "version_added": "85"
-              },
-              "edge": {
-                "version_added": "85"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "128"
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "71"
-              },
-              "opera_android": {
-                "version_added": "60"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "16.4"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "14.0"
-              },
-              "webview_android": {
-                "version_added": "85"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -102,49 +74,35 @@
         },
         "initial-value": {
           "__compat": {
-            "description": "<code>initial-value</code> descriptor",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/initial-value",
+            "description": "`initial-value` descriptor",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/initial-value",
             "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#initial-value-descriptor",
+            "tags": [
+              "web-features:registered-custom-properties"
+            ],
             "support": {
               "chrome": {
                 "version_added": "85"
               },
-              "chrome_android": {
-                "version_added": "85"
-              },
-              "edge": {
-                "version_added": "85"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "128"
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "71"
-              },
-              "opera_android": {
-                "version_added": "60"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "16.4"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "14.0"
-              },
-              "webview_android": {
-                "version_added": "85"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -152,49 +110,35 @@
         },
         "syntax": {
           "__compat": {
-            "description": "<code>syntax</code> descriptor",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/syntax",
+            "description": "`syntax` descriptor",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/syntax",
             "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#the-syntax-descriptor",
+            "tags": [
+              "web-features:registered-custom-properties"
+            ],
             "support": {
               "chrome": {
                 "version_added": "85"
               },
-              "chrome_android": {
-                "version_added": "85"
-              },
-              "edge": {
-                "version_added": "85"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "128"
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "71"
-              },
-              "opera_android": {
-                "version_added": "60"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "16.4"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "14.0"
-              },
-              "webview_android": {
-                "version_added": "85"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
