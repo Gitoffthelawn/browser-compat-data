@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse",
         "spec_url": "https://w3c.github.io/webauthn/#authenticatorattestationresponse",
+        "tags": [
+          "web-features:webauthn"
+        ],
         "support": {
           "chrome": {
             "version_added": "67"
@@ -18,31 +21,31 @@
             "version_added": "60",
             "notes": "Only supports USB U2F tokens."
           },
-          "firefox_android": {
-            "version_added": "60",
-            "notes": "Only supports USB U2F tokens."
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": false
-          },
+          "firefox_android": [
+            {
+              "version_added": "92"
+            },
+            {
+              "version_added": "60",
+              "version_removed": "92",
+              "partial_implementation": true,
+              "notes": "Only supports USB U2F tokens."
+            }
+          ],
+          "oculus": "mirror",
+          "opera": "mirror",
           "opera_android": {
-            "version_added": false
+            "version_added": "48"
           },
           "safari": {
             "version_added": "13"
           },
-          "safari_ios": {
-            "version_added": "13"
-          },
-          "samsunginternet_android": {
-            "version_added": "10.0"
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
             "version_added": false
-          }
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -54,6 +57,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/attestationObject",
           "spec_url": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-attestationobject",
+          "tags": [
+            "web-features:webauthn"
+          ],
           "support": {
             "chrome": {
               "version_added": "67"
@@ -68,31 +74,31 @@
               "version_added": "60",
               "notes": "Only supports USB U2F tokens."
             },
-            "firefox_android": {
-              "version_added": "60",
-              "notes": "Only supports USB U2F tokens."
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
+            "firefox_android": [
+              {
+                "version_added": "92"
+              },
+              {
+                "version_added": "60",
+                "version_removed": "92",
+                "partial_implementation": true,
+                "notes": "Only supports USB U2F tokens."
+              }
+            ],
+            "oculus": "mirror",
+            "opera": "mirror",
             "opera_android": {
-              "version_added": false
+              "version_added": "48"
             },
             "safari": {
               "version_added": "13"
             },
-            "safari_ios": {
-              "version_added": "13"
-            },
-            "samsunginternet_android": {
-              "version_added": "10.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -103,43 +109,33 @@
       },
       "getAuthenticatorData": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getAuthenticatorData",
+          "spec_url": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getauthenticatordata",
+          "tags": [
+            "web-features:webauthn-public-key-easy"
+          ],
           "support": {
             "chrome": {
               "version_added": "85"
             },
-            "chrome_android": {
-              "version_added": "85"
-            },
-            "edge": {
-              "version_added": "85"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -150,43 +146,33 @@
       },
       "getPublicKey": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getPublicKey",
+          "spec_url": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickey",
+          "tags": [
+            "web-features:webauthn-public-key-easy"
+          ],
           "support": {
             "chrome": {
               "version_added": "85"
             },
-            "chrome_android": {
-              "version_added": "85"
-            },
-            "edge": {
-              "version_added": "85"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -197,43 +183,33 @@
       },
       "getPublicKeyAlgorithm": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getPublicKeyAlgorithm",
+          "spec_url": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickeyalgorithm",
+          "tags": [
+            "web-features:webauthn-public-key-easy"
+          ],
           "support": {
             "chrome": {
               "version_added": "85"
             },
-            "chrome_android": {
-              "version_added": "85"
-            },
-            "edge": {
-              "version_added": "85"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -246,46 +222,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getTransports",
           "spec_url": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-gettransports",
+          "tags": [
+            "web-features:webauthn"
+          ],
           "support": {
             "chrome": {
               "version_added": "74"
             },
-            "chrome_android": {
-              "version_added": "74"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "11.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

@@ -3,64 +3,33 @@
     "CanMakePaymentEvent": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent",
+        "spec_url": "https://w3c.github.io/payment-handler/#the-canmakepaymentevent",
+        "tags": [
+          "web-features:payment-handler"
+        ],
         "support": {
           "chrome": {
-            "version_added": "61",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "#service-worker-payment-apps",
-                "value_to_set": "Enabled"
-              }
-            ]
+            "version_added": "70"
           },
-          "chrome_android": {
-            "version_added": "61",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "#service-worker-payment-apps",
-                "value_to_set": "Enabled"
-              }
-            ]
-          },
-          "edge": {
-            "version_added": "≤79",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "#service-worker-payment-apps",
-                "value_to_set": "Enabled"
-              }
-            ]
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://bugzil.la/1465682"
           },
-          "firefox_android": {
-            "version_added": false
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": false
-          },
-          "opera_android": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": false
-          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
           "webview_android": {
             "version_added": false
-          }
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -70,273 +39,34 @@
       },
       "CanMakePaymentEvent": {
         "__compat": {
-          "description": "<code>CanMakePaymentEvent()</code> constructor",
+          "description": "`CanMakePaymentEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/CanMakePaymentEvent",
+          "spec_url": "https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-constructor",
+          "tags": [
+            "web-features:payment-handler"
+          ],
           "support": {
             "chrome": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
+              "version_added": "70"
             },
-            "chrome_android": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "edge": {
-              "version_added": "≤79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "methodData": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/methodData",
-          "support": {
-            "chrome": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
             },
-            "chrome_android": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "edge": {
-              "version_added": "≤79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "modifiers": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/modifiers",
-          "support": {
-            "chrome": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "chrome_android": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "edge": {
-              "version_added": "≤79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "paymentRequestOrigin": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/paymentRequestOrigin",
-          "support": {
-            "chrome": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "chrome_android": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "edge": {
-              "version_added": "≤79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -348,147 +78,32 @@
       "respondWith": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/respondWith",
+          "spec_url": "https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-respondwith",
+          "tags": [
+            "web-features:payment-handler"
+          ],
           "support": {
             "chrome": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
+              "version_added": "70"
             },
-            "chrome_android": {
-              "version_added": "61",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
-            "edge": {
-              "version_added": "≤79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "topOrigin": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/topOrigin",
-          "support": {
-            "chrome": [
-              {
-                "version_added": "68",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "#service-worker-payment-apps",
-                    "value_to_set": "Enabled"
-                  }
-                ]
-              },
-              {
-                "version_added": "61",
-                "version_removed": "67",
-                "alternative_name": "topLevelOrigin"
-              }
-            ],
-            "chrome_android": [
-              {
-                "version_added": "68",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "#service-worker-payment-apps",
-                    "value_to_set": "Enabled"
-                  }
-                ]
-              },
-              {
-                "version_added": "61",
-                "version_removed": "67",
-                "alternative_name": "topLevelOrigin"
-              }
-            ],
-            "edge": {
-              "version_added": "≤79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#service-worker-payment-apps",
-                  "value_to_set": "Enabled"
-                }
-              ]
             },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,

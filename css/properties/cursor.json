@@ -3,15 +3,16 @@
     "properties": {
       "cursor": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cursor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/cursor",
           "spec_url": "https://drafts.csswg.org/css-ui/#cursor",
+          "tags": [
+            "web-features:cursor"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -20,30 +21,30 @@
               "notes": "Starting in Firefox 67, the maximum size allowed for custom cursors is 32x32 pixels due to cursors being misused by certain malicious sites."
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": "95"
             },
             "ie": {
               "version_added": "4",
-              "notes": "In Internet Explorer 11, when <code>cursor</code> is applied to an element and this element is underneath an open <a href='https://developer.mozilla.org/docs/Web/HTML/Element/select'><code>&lt;select&gt;</code></a> menu and the user hovers over a <a href='https://developer.mozilla.org/docs/Web/HTML/Element/select'><code>&lt;select&gt;</code></a> menu item that's on top of said element, the cursor for said element will be displayed rather than the <a href='https://developer.mozilla.org/docs/Web/HTML/Element/select'><code>&lt;select&gt;</code></a>'s normal cursor. See <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/817822/'>bug 817822</a>."
+              "notes": "In Internet Explorer 11, when `cursor` is applied to an element and this element is underneath an open [`<select>`](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/select) menu and the user hovers over a [`<select>`](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/select) menu item that's on top of said element, the cursor for said element will be displayed rather than the [`<select>`](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/select)'s normal cursor. See [bug 817822](https://developer.microsoft.com/microsoft-edge/platform/issues/817822/)."
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "7"
             },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "opera_android": "mirror",
             "safari": {
               "version_added": "1.2"
             },
             "safari_ios": {
-              "version_added": "1"
+              "version_added": "13.4",
+              "notes": [
+                "This property is only supported on iPads with an external pointing device.",
+                "Unsupported values use the `default` pointer as a fallback."
+              ]
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -53,14 +54,15 @@
         },
         "alias": {
           "__compat": {
-            "description": "<code>alias</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-alias",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -68,29 +70,26 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -101,14 +100,15 @@
         },
         "all-scroll": {
           "__compat": {
-            "description": "<code>all-scroll</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-all-scroll",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -116,29 +116,26 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -149,14 +146,15 @@
         },
         "auto": {
           "__compat": {
-            "description": "<code>auto</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-auto",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -164,77 +162,25 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": "13.4"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "bidirectional_resize": {
-          "__compat": {
-            "description": "Bidirectional resize cursors (<code>ew-resize</code>, <code>nesw-resize</code>, <code>ns-resize</code>, and <code>nwse-resize</code>)",
-            "support": {
-              "chrome": {
-                "version_added": "1"
-              },
-              "chrome_android": {
-                "version_added": "18"
-              },
-              "edge": {
-                "version_added": "12"
-              },
-              "firefox": {
-                "version_added": "1.5"
-              },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": "10"
-              },
-              "opera": {
-                "version_added": "10.6"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
-              "safari": {
-                "version_added": "3"
-              },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -245,14 +191,15 @@
         },
         "cell": {
           "__compat": {
-            "description": "<code>cell</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-cell",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -260,29 +207,25 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": "13.4"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -293,14 +236,15 @@
         },
         "col-resize": {
           "__compat": {
-            "description": "<code>col-resize</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-col-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -308,29 +252,26 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -341,16 +282,16 @@
         },
         "context-menu": {
           "__compat": {
-            "description": "<code>context-menu</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-context-menu",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1",
                 "notes": "This cursor is only supported on macOS and Linux."
               },
-              "chrome_android": {
-                "version_added": "18",
-                "notes": "This cursor is only supported on macOS and Linux."
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -359,31 +300,26 @@
                 "notes": "This cursor is only supported on macOS and Linux."
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14",
-                "notes": "This cursor is only supported on macOS and Linux."
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0",
-                "notes": "This cursor is only supported on macOS and Linux."
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -394,14 +330,15 @@
         },
         "copy": {
           "__compat": {
-            "description": "<code>copy</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-copy",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -409,29 +346,26 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -442,14 +376,15 @@
         },
         "crosshair": {
           "__compat": {
-            "description": "<code>crosshair</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-crosshair",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -457,29 +392,26 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -490,14 +422,15 @@
         },
         "default": {
           "__compat": {
-            "description": "<code>default</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-default",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -505,29 +438,118 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "e-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-e-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
                 "version_added": "1"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
               },
-              "webview_android": {
-                "version_added": false
-              }
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "7"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1.2"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "ew-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-ew-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1.5"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "10.6"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "3"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -538,7 +560,10 @@
         },
         "grab": {
           "__compat": {
-            "description": "Grab cursors (<code>grab</code> and <code>grabbing</code>)",
+            "description": "Grab cursors (`grab` and `grabbing`)",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": [
                 {
@@ -551,17 +576,7 @@
                   "notes": "Chrome 22 added Windows support."
                 }
               ],
-              "chrome_android": [
-                {
-                  "version_added": "68",
-                  "notes": "Chrome also continues to support the prefixed versions."
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "18",
-                  "notes": "Chrome 22 added Windows support."
-                }
-              ],
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "14"
               },
@@ -575,11 +590,9 @@
                 }
               ],
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
-              "ie": {
-                "version_added": false
-              },
+              "oculus": "mirror",
               "opera": [
                 {
                   "version_added": "55",
@@ -612,7 +625,8 @@
                 }
               ],
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
               "samsunginternet_android": [
                 {
@@ -623,9 +637,54 @@
                   "version_added": "1.0"
                 }
               ],
-              "webview_android": {
-                "version_added": false
-              }
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "grabbing": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-grabbing",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": [
+                {
+                  "version_added": "68"
+                },
+                {
+                  "prefix": "-webkit-",
+                  "version_added": "1",
+                  "notes": "Chrome 22 added Windows support."
+                }
+              ],
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "27"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "11"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -636,14 +695,15 @@
         },
         "help": {
           "__compat": {
-            "description": "<code>help</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-help",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -651,77 +711,26 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "inherit": {
-          "__compat": {
-            "description": "<code>inherit</code>",
-            "support": {
-              "chrome": {
-                "version_added": "1"
-              },
-              "chrome_android": {
-                "version_added": "18"
-              },
-              "edge": {
-                "version_added": "12"
-              },
-              "firefox": {
-                "version_added": "1"
-              },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": "8"
-              },
-              "opera": {
-                "version_added": "9"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
-              "safari": {
-                "version_added": "1.2"
-              },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -732,14 +741,15 @@
         },
         "move": {
           "__compat": {
-            "description": "<code>move</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-move",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -747,29 +757,164 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "n-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-n-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
                 "version_added": "1"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
               },
-              "webview_android": {
-                "version_added": false
-              }
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "7"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1.2"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "ne-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-ne-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "7"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1.2"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "nesw-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-nesw-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1.5"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "10.6"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "3"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -780,14 +925,15 @@
         },
         "no-drop": {
           "__compat": {
-            "description": "<code>no-drop</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-no-drop",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -795,29 +941,26 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -828,14 +971,15 @@
         },
         "none": {
           "__compat": {
-            "description": "<code>none</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-none",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "5"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -843,29 +987,24 @@
                 "version_added": "3"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "9"
               },
-              "opera": {
-                "version_added": "15"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "5"
               },
               "safari_ios": {
-                "version_added": "4.2"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -876,14 +1015,15 @@
         },
         "not-allowed": {
           "__compat": {
-            "description": "<code>not-allowed</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-not-allowed",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -891,29 +1031,164 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "ns-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-ns-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
                 "version_added": "1"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
               },
-              "webview_android": {
-                "version_added": false
-              }
+              "firefox": {
+                "version_added": "1.5"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "10.6"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "3"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "nw-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-nw-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "7"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1.2"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "nwse-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-nwse-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1.5"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "10.6"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "3"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -924,14 +1199,15 @@
         },
         "pointer": {
           "__compat": {
-            "description": "<code>pointer</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-pointer",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -939,29 +1215,26 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -972,14 +1245,15 @@
         },
         "progress": {
           "__compat": {
-            "description": "<code>progress</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-progress",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -987,29 +1261,26 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1020,14 +1291,15 @@
         },
         "row-resize": {
           "__compat": {
-            "description": "<code>row-resize</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-row-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -1035,29 +1307,164 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "s-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-s-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
                 "version_added": "1"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
               },
-              "webview_android": {
-                "version_added": false
-              }
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "7"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1.2"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "se-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-se-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "7"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1.2"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "sw-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-sw-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "7"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1.2"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1068,14 +1475,15 @@
         },
         "text": {
           "__compat": {
-            "description": "<code>text</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-text",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -1083,77 +1491,25 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": "13.4"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "unidirectional_resize": {
-          "__compat": {
-            "description": "Unidirectional resize cursors (<code>n-resize</code>, <code>e-resize</code>, <code>s-resize</code>, <code>w-resize</code>, <code>ne-resize</code>, <code>nw-resize</code>, <code>se-resize</code>, and <code>sw-resize</code>)",
-            "support": {
-              "chrome": {
-                "version_added": "1"
-              },
-              "chrome_android": {
-                "version_added": "18"
-              },
-              "edge": {
-                "version_added": "12"
-              },
-              "firefox": {
-                "version_added": "1"
-              },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": "4"
-              },
-              "opera": {
-                "version_added": "7"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
-              "safari": {
-                "version_added": "1.2"
-              },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1164,14 +1520,15 @@
         },
         "url": {
           "__compat": {
-            "description": "<code>url()</code>",
+            "description": "`url()`",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -1180,29 +1537,23 @@
                 "notes": "Firefox 4 added macOS support."
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "6"
               },
-              "opera": {
-                "version_added": "15"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": "13.4"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1213,45 +1564,36 @@
         },
         "url_positioning_syntax": {
           "__compat": {
-            "description": "<code>url()</code> positioning syntax",
+            "description": "`url()` positioning syntax",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "1.5",
                 "notes": "Firefox 4 added macOS support."
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "15"
-              },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1262,14 +1604,15 @@
         },
         "vertical-text": {
           "__compat": {
-            "description": "<code>vertical-text</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-vertical-text",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -1277,29 +1620,69 @@
                 "version_added": "1.5"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
-              "ie": {
-                "version_added": false
-              },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "10.6"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "w-resize": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-w-resize",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": {
                 "version_added": "1"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
               },
-              "webview_android": {
-                "version_added": false
-              }
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "ie": {
+                "version_added": "4"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "7"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1.2"
+              },
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1310,14 +1693,15 @@
         },
         "wait": {
           "__compat": {
-            "description": "<code>wait</code>",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-wait",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -1325,29 +1709,26 @@
                 "version_added": "1"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
               "ie": {
                 "version_added": "4"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "7"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1.2"
               },
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1356,9 +1737,12 @@
             }
           }
         },
-        "zoom": {
+        "zoom-in": {
           "__compat": {
-            "description": "Zoom cursors (<code>zoom-in</code> and <code>zoom-out</code>)",
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-zoom-in",
+            "tags": [
+              "web-features:cursor"
+            ],
             "support": {
               "chrome": [
                 {
@@ -1369,15 +1753,7 @@
                   "version_added": "1"
                 }
               ],
-              "chrome_android": [
-                {
-                  "version_added": "37"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "18"
-                }
-              ],
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -1391,11 +1767,9 @@
                 }
               ],
               "firefox_android": {
-                "version_added": false
+                "version_added": "95"
               },
-              "ie": {
-                "version_added": false
-              },
+              "oculus": "mirror",
               "opera": [
                 {
                   "version_added": "24"
@@ -1426,20 +1800,89 @@
                 }
               ],
               "safari_ios": {
-                "version_added": "1"
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
               },
-              "samsunginternet_android": [
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "zoom-out": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-ui/#valdef-cursor-zoom-out",
+            "tags": [
+              "web-features:cursor"
+            ],
+            "support": {
+              "chrome": [
                 {
-                  "version_added": "3.0"
+                  "version_added": "37"
                 },
                 {
                   "prefix": "-webkit-",
-                  "version_added": "1.0"
+                  "version_added": "1"
                 }
               ],
-              "webview_android": {
-                "version_added": false
-              }
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": [
+                {
+                  "version_added": "24"
+                },
+                {
+                  "prefix": "-moz-",
+                  "version_added": "1"
+                }
+              ],
+              "firefox_android": {
+                "version_added": "95"
+              },
+              "oculus": "mirror",
+              "opera": [
+                {
+                  "version_added": "24"
+                },
+                {
+                  "prefix": "-webkit-",
+                  "version_added": "15",
+                  "version_removed": "23"
+                }
+              ],
+              "opera_android": [
+                {
+                  "version_added": "24"
+                },
+                {
+                  "prefix": "-webkit-",
+                  "version_added": "14",
+                  "version_removed": "24"
+                }
+              ],
+              "safari": [
+                {
+                  "version_added": "9"
+                },
+                {
+                  "prefix": "-webkit-",
+                  "version_added": "3"
+                }
+              ],
+              "safari_ios": {
+                "version_added": false,
+                "notes": "If this value is used, the iPad will display the `default` pointer instead."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

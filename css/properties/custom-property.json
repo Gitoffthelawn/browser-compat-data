@@ -4,164 +4,38 @@
       "custom-property": {
         "__compat": {
           "description": "--*",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/--*",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/--*",
           "spec_url": "https://drafts.csswg.org/css-variables/#defining-variables",
+          "tags": [
+            "web-features:custom-properties"
+          ],
           "support": {
             "chrome": {
               "version_added": "49"
             },
-            "chrome_android": {
-              "version_added": "49"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15"
             },
             "firefox": {
               "version_added": "31"
             },
-            "firefox_android": {
-              "version_added": "31"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "36"
-            },
-            "opera_android": {
-              "version_added": "36"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "9.1"
             },
-            "safari_ios": {
-              "version_added": "9.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "49"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
             "deprecated": false
-          }
-        },
-        "env": {
-          "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env()",
-            "spec_url": "https://drafts.csswg.org/css-env/#env-function",
-            "description": "<code>env()</code>",
-            "support": {
-              "chrome": {
-                "version_added": "69"
-              },
-              "chrome_android": {
-                "version_added": "69"
-              },
-              "edge": {
-                "version_added": "79"
-              },
-              "firefox": {
-                "version_added": "65"
-              },
-              "firefox_android": {
-                "version_added": "65"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "56"
-              },
-              "opera_android": {
-                "version_added": "48"
-              },
-              "safari": [
-                {
-                  "version_added": "11.1"
-                },
-                {
-                  "version_added": "11",
-                  "version_removed": "11.1",
-                  "alternative_name": "constant"
-                }
-              ],
-              "safari_ios": [
-                {
-                  "version_added": "11.3"
-                },
-                {
-                  "version_added": "11",
-                  "version_removed": "11.3",
-                  "alternative_name": "constant"
-                }
-              ],
-              "samsunginternet_android": {
-                "version_added": "10.0"
-              },
-              "webview_android": {
-                "version_added": "69"
-              }
-            },
-            "status": {
-              "experimental": true,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "var": {
-          "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/var()",
-            "spec_url": "https://drafts.csswg.org/css-variables/#using-variables",
-            "description": "<code>var()</code>",
-            "support": {
-              "chrome": {
-                "version_added": "49"
-              },
-              "chrome_android": {
-                "version_added": "49"
-              },
-              "edge": {
-                "version_added": "15"
-              },
-              "firefox": {
-                "version_added": "31"
-              },
-              "firefox_android": {
-                "version_added": "31"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "36"
-              },
-              "opera_android": {
-                "version_added": "36"
-              },
-              "safari": {
-                "version_added": "9.1"
-              },
-              "safari_ios": {
-                "version_added": "9.3"
-              },
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "50"
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
           }
         }
       }

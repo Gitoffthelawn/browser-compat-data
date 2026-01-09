@@ -7,43 +7,29 @@
           "https://w3c.github.io/input-events/#interface-InputEvent",
           "https://w3c.github.io/uievents/#interface-inputevent"
         ],
+        "tags": [
+          "web-features:input-event"
+        ],
         "support": {
           "chrome": {
             "version_added": "60"
           },
-          "chrome_android": {
-            "version_added": "60"
-          },
-          "edge": {
-            "version_added": "79"
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": "31"
           },
-          "firefox_android": {
-            "version_added": "31"
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": "47"
-          },
-          "opera_android": {
-            "version_added": "44"
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": "10.1"
           },
-          "safari_ios": {
-            "version_added": "10.3"
-          },
-          "samsunginternet_android": {
-            "version_added": "8.0"
-          },
-          "webview_android": {
-            "version_added": "60"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -53,46 +39,32 @@
       },
       "InputEvent": {
         "__compat": {
+          "description": "`InputEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/InputEvent/InputEvent",
           "spec_url": "https://w3c.github.io/uievents/#dom-inputevent-inputevent",
-          "description": "<code>InputEvent()</code> constructor",
+          "tags": [
+            "web-features:input-event"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "31"
             },
-            "firefox_android": {
-              "version_added": "31"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -105,43 +77,29 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/InputEvent/data",
           "spec_url": "https://w3c.github.io/input-events/#dfn-data",
+          "tags": [
+            "web-features:input-event"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "67"
             },
-            "firefox_android": {
-              "version_added": "67"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -154,43 +112,29 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/InputEvent/dataTransfer",
           "spec_url": "https://w3c.github.io/input-events/#dom-inputevent-datatransfer",
+          "tags": [
+            "web-features:input-event"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "67"
             },
-            "firefox_android": {
-              "version_added": "67"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -203,69 +147,29 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/InputEvent/getTargetRanges",
           "spec_url": "https://w3c.github.io/input-events/#dom-inputevent-gettargetranges",
+          "tags": [
+            "web-features:input-event"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "87"
             },
-            "edge": {
-              "version_added": "79"
-            },
-            "firefox": [
-              {
-                "version_added": "87"
-              },
-              {
-                "version_added": "75",
-                "version_removed": "87",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.input_events.beforeinput.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
-            "firefox_android": [
-              {
-                "version_added": "87"
-              },
-              {
-                "version_added": "79",
-                "version_removed": "87",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.input_events.beforeinput.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -278,43 +182,29 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/InputEvent/inputType",
           "spec_url": "https://w3c.github.io/uievents/#dom-inputevent-inputtype",
+          "tags": [
+            "web-features:input-event"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "66"
             },
-            "firefox_android": {
-              "version_added": "66"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -324,44 +214,30 @@
         },
         "insertFromPasteAsQuotation": {
           "__compat": {
-            "description": "<code>insertFromPasteAsQuotation</code> input type",
+            "description": "`insertFromPasteAsQuotation` input type",
+            "tags": [
+              "web-features:input-event"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "67"
               },
-              "firefox_android": {
-                "version_added": "67"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
-              },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
                 "version_added": false
               },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": true,
@@ -375,46 +251,32 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/InputEvent/isComposing",
           "spec_url": "https://w3c.github.io/uievents/#dom-inputevent-iscomposing",
+          "tags": [
+            "web-features:input-event"
+          ],
           "support": {
             "chrome": {
               "version_added": "60"
             },
-            "chrome_android": {
-              "version_added": "60"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "31"
             },
-            "firefox_android": {
-              "version_added": "31"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "47"
-            },
-            "opera_android": {
-              "version_added": "44"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "8.0"
-            },
-            "webview_android": {
-              "version_added": "60"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

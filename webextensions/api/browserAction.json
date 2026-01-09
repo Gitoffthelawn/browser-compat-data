@@ -2,12 +2,45 @@
   "webextensions": {
     "api": {
       "browserAction": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction",
+          "support": {
+            "chrome": {
+              "version_added": "4",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "edge": {
+              "version_added": "14",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "firefox": {
+              "version_added": "45",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "firefox_android": {
+              "version_added": "55",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "opera": {
+              "version_added": "≤15",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "safari": {
+              "version_added": "14",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "safari_ios": {
+              "version_added": "15",
+              "notes": "Available for use in Manifest V2 only."
+            }
+          }
+        },
         "ColorArray": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/ColorArray",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "19"
               },
               "edge": {
                 "version_added": "14"
@@ -18,11 +51,12 @@
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -32,7 +66,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/ImageDataType",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "23"
               },
               "edge": {
                 "version_added": "14"
@@ -43,11 +77,12 @@
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -57,7 +92,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/disable",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
               "edge": {
                 "version_added": "14"
@@ -68,11 +103,12 @@
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -82,7 +118,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/enable",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
               "edge": {
                 "version_added": "14"
@@ -93,11 +129,12 @@
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -107,7 +144,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeBackgroundColor",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "19"
               },
               "edge": {
                 "version_added": "14"
@@ -118,39 +155,38 @@
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14",
                 "partial_implementation": true,
-                "notes": "Always returns a red <code>ColorArray</code>."
+                "notes": "Always returns a red `ColorArray`."
+              },
+              "safari_ios": {
+                "version_added": "15",
+                "partial_implementation": true,
+                "notes": "Always returns a red `ColorArray`."
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -160,7 +196,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeText",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "19"
               },
               "edge": {
                 "version_added": "14"
@@ -171,37 +207,34 @@
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -213,21 +246,18 @@
               "chrome": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "63"
               },
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -236,48 +266,43 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getPopup",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "19"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "45"
               },
               "firefox_android": {
                 "version_added": "57"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -287,7 +312,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getTitle",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "19"
               },
               "edge": {
                 "version_added": "15"
@@ -298,37 +323,77 @@
               "firefox_android": {
                 "version_added": "55"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          }
+        },
+        "getUserSettings": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getUserSettings",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "116"
+              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
+              "safari": {
+                "version_added": false,
+                "impl_url": "https://webkit.org/b/294444"
+              },
+              "safari_ios": "mirror"
+            }
+          },
+          "returns_userSettings_isOnToolbar_property": {
+            "__compat": {
+              "description": "`userSettings.isOnToolbar` in returned object",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "116"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -340,46 +405,41 @@
               "chrome": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "59"
               },
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -389,7 +449,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onClicked",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
@@ -400,11 +460,12 @@
               "firefox_android": {
                 "version_added": "55"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
@@ -414,21 +475,16 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "72"
                 },
-                "firefox_android": {
-                  "version_added": "79"
-                },
-                "opera": {
-                  "version_added": false
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -436,7 +492,7 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "≤78"
                 },
                 "edge": {
                   "version_added": "14"
@@ -447,13 +503,37 @@
                 "firefox_android": {
                   "version_added": "55"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": "14"
+                },
+                "safari_ios": {
+                  "version_added": "15"
                 }
               }
+            }
+          }
+        },
+        "onUserSettingsChanged": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onUserSettingsChanged",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "142"
+              },
+              "firefox_android": {
+                "version_added": "142",
+                "notes": "Never fires as there is no toolbar to pin extensions to in Firefox for Android."
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -471,28 +551,22 @@
                   }
                 ]
               },
-              "edge": {
-                "version_added": "79",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "#extension-apis",
-                    "value_to_set": "Enabled"
-                  }
-                ]
-              },
+              "edge": "mirror",
               "firefox": {
-                "version_added": "57"
+                "version_added": "57",
+                "notes": [
+                  "Since Firefox 108, user interaction is no longer required to call this API when the `extensions.openPopupWithoutUserGesture.enabled` preference is set ([bug 1799344](https://bugzil.la/1799344)).",
+                  "Support for the `windowId` parameter was added in Firefox 108."
+                ]
               },
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
-                "version_added": false
-              }
+                "version_added": "16"
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -501,108 +575,97 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeBackgroundColor",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "19"
               },
               "edge": {
                 "version_added": "14"
               },
-              "firefox": [
-                {
-                  "version_added": "45"
-                },
-                {
-                  "version_added": "45",
-                  "version_removed": "58",
-                  "notes": "Tab-specific badge background color is not cleared when a new page is loaded."
-                }
-              ],
+              "firefox": {
+                "version_added": "45",
+                "notes": "Before Firefox 58, tab-specific badge background color is not cleared when a new page is loaded."
+              },
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14",
+                "impl_url": "https://webkit.org/b/267662",
                 "partial_implementation": true,
-                "notes": "The API exists, but has no effect."
+                "notes": "API exists, but has no effect."
+              },
+              "safari_ios": {
+                "version_added": "15",
+                "impl_url": "https://webkit.org/b/267662",
+                "partial_implementation": true,
+                "notes": "API exists, but has no effect."
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           },
           "null": {
             "__compat": {
-              "description": "The <code>color</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "description": "The `color` property of the `details` parameter can be set to `null`.",
               "support": {
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
                 "firefox_android": {
                   "version_added": "79"
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": false
-                }
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           },
           "string": {
             "__compat": {
-              "description": "The <code>color</code> property of the <code>details</code> parameter can be set to a string.",
+              "description": "The `color` property of the `details` parameter can be set to a string.",
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "≤63"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
-                  "version_added": true,
-                  "notes": "Before Firefox 59, invalid color strings behaved as <code>null</code>."
+                  "version_added": "≤57",
+                  "notes": "Before Firefox 59, invalid color strings behaved as `null`."
                 },
                 "firefox_android": {
                   "version_added": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -612,80 +675,68 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeText",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
               },
-              "firefox": [
-                {
-                  "version_added": "45"
-                },
-                {
-                  "version_added": "45",
-                  "version_removed": "58",
-                  "notes": "Tab-specific badge text is not cleared when a new page is loaded."
-                }
-              ],
+              "firefox": {
+                "version_added": "45",
+                "notes": "Before Firefox 58, tab-specific badge text is not cleared when a new page is loaded."
+              },
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": "79"
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           },
           "null": {
             "__compat": {
-              "description": "The <code>text</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "description": "The `text` property of the `details` parameter can be set to `null`.",
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": "83"
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
                 "firefox_android": {
                   "version_added": "79"
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": false
-                }
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -697,21 +748,18 @@
               "chrome": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "63"
               },
               "firefox_android": {
                 "version_added": "79"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -720,27 +768,21 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setIcon",
             "support": {
               "chrome": {
-                "version_added": true,
+                "version_added": "≤23",
                 "notes": "Before Chrome 23, `path` couldn't specify multiple icon files, but had to be a string specifying a single icon path."
               },
               "edge": {
                 "version_added": "14",
                 "notes": [
                   "This call is not persisted.",
-                  "The <code>imageData</code> parameter is not accepted.",
-                  "The <code>path</code> parameter is required."
+                  "The `imageData` parameter is not accepted.",
+                  "The `path` parameter is required."
                 ]
               },
-              "firefox": [
-                {
-                  "version_added": "45"
-                },
-                {
-                  "version_added": "45",
-                  "version_removed": "58",
-                  "notes": "Tab-specific icons are not cleared when a new page is loaded."
-                }
-              ],
+              "firefox": {
+                "version_added": "45",
+                "notes": "Before Firefox 58, tab-specific icons are not cleared when a new page is loaded."
+              },
               "firefox_android": {
                 "version_added": "79"
               },
@@ -749,81 +791,77 @@
               },
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": "79"
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
-              }
-            }
-          },
-          "imageData": {
+          "details_imageData_parameter": {
             "__compat": {
+              "description": "`details.imageData` parameter",
               "support": {
                 "chrome": {
                   "version_added": "23"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "45"
                 },
                 "firefox_android": {
                   "version_added": "79"
                 },
-                "opera": {
-                  "version_added": "15"
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": "14"
+                },
+                "safari_ios": {
+                  "version_added": "15"
                 }
+              }
+            }
+          },
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           },
           "null": {
             "__compat": {
-              "description": "The <code>path</code> and <code>imageData</code> properties of the <code>details</code> parameter can be set to <code>null</code>.",
+              "description": "The `path` and `imageData` properties of the `details` parameter can be set to `null`.",
               "support": {
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
                 "firefox_android": {
                   "version_added": "79"
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": "14"
-                }
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -833,87 +871,69 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setPopup",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "5"
               },
               "edge": {
                 "version_added": "14"
               },
-              "firefox": [
-                {
-                  "version_added": "45"
-                },
-                {
-                  "version_added": "45",
-                  "version_removed": "58",
-                  "notes": "Tab-specific popups are not cleared when a new page is loaded."
-                }
-              ],
-              "firefox_android": [
-                {
-                  "version_added": "57"
-                },
-                {
-                  "version_added": "57",
-                  "version_removed": "58",
-                  "notes": "Tab-specific popups are not cleared when a new page is loaded."
-                }
-              ],
-              "opera": {
-                "version_added": true
+              "firefox": {
+                "version_added": "45",
+                "notes": "Before Firefox 58, tab-specific popups are not cleared when a new page is loaded."
               },
+              "firefox_android": {
+                "version_added": "57",
+                "notes": "Before Firefox Android 58, tab-specific popups are not cleared when a new page is loaded."
+              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": "79"
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           },
           "null": {
             "__compat": {
-              "description": "The <code>popup</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "description": "The `popup` property of the `details` parameter can be set to `null`.",
               "support": {
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
                 "firefox_android": {
                   "version_added": "79"
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": "14"
-                }
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -923,87 +943,71 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setTitle",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "15"
               },
-              "firefox": [
-                {
-                  "version_added": "45"
-                },
-                {
-                  "version_added": "45",
-                  "version_removed": "58",
-                  "notes": "Tab-specific titles are not cleared when a new page is loaded."
-                }
-              ],
-              "firefox_android": [
-                {
-                  "version_added": "55"
-                },
-                {
-                  "version_added": "55",
-                  "version_removed": "58",
-                  "notes": "Tab-specific titles are not cleared when a new page is loaded."
-                }
-              ],
-              "opera": {
-                "version_added": true
+              "firefox": {
+                "version_added": "45",
+                "notes": "Before Firefox 58, tab-specific titles are not cleared when a new page is loaded."
               },
+              "firefox_android": {
+                "version_added": "55",
+                "notes": "Before Firefox Android 58, tab-specific titles are not cleared when a new page is loaded."
+              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15",
+                "partial_implementation": true,
+                "notes": "The API exists, but the title not visible in the UI."
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": "79"
-                  },
-                  "opera": {
-                    "version_added": false
-                  },
-                  "safari": {
-                    "version_added": false
-                  }
-                }
+          "details_windowId_parameter": {
+            "__compat": {
+              "description": "`details.windowId` parameter",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "62"
+                },
+                "firefox_android": {
+                  "version_added": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           },
           "null": {
             "__compat": {
-              "description": "The <code>title</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "description": "The `title` property of the `details` parameter can be set to `null`.",
               "support": {
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
                 "firefox_android": {
                   "version_added": "79"
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": "14"
-                }
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }

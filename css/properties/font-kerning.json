@@ -3,8 +3,11 @@
     "properties": {
       "font-kerning": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-kerning",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-kerning",
           "spec_url": "https://drafts.csswg.org/css-fonts/#font-kerning-prop",
+          "tags": [
+            "web-features:font-kerning"
+          ],
           "support": {
             "chrome": [
               {
@@ -16,66 +19,25 @@
                 "version_removed": "33"
               }
             ],
-            "chrome_android": [
-              {
-                "version_added": "33"
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "29",
-                "version_removed": "33"
-              }
-            ],
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "32"
             },
-            "firefox_android": {
-              "version_added": "32"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": [
-              {
-                "version_added": "20"
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "16",
-                "version_removed": "20"
-              }
-            ],
-            "opera_android": [
-              {
-                "version_added": "20"
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "16",
-                "version_removed": "20"
-              }
-            ],
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": [
               {
                 "version_added": "9"
               },
               {
-                "version_added": "6",
-                "prefix": "-webkit-"
+                "prefix": "-webkit-",
+                "version_added": "6"
               }
             ],
-            "safari_ios": [
-              {
-                "version_added": "9"
-              },
-              {
-                "version_added": "6",
-                "prefix": "-webkit-"
-              }
-            ],
+            "safari_ios": "mirror",
             "samsunginternet_android": [
               {
                 "version_added": "2.0"
@@ -86,21 +48,115 @@
                 "version_removed": "2.0"
               }
             ],
-            "webview_android": [
-              {
-                "version_added": "4.4.3"
-              },
-              {
-                "prefix": "-webkit-",
-                "version_added": "4.4",
-                "version_removed": "4.4.3"
-              }
-            ]
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
             "deprecated": false
+          }
+        },
+        "auto": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-fonts/#font-kerning-auto-value",
+            "tags": [
+              "web-features:font-kerning"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "33"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "32"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "9"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "none": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-fonts/#font-kerning-none-value",
+            "tags": [
+              "web-features:font-kerning"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "33"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "32"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "9"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "normal": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-fonts/#font-kerning-normal-value",
+            "tags": [
+              "web-features:font-kerning"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "33"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "32"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "9"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
           }
         }
       }

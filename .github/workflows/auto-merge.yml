@@ -1,0 +1,16 @@
+name: auto-merge
+
+on:
+  pull_request_target:
+    branches:
+      - main
+
+permissions: {} # No GITHUB_TOKEN permissions, as we use GH_TOKEN instead.
+
+jobs:
+  auto-merge:
+    uses: mdn/workflows/.github/workflows/auto-merge.yml@main
+    with:
+      target-repo: "mdn/browser-compat-data"
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}

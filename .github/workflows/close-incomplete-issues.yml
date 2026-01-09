@@ -1,31 +1,46 @@
 name: Close incomplete issue templates
 on:
   issues:
-    types: [opened]
+    types:
+      - opened
+
+permissions:
+  issues: write
 
 jobs:
   close-issues-if-invalid:
     runs-on: ubuntu-latest
     steps:
-      - uses: ddbeck/invalid-issue-closer@v1
+      - uses: queengooborg/invalid-issue-closer@a76c4a636b1346d4554befcadd45eb0f23283580 # v1.6.1
+        id: blank-body-check
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          labels: 'invalid :no_entry_sign:'
+          labels: "spam"
+          lock: "spam"
           comment: |
-            This issue was automatically closed because it appears to be empty. The issue is not different from the issue template and no actionable information has been provided.
-
-            If this has been closed in error, edit the title and body, and post a follow-up comment.
+            This issue has been identified as spam and has been automatically closed and locked.  Do not use this repository for posting spam.
           normalize-newlines: true
-          title-contains: '<PUT TITLE HERE>'
-          body-contains: "<!-- Tips: where applicable, specify browser name, browser version, and mobile operating system version -->\n\n#### What information was incorrect, unhelpful, or incomplete?\n\n#### What did you expect to see?\n\n#### Did you test this? If so, how?\n\n"
-      - uses: ddbeck/invalid-issue-closer@v1
+          body-is-blank: true
+      - uses: queengooborg/invalid-issue-closer@a76c4a636b1346d4554befcadd45eb0f23283580 # v1.6.1
+        if: steps.blank-body-check.outputs.was-closed == 'false'
+        id: spam-check
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          labels: 'invalid :no_entry_sign:'
+          labels: "spam"
           comment: |
-            This issue was automatically closed because it appears to be empty. The issue is not different from the issue template and no actionable information has been provided.
+            This issue has been identified as spam and has been automatically closed.  Do not use this repository for posting spam.
 
-            If this has been closed in error, edit the title and body, and post a follow-up comment.
+            If you believe this issue was incorrectly classified as spam, please comment below.  A maintainer will review, and reopen if necessary.
           normalize-newlines: true
-          title-contains: '<SUMMARIZE THE PROBLEM>'
-          body-contains: "<!-- Tips: where applicable, specify browser name, browser version, and mobile operating system version -->\n\n#### What information was incorrect, unhelpful, or incomplete?\n#### What did you expect to see?\n#### Did you test this? If so, how?\n"
+          is-spammy: true
+      - uses: queengooborg/invalid-issue-closer@a76c4a636b1346d4554befcadd45eb0f23283580 # v1.6.1
+        if: steps.spam-check.outputs.was-closed == 'false'
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          labels: "invalid"
+          comment: |
+            This issue was automatically closed because the title was left as the default, and a summary was not added.
+
+            If this is not a spam issue, please replace the `<SUMMARIZE THE PROBLEM>` part of the title with a short summary of the reported issue, and then post a follow-up comment.  A maintainer will review your issue and reopen it if needed.
+          normalize-newlines: true
+          title-contains: "<SUMMARIZE THE PROBLEM>"

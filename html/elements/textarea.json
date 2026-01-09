@@ -3,56 +3,48 @@
     "elements": {
       "textarea": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Element/textarea",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/textarea",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element",
+          "tags": [
+            "web-features:textarea"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true,
+              "version_added": "1",
               "notes": [
-                "Before Firefox 6, when a <code>&lt;textarea&gt;</code> was focused, the insertion point was placed at the end of the text by default. Other major browsers place the insertion point at the beginning of the text.",
-                "A default background-image gradient is applied to all <code>&lt;textarea&gt;</code> elements, which can be disabled using <code>background-image: none</code>.",
-                "Before Firefox 89, manipulating the content of <code>&lt;textarea&gt;</code> elements using <code>Document.execCommand()</code> commands requires workarounds (see <a href='https://bugzil.la/1220696'>bug 1220696</a>)."
+                "Before Firefox 6, when a `<textarea>` was focused, the insertion point was placed at the end of the text by default. Other major browsers place the insertion point at the beginning of the text.",
+                "A default background-image gradient is applied to all `<textarea>` elements, which can be disabled using `background-image: none`.",
+                "Before Firefox 89, manipulating the content of `<textarea>` elements using `Document.execCommand()` commands requires workarounds (see [bug 1220696](https://bugzil.la/1220696))."
               ]
             },
-            "firefox_android": {
-              "version_added": true,
-              "notes": [
-                "Before Firefox 6, when a <code>&lt;textarea&gt;</code> was focused, the insertion point was placed at the end of the text by default. Other major browsers place the insertion point at the beginning of the text.",
-                "A default background-image gradient is applied to all <code>&lt;textarea&gt;</code> elements, which can be disabled using <code>background-image: none</code>.",
-                "Before Firefox 89, manipulating the content of <code>&lt;textarea&gt;</code> elements using <code>Document.execCommand()</code> commands requires workarounds (see <a href='https://bugzil.la/1220696'>bug 1220696</a>)."
-              ]
-            },
+            "firefox_android": "mirror",
             "ie": {
-              "version_added": true
+              "version_added": "≤11"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤4"
             },
             "safari_ios": {
-              "version_added": true,
-              "notes": "Unlike other major browsers, a default style of <code>opacity: 0.4</code> is applied to disabled <code>&lt;textarea&gt;</code> elements."
+              "version_added": "≤3",
+              "notes": "Unlike other major browsers, a default style of `opacity: 0.4` is applied to disabled `<textarea>` elements."
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -60,170 +52,161 @@
             "deprecated": false
           }
         },
-        "autocapitalize": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": false
-              },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
-              "firefox": {
-                "version_added": false
-              },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
-              "safari": {
-                "version_added": false
-              },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": false,
-              "deprecated": false
-            }
-          }
-        },
         "autocomplete": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/autocomplete",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "66"
               },
-              "chrome_android": {
-                "version_added": "66"
-              },
-              "edge": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/758078'>issue 758078</a>."
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "59"
               },
-              "firefox_android": {
-                "version_added": "59"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": true,
-                "notes": "See <a href='https://webkit.org/b/150731'>bug 150731</a>."
+                "version_added": "9.1"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": "66"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
-          }
-        },
-        "autofocus": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": true
+          },
+          "new-password": {
+            "__compat": {
+              "description": "`new-password` value",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "chrome_android": "mirror",
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "67"
+                },
+                "firefox_android": "mirror",
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
-              "chrome_android": {
-                "version_added": true
-              },
-              "edge": {
-                "version_added": "12"
-              },
-              "firefox": {
-                "version_added": "4"
-              },
-              "firefox_android": {
-                "version_added": "4"
-              },
-              "ie": {
-                "version_added": "10"
-              },
-              "opera": {
-                "version_added": true
-              },
-              "opera_android": {
-                "version_added": null
-              },
-              "safari": {
-                "version_added": true
-              },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": true
-              },
-              "webview_android": {
-                "version_added": true
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
               }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
+            }
+          },
+          "one-time-code": {
+            "__compat": {
+              "description": "`one-time-code` value",
+              "support": {
+                "chrome": {
+                  "version_added": "93"
+                },
+                "chrome_android": {
+                  "version_added": "84"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "109"
+                },
+                "firefox_android": "mirror",
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": "12"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": {
+                  "version_added": false
+                },
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "webauthn": {
+            "__compat": {
+              "description": "`webauthn` value",
+              "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill-processing-model:attr-fe-autocomplete-webauthn",
+              "support": {
+                "chrome": {
+                  "version_added": "108"
+                },
+                "chrome_android": "mirror",
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": false
+                },
+                "firefox_android": "mirror",
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": true,
+                "standard_track": true,
+                "deprecated": false
+              }
             }
           }
         },
         "cols": {
           "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-cols",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -233,15 +216,10 @@
               "safari": {
                 "version_added": "≤4"
               },
-              "safari_ios": {
-                "version_added": "≤3"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -252,25 +230,22 @@
         },
         "dirname": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/dirname",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-dirname",
+            "tags": [
+              "web-features:dirname"
+            ],
             "support": {
               "chrome": {
                 "version_added": "17"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "116"
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -280,15 +255,10 @@
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -299,25 +269,27 @@
         },
         "disabled": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/disabled",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -327,15 +299,10 @@
               "safari": {
                 "version_added": "≤4"
               },
-              "safari_ios": {
-                "version_added": "≤3"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -346,25 +313,27 @@
         },
         "form": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/form",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fae-form",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -374,15 +343,10 @@
               "safari": {
                 "version_added": "≤4"
               },
-              "safari_ios": {
-                "version_added": "≤3"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -393,25 +357,27 @@
         },
         "maxlength": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/maxlength",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-maxlength",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "4"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -419,17 +385,13 @@
                 "version_added": "≤12.1"
               },
               "safari": {
-                "version_added": "5"
+                "version_added": "5",
+                "notes": "Before Safari 17, newline characters counted as two characters instead of one. See [bug 249916](https://webkit.org/b/249916)."
               },
-              "safari_ios": {
-                "version_added": "5"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -440,43 +402,33 @@
         },
         "minlength": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/minlength",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-minlength",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "40"
               },
-              "chrome_android": {
-                "version_added": "40"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "17"
               },
               "firefox": {
                 "version_added": "51"
               },
-              "firefox_android": {
-                "version_added": "51"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "27"
-              },
-              "opera_android": {
-                "version_added": "27"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10.1"
               },
-              "safari_ios": {
-                "version_added": "10.3"
-              },
-              "samsunginternet_android": {
-                "version_added": "4.0"
-              },
-              "webview_android": {
-                "version_added": "40"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -487,25 +439,26 @@
         },
         "name": {
           "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-name",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -515,15 +468,10 @@
               "safari": {
                 "version_added": "≤4"
               },
-              "safari_ios": {
-                "version_added": "≤3"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -534,25 +482,27 @@
         },
         "placeholder": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/placeholder",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-placeholder",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "4"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -565,12 +515,9 @@
               "safari_ios": {
                 "version_added": "5"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -580,46 +527,35 @@
           },
           "line_breaks": {
             "__compat": {
-              "description": "Line breaks in <code>placeholder</code>",
+              "description": "Line breaks in `placeholder`",
+              "tags": [
+                "web-features:textarea"
+              ],
               "support": {
                 "chrome": {
                   "version_added": "36"
                 },
-                "chrome_android": {
-                  "version_added": "36"
-                },
+                "chrome_android": "mirror",
                 "edge": {
                   "version_added": "12"
                 },
                 "firefox": {
-                  "version_added": false,
-                  "notes": "See <a href='https://bugzil.la/1312897'>bug 1312897</a>."
+                  "version_added": "59"
                 },
-                "firefox_android": {
-                  "version_added": false,
-                  "notes": "See <a href='https://bugzil.la/1312897'>bug 1312897</a>."
-                },
+                "firefox_android": "mirror",
                 "ie": {
                   "version_added": "10"
                 },
-                "opera": {
-                  "version_added": "23"
-                },
-                "opera_android": {
-                  "version_added": null
-                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": "16"
                 },
-                "safari_ios": {
-                  "version_added": false
-                },
-                "samsunginternet_android": {
-                  "version_added": "3.0"
-                },
-                "webview_android": {
-                  "version_added": "37"
-                }
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": false,
@@ -631,25 +567,27 @@
         },
         "readonly": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/readonly",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-readonly",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -659,15 +597,10 @@
               "safari": {
                 "version_added": "≤4"
               },
-              "safari_ios": {
-                "version_added": "≤3"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -678,25 +611,27 @@
         },
         "required": {
           "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/required",
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-required",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "4"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "4"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "10"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -709,12 +644,9 @@
               "safari_ios": {
                 "version_added": "5"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -725,25 +657,26 @@
         },
         "rows": {
           "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-rows",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -753,62 +686,10 @@
               "safari": {
                 "version_added": "≤4"
               },
-              "safari_ios": {
-                "version_added": "≤3"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "spellcheck": {
-          "__compat": {
-            "support": {
-              "chrome": {
-                "version_added": true
-              },
-              "chrome_android": {
-                "version_added": true
-              },
-              "edge": {
-                "version_added": "12"
-              },
-              "firefox": {
-                "version_added": true
-              },
-              "firefox_android": {
-                "version_added": true
-              },
-              "ie": {
-                "version_added": true
-              },
-              "opera": {
-                "version_added": true
-              },
-              "opera_android": {
-                "version_added": true
-              },
-              "safari": {
-                "version_added": true
-              },
-              "safari_ios": {
-                "version_added": true
-              },
-              "samsunginternet_android": {
-                "version_added": true
-              },
-              "webview_android": {
-                "version_added": true
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -819,25 +700,26 @@
         },
         "wrap": {
           "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-wrap",
+            "tags": [
+              "web-features:textarea"
+            ],
             "support": {
               "chrome": {
                 "version_added": "16"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "4"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "≤6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "≤12.1"
               },
@@ -847,20 +729,51 @@
               "safari": {
                 "version_added": "6"
               },
-              "safari_ios": {
-                "version_added": "6"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
               "standard_track": true,
               "deprecated": false
+            }
+          },
+          "hard": {
+            "__compat": {
+              "description": "`hard` value",
+              "tags": [
+                "web-features:textarea"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": "16"
+                },
+                "chrome_android": "mirror",
+                "edge": {
+                  "version_added": "12"
+                },
+                "firefox": {
+                  "version_added": false
+                },
+                "firefox_android": "mirror",
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
             }
           }
         }

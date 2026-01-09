@@ -4,12 +4,16 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReaderSync",
         "spec_url": "https://w3c.github.io/FileAPI/#FileReaderSync",
+        "tags": [
+          "web-features:file"
+        ],
         "support": {
           "chrome": {
             "version_added": "7"
           },
-          "chrome_android": {
-            "version_added": "18"
+          "chrome_android": "mirror",
+          "deno": {
+            "version_added": false
           },
           "edge": {
             "version_added": "12"
@@ -17,12 +21,11 @@
           "firefox": {
             "version_added": "8"
           },
-          "firefox_android": {
-            "version_added": "8"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": "10"
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "≤12.1"
           },
@@ -30,19 +33,12 @@
             "version_added": "≤12.1"
           },
           "safari": {
-            "version_added": "6",
-            "version_removed": "7"
+            "version_added": "6"
           },
-          "safari_ios": {
-            "version_added": "6",
-            "version_removed": "7"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
-          "webview_android": {
-            "version_added": "≤37"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -52,13 +48,19 @@
       },
       "FileReaderSync": {
         "__compat": {
-          "description": "<code>FileReaderSync()</code> constructor",
+          "description": "`FileReaderSync()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReaderSync/FileReaderSync",
+          "spec_url": "https://w3c.github.io/FileAPI/#filereadersyncConstrctr",
+          "tags": [
+            "web-features:file"
+          ],
           "support": {
             "chrome": {
               "version_added": "7"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
             },
             "edge": {
               "version_added": "12"
@@ -66,12 +68,11 @@
             "firefox": {
               "version_added": "8"
             },
-            "firefox_android": {
-              "version_added": "8"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -79,19 +80,58 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "6",
-              "version_removed": "7"
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6",
-              "version_removed": "7"
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "worker_support": {
+        "__compat": {
+          "description": "Available in workers",
+          "tags": [
+            "web-features:file"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "7"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
             },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "8"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤15"
+            },
+            "opera_android": {
+              "version_added": "≤14"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -104,12 +144,16 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReaderSync/readAsArrayBuffer",
           "spec_url": "https://w3c.github.io/FileAPI/#readAsArrayBufferSyncSection",
+          "tags": [
+            "web-features:file"
+          ],
           "support": {
             "chrome": {
-              "version_added": "7"
+              "version_added": "9"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
             },
             "edge": {
               "version_added": "12"
@@ -117,12 +161,11 @@
             "firefox": {
               "version_added": "8"
             },
-            "firefox_android": {
-              "version_added": "8"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -130,19 +173,12 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "6",
-              "version_removed": "7"
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6",
-              "version_removed": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -159,8 +195,9 @@
             "chrome": {
               "version_added": "7"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
             },
             "edge": {
               "version_added": "12"
@@ -168,32 +205,20 @@
             "firefox": {
               "version_added": "8"
             },
-            "firefox_android": {
-              "version_added": "8"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "11"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "6",
-              "version_removed": "7"
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6",
-              "version_removed": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -206,12 +231,16 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReaderSync/readAsDataURL",
           "spec_url": "https://w3c.github.io/FileAPI/#readAsDataURLSync-section",
+          "tags": [
+            "web-features:file"
+          ],
           "support": {
             "chrome": {
               "version_added": "7"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
             },
             "edge": {
               "version_added": "12"
@@ -219,12 +248,11 @@
             "firefox": {
               "version_added": "8"
             },
-            "firefox_android": {
-              "version_added": "8"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -232,19 +260,12 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "6",
-              "version_removed": "7"
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6",
-              "version_removed": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -257,12 +278,16 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileReaderSync/readAsText",
           "spec_url": "https://w3c.github.io/FileAPI/#readAsTextSync",
+          "tags": [
+            "web-features:file"
+          ],
           "support": {
             "chrome": {
               "version_added": "7"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
             },
             "edge": {
               "version_added": "12"
@@ -270,12 +295,11 @@
             "firefox": {
               "version_added": "8"
             },
-            "firefox_android": {
-              "version_added": "8"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -283,80 +307,12 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "6",
-              "version_removed": "7"
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": "6",
-              "version_removed": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "worker_support": {
-        "__compat": {
-          "description": "Available in workers",
-          "support": {
-            "chrome": {
-              "version_added": true,
-              "notes": "From Chrome 59, not supported in service workers."
-            },
-            "chrome_android": {
-              "version_added": true,
-              "notes": "From Chrome 59, not supported in service workers."
-            },
-            "edge": {
-              "version_added": "12",
-              "notes": "Not supported in service workers."
-            },
-            "firefox": {
-              "version_added": "8",
-              "notes": "From Firefox 61, not supported in service workers."
-            },
-            "firefox_android": {
-              "version_added": "8",
-              "notes": "From Firefox 61, not supported in service workers."
-            },
-            "ie": {
-              "version_added": true
-            },
-            "opera": {
-              "version_added": true,
-              "notes": "From Opera 46, not supported in service workers."
-            },
-            "opera_android": {
-              "version_added": true,
-              "notes": "From Opera 43, not supported in service workers."
-            },
-            "safari": {
-              "version_added": true,
-              "version_removed": "7",
-              "notes": "Not supported in service workers."
-            },
-            "safari_ios": {
-              "version_added": true,
-              "version_removed": "7",
-              "notes": "Not supported in service workers."
-            },
-            "samsunginternet_android": {
-              "version_added": true,
-              "notes": "From version 7.0, not supported in service workers."
-            },
-            "webview_android": {
-              "version_added": true,
-              "notes": "From version 59, not supported in service workers."
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

@@ -8,25 +8,25 @@
           "https://drafts.csswg.org/cssom-view/#extensions-to-the-mouseevent-interface",
           "https://w3c.github.io/pointerlock/#extensions-to-the-mouseevent-interface"
         ],
+        "tags": [
+          "web-features:mouse-events"
+        ],
         "support": {
           "chrome": {
             "version_added": "1"
           },
-          "chrome_android": {
-            "version_added": "18"
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "12"
           },
           "firefox": {
             "version_added": "1"
           },
-          "firefox_android": {
-            "version_added": "4"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": "9"
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "10.6"
           },
@@ -34,17 +34,12 @@
             "version_added": "11"
           },
           "safari": {
-            "version_added": "3.1"
-          },
-          "safari_ios": {
-            "version_added": "2"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
-          "webview_android": {
             "version_added": "1"
-          }
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -54,115 +49,39 @@
       },
       "MouseEvent": {
         "__compat": {
+          "description": "`MouseEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/MouseEvent",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-mouseevent",
-          "description": "<code>MouseEvent()</code> constructor",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": "47"
+              "version_added": "26"
             },
-            "chrome_android": {
-              "version_added": "47"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "11"
             },
-            "firefox_android": {
-              "version_added": "14"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": true
+              "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "47"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
             "deprecated": false
-          }
-        },
-        "region_support": {
-          "__compat": {
-            "description": "Support for <code>mouseEventInit</code> optional <code>region</code> field",
-            "support": {
-              "chrome": {
-                "version_added": "51",
-                "notes": "Flag needed to retrieve value from <code>MouseEvent.region</code>.",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "Experimental Web Platform Features",
-                    "value_to_set": "true"
-                  }
-                ]
-              },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": "≤79",
-                "notes": "Flag needed to retrieve value from <code>MouseEvent.region</code>.",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "Experimental Web Platform Features",
-                    "value_to_set": "true"
-                  }
-                ]
-              },
-              "firefox": {
-                "version_added": "32"
-              },
-              "firefox_android": {
-                "version_added": "32"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
-              "safari": {
-                "version_added": null
-              },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
           }
         }
       },
@@ -170,43 +89,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/altKey",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-altkey",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -219,25 +133,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/button",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-button",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -245,17 +159,12 @@
               "version_added": "11"
             },
             "safari": {
-              "version_added": "3.1"
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -268,44 +177,37 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/buttons",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-buttons",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "43"
             },
-            "chrome_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true,
-              "notes": "Resrictions apply depending on OS."
+              "version_added": "15",
+              "notes": "Restrictions apply depending on OS."
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "15"
             },
             "ie": {
               "version_added": "9"
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "11.1"
             },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -318,25 +220,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/clientX",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-clientx",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "10.6"
             },
@@ -344,17 +246,12 @@
               "version_added": "11"
             },
             "safari": {
-              "version_added": "3.1"
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -367,43 +264,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/clientY",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-clienty",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -416,43 +308,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/ctrlKey",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-ctrlkey",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -465,43 +352,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/getModifierState",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-getmodifierstate",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "47"
             },
-            "chrome_android": {
-              "version_added": "47"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "15"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "12.1"
             },
-            "safari_ios": {
-              "version_added": "12.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "47"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -511,44 +389,27 @@
         },
         "accel_support": {
           "__compat": {
-            "description": "<code>\"Accel\"</code> parameter",
+            "description": "`\"Accel\"` parameter",
             "support": {
               "chrome": {
                 "version_added": false
               },
-              "chrome_android": {
-                "version_added": false
-              },
-              "edge": {
-                "version_added": false
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
-                "version_added": null
+                "version_added": "32"
               },
-              "firefox_android": {
-                "version_added": null
-              },
-              "ie": {
-                "version_added": null
-              },
-              "opera": {
-                "version_added": null
-              },
-              "opera_android": {
-                "version_added": null
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": null
-              },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
                 "version_added": false
               },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -561,48 +422,113 @@
       "initMouseEvent": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/initMouseEvent",
+          "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      },
+      "layerX": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/layerX",
+          "support": {
+            "chrome": {
+              "version_added": "1"
             },
-            "samsunginternet_android": {
-              "version_added": true
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
             },
-            "webview_android": {
-              "version_added": true
-            }
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "9"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": false,
-            "deprecated": true
+            "deprecated": false
+          }
+        }
+      },
+      "layerY": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/layerY",
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "9"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": false
           }
         }
       },
@@ -610,43 +536,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/metaKey",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-metakey",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -659,27 +580,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/movementX",
           "spec_url": "https://w3c.github.io/pointerlock/#dom-mouseevent-movementx",
+          "tags": [
+            "web-features:pointer-lock",
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": [
               {
                 "version_added": "37"
               },
               {
+                "prefix": "webkit",
                 "version_added": "22",
-                "version_removed": "37",
-                "prefix": "webkit"
+                "version_removed": "37"
               }
             ],
-            "chrome_android": [
-              {
-                "version_added": "37"
-              },
-              {
-                "version_added": true,
-                "version_removed": "37",
-                "prefix": "webkit"
-              }
-            ],
+            "chrome_android": {
+              "version_added": false,
+              "impl_url": "https://crbug.com/40290045"
+            },
             "edge": {
               "version_added": "13"
             },
@@ -688,70 +607,40 @@
                 "version_added": "41"
               },
               {
+                "prefix": "moz",
                 "version_added": "1",
-                "version_removed": "41",
-                "prefix": "moz"
+                "version_removed": "41"
               }
             ],
-            "firefox_android": [
-              {
-                "version_added": "41"
-              },
-              {
-                "version_added": "4",
-                "version_removed": "41",
-                "prefix": "moz"
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": [
               {
                 "version_added": "9"
               },
               {
+                "prefix": "webkit",
                 "version_added": "6",
-                "version_removed": "8",
-                "prefix": "webkit"
+                "version_removed": "8"
               }
             ],
-            "safari_ios": [
-              {
-                "version_added": "8"
-              },
-              {
-                "version_added": "6",
-                "version_removed": "8",
-                "prefix": "webkit"
-              }
-            ],
+            "safari_ios": {
+              "version_added": "17"
+            },
             "samsunginternet_android": [
               {
                 "version_added": "3.0"
               },
               {
-                "version_added": true,
-                "version_removed": "3.0",
-                "prefix": "webkit"
+                "prefix": "webkit",
+                "version_added": "1.0",
+                "version_removed": "3.0"
               }
             ],
-            "webview_android": [
-              {
-                "version_added": "37"
-              },
-              {
-                "version_added": true,
-                "version_removed": "37",
-                "prefix": "webkit"
-              }
-            ]
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -764,27 +653,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/movementY",
           "spec_url": "https://w3c.github.io/pointerlock/#dom-mouseevent-movementy",
+          "tags": [
+            "web-features:pointer-lock",
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": [
               {
                 "version_added": "37"
               },
               {
+                "prefix": "webkit",
                 "version_added": "22",
-                "version_removed": "37",
-                "prefix": "webkit"
+                "version_removed": "37"
               }
             ],
-            "chrome_android": [
-              {
-                "version_added": "37"
-              },
-              {
-                "version_added": true,
-                "version_removed": "37",
-                "prefix": "webkit"
-              }
-            ],
+            "chrome_android": {
+              "version_added": false,
+              "impl_url": "https://crbug.com/40290045"
+            },
             "edge": {
               "version_added": "13"
             },
@@ -793,70 +680,40 @@
                 "version_added": "41"
               },
               {
+                "prefix": "moz",
                 "version_added": "1",
-                "version_removed": "41",
-                "prefix": "moz"
+                "version_removed": "41"
               }
             ],
-            "firefox_android": [
-              {
-                "version_added": "41"
-              },
-              {
-                "version_added": "4",
-                "version_removed": "41",
-                "prefix": "moz"
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": [
               {
                 "version_added": "9"
               },
               {
+                "prefix": "webkit",
                 "version_added": "6",
-                "version_removed": "8",
-                "prefix": "webkit"
+                "version_removed": "8"
               }
             ],
-            "safari_ios": [
-              {
-                "version_added": "8"
-              },
-              {
-                "version_added": "6",
-                "version_removed": "8",
-                "prefix": "webkit"
-              }
-            ],
+            "safari_ios": {
+              "version_added": "17"
+            },
             "samsunginternet_android": [
               {
                 "version_added": "3.0"
               },
               {
-                "version_added": true,
-                "version_removed": "3.0",
-                "prefix": "webkit"
+                "prefix": "webkit",
+                "version_added": "1.0",
+                "version_removed": "3.0"
               }
             ],
-            "webview_android": [
-              {
-                "version_added": "37"
-              },
-              {
-                "version_added": true,
-                "version_removed": "37",
-                "prefix": "webkit"
-              }
-            ]
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -869,13 +726,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/offsetX",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-mouseevent-offsetx",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -888,27 +746,23 @@
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -918,13 +772,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/offsetY",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-mouseevent-offsety",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -937,27 +792,23 @@
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -967,46 +818,41 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/pageX",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-mouseevent-pagex",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": "45"
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "45"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "45"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1016,119 +862,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/pageY",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-mouseevent-pagey",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": "45"
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "45"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "45"
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "region": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/region",
-          "support": {
-            "chrome": {
-              "version_added": true,
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features",
-                  "value_to_set": "true"
-                }
-              ]
-            },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": "≤79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features",
-                  "value_to_set": "true"
-                }
-              ]
-            },
-            "firefox": {
-              "version_added": "30",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "canvas.hitregions.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
-            "firefox_android": {
-              "version_added": "30",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "canvas.hitregions.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1141,48 +906,79 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/relatedTarget",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-relatedtarget",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": "48"
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
             "deprecated": false
+          }
+        },
+        "drag_events": {
+          "__compat": {
+            "description": "Available on `DragEvent`",
+            "spec_url": "https://html.spec.whatwg.org/multipage/dnd.html#:~:text=relatedtarget",
+            "support": {
+              "chrome": {
+                "version_added": "60"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "59"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "9"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false,
+                "impl_url": "https://webkit.org/b/66547"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
           }
         }
       },
@@ -1190,43 +986,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/screenX",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-screenx",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1239,43 +1030,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/screenY",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-screeny",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1288,43 +1074,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/shiftKey",
           "spec_url": "https://w3c.github.io/uievents/#dom-mouseevent-shiftkey",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1333,100 +1114,45 @@
           }
         }
       },
-      "which": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/which",
-          "support": {
-            "chrome": {
-              "version_added": "1"
-            },
-            "chrome_android": {
-              "version_added": true
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "firefox": {
-              "version_added": "1",
-              "notes": "On <code>mousemove</code> events, the <code>which</code> property is incorrectly always set to <code>1</code>."
-            },
-            "firefox_android": {
-              "version_added": "4",
-              "notes": "On <code>mousemove</code> events, the <code>which</code> property is incorrectly always set to <code>1</code>."
-            },
-            "ie": {
-              "version_added": "9"
-            },
-            "opera": {
-              "version_added": "10.6"
-            },
-            "opera_android": {
-              "version_added": "11"
-            },
-            "safari": {
-              "version_added": "3.1"
-            },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": false,
-            "deprecated": false
-          }
-        }
-      },
       "x": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/x",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-mouseevent-x",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "53"
             },
-            "firefox_android": {
-              "version_added": "53"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1436,46 +1162,41 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MouseEvent/y",
           "spec_url": "https://drafts.csswg.org/cssom-view/#dom-mouseevent-y",
+          "tags": [
+            "web-features:mouse-events"
+          ],
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "53"
             },
-            "firefox_android": {
-              "version_added": "53"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

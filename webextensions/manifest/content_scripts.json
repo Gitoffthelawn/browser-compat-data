@@ -4,9 +4,10 @@
       "content_scripts": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts",
+          "spec_url": "https://w3c.github.io/webextensions/specification/#key-content_scripts",
           "support": {
             "chrome": {
-              "version_added": true,
+              "version_added": "≤54",
               "notes": "Content scripts are not applied to tabs already open when the extension is loaded."
             },
             "edge": {
@@ -15,16 +16,15 @@
             "firefox": {
               "version_added": "48"
             },
-            "firefox_android": {
-              "version_added": "48"
-            },
-            "opera": {
-              "version_added": true,
-              "notes": "Content scripts are not applied to tabs already open when the extension is loaded."
-            },
+            "firefox_android": "mirror",
+            "opera": "mirror",
             "safari": {
               "version_added": "14",
               "notes": "Content scripts are not applied to tabs until the user grants permission via the extension's access popover in the toolbar."
+            },
+            "safari_ios": {
+              "version_added": "15",
+              "notes": "Content scripts are not applied to tabs until the user grants permission via the extension's access alert."
             }
           }
         },
@@ -32,7 +32,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤72"
               },
               "edge": {
                 "version_added": "14"
@@ -40,14 +40,13 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -56,7 +55,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤72"
               },
               "edge": {
                 "version_added": "14"
@@ -64,15 +63,33 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
+            }
+          }
+        },
+        "css_origin": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "144"
+              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
+              "safari": {
+                "version_added": "18"
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -80,7 +97,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤72"
               },
               "edge": {
                 "version_added": "14"
@@ -88,15 +105,13 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
-                "version_added": false
-              }
+                "version_added": false,
+                "impl_url": "https://webkit.org/b/246492"
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -104,7 +119,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤72"
               },
               "edge": {
                 "version_added": "14"
@@ -112,14 +127,13 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -128,7 +142,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤72"
               },
               "edge": {
                 "version_added": "14"
@@ -136,15 +150,13 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
-                "version_added": false
-              }
+                "version_added": false,
+                "impl_url": "https://webkit.org/b/246492"
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -152,7 +164,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤72"
               },
               "edge": {
                 "version_added": "14"
@@ -160,14 +172,13 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -176,7 +187,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤58"
               },
               "edge": {
                 "version_added": "14"
@@ -185,16 +196,31 @@
                 "version_added": "52",
                 "notes": "Content scripts won't be injected into empty iframes at 'document_start' even if you specify that value in 'run_at'."
               },
-              "firefox_android": {
-                "version_added": "52",
-                "notes": "Content scripts won't be injected into empty iframes at 'document_start' even if you specify that value in 'run_at'."
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
-                "version_added": false
-              }
+                "version_added": "18.4"
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "match_origin_as_fallback": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": "99"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "128"
+              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
+              "safari": {
+                "version_added": "18.4"
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -202,7 +228,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤72"
               },
               "edge": {
                 "version_added": "14"
@@ -210,14 +236,13 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -226,7 +251,7 @@
           "__compat": {
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "≤72"
               },
               "edge": {
                 "version_added": "14"
@@ -234,16 +259,35 @@
               "firefox": {
                 "version_added": "48"
               },
-              "firefox_android": {
-                "version_added": "48"
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": "14",
-                "notes": "Content scripts are not applied to tabs until the user grants permission via the extension's access popover in the toolbar. Additional loads after permission is granted will respect <code>run_at</code>."
+                "notes": "Content scripts are not applied to tabs until the user grants permission via the extension's access popover in the toolbar. Additional loads after permission is granted will respect `run_at`."
+              },
+              "safari_ios": {
+                "version_added": "15",
+                "notes": "Content scripts are not applied to tabs until the user grants permission via the extension's access alert. Additional loads after permission is granted will respect `run_at`."
               }
+            }
+          }
+        },
+        "world": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": "111"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "128"
+              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
+              "safari": {
+                "version_added": "18"
+              },
+              "safari_ios": "mirror"
             }
           }
         }

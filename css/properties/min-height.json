@@ -3,49 +3,41 @@
     "properties": {
       "min-height": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-height",
-          "spec_url": "https://drafts.csswg.org/css-sizing/#width-height-keywords",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-height",
+          "spec_url": "https://drafts.csswg.org/css-sizing-4/#sizing-values",
+          "tags": [
+            "web-features:min-max-width-height"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3",
-              "notes": "CSS 2.1 leaves the behavior of <code>min-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Firefox supports applying <code>min-height</code> to <code>table</code> elements."
+              "notes": "CSS 2.1 leaves the behavior of `min-height` with [`table`](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/table) undefined. Firefox supports applying `min-height` to `table` elements."
             },
-            "firefox_android": {
-              "version_added": "4",
-              "notes": "CSS 2.1 leaves the behavior of <code>min-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Firefox supports applying <code>min-height</code> to <code>table</code> elements."
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "7",
-              "notes": "In Internet Explorer 10 and 11, a <code>min-height</code> declaration on a column-direction flex container doesn't apply to the container's flex items. See <a href='https://github.com/philipwalton/flexbugs#3-min-height-on-a-column-flex-container-wont-apply-to-its-flex-items'>Flexbug #3</a> for more info."
+              "notes": "In Internet Explorer 10 and 11, a `min-height` declaration on a column-direction flex container doesn't apply to the container's flex items. See [Flexbug #3](https://github.com/philipwalton/flexbugs#3-min-height-on-a-column-flex-container-wont-apply-to-its-flex-items) for more info."
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "4",
-              "notes": "CSS 2.1 leaves the behavior of <code>min-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Opera supports applying <code>min-height</code> to <code>table</code> elements."
+              "notes": "CSS 2.1 leaves the behavior of `min-height` with [`table`](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/table) undefined. Opera supports applying `min-height` to `table` elements."
             },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "opera_android": "mirror",
             "safari": {
               "version_added": "1.3"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -53,50 +45,77 @@
             "deprecated": false
           }
         },
+        "anchor-size": {
+          "__compat": {
+            "description": "`anchor-size()`",
+            "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn",
+            "tags": [
+              "web-features:anchor-positioning"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "125"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "147"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "26"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
         "auto": {
           "__compat": {
-            "description": "<code>auto</code>",
+            "tags": [
+              "web-features:min-max-width-height"
+            ],
             "support": {
               "chrome": {
                 "version_added": "21"
               },
-              "chrome_android": {
-                "version_added": "25"
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": "79"
+                "version_added": "12"
               },
-              "firefox": {
-                "version_added": "16",
-                "version_removed": "22",
-                "notes": "Firefox 18 and later used <code>auto</code> as the initial value for <code>min-height</code>."
-              },
-              "firefox_android": {
-                "version_added": "16",
-                "version_removed": "22",
-                "notes": "Firefox 18 and later used <code>auto</code> as the initial value for <code>min-height</code>."
-              },
-              "ie": {
-                "version_added": false
-              },
+              "firefox": [
+                {
+                  "version_added": "34"
+                },
+                {
+                  "version_added": "16",
+                  "version_removed": "22",
+                  "notes": "Firefox 18 and later used `auto` as the initial value for `min-height`."
+                }
+              ],
+              "firefox_android": "mirror",
+              "oculus": "mirror",
               "opera": {
                 "version_added": "12.1"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": "1.5"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -107,7 +126,9 @@
         },
         "fit-content": {
           "__compat": {
-            "description": "<code>fit-content</code>",
+            "tags": [
+              "web-features:fit-content"
+            ],
             "support": {
               "chrome": [
                 {
@@ -118,31 +139,20 @@
                   "version_added": "25"
                 }
               ],
-              "chrome_android": {
-                "version_added": "46"
-              },
-              "edge": [
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": [
                 {
-                  "version_added": "79"
+                  "version_added": "94"
                 },
                 {
-                  "prefix": "-webkit-",
-                  "version_added": "79"
+                  "prefix": "-moz-",
+                  "version_added": "3",
+                  "notes": "Firefox implements the definitions given in CSS3 Basic Box. This defines `available` and not `fit-available`. Also, the definition of `fit-content` is simpler than in CSS3 Sizing."
                 }
               ],
-              "firefox": {
-                "prefix": "-moz-",
-                "version_added": "3",
-                "notes": "Firefox implements the definitions given in CSS3 Basic Box. This defines <code>available</code> and not <code>fit-available</code>. Also, the definition of <code>fit-content</code> is simpler than in CSS3 Sizing."
-              },
-              "firefox_android": {
-                "prefix": "-moz-",
-                "version_added": "4",
-                "notes": "Firefox implements the definitions given in CSS3 Basic Box. This defines <code>available</code> and not <code>fit-available</code>. Also, the definition of <code>fit-content</code> is simpler than in CSS3 Sizing."
-              },
-              "ie": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
               "opera": {
                 "version_added": "44"
               },
@@ -155,38 +165,58 @@
                 },
                 {
                   "prefix": "-webkit-",
-                  "version_added": "6.1"
+                  "version_added": "7"
                 },
                 {
                   "alternative_name": "intrinsic",
                   "version_added": "2"
                 }
               ],
-              "safari_ios": [
-                {
-                  "version_added": "11"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "6.1"
-                },
-                {
-                  "alternative_name": "intrinsic",
-                  "version_added": "1"
-                }
-              ],
-              "samsunginternet_android": {
-                "version_added": "5.0"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "fit-content_function": {
+          "__compat": {
+            "description": "`fit-content()`",
+            "spec_url": "https://drafts.csswg.org/css-sizing/#funcdef-width-fit-content",
+            "tags": [
+              "web-features:fit-content-function"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": false
               },
-              "webview_android": [
-                {
-                  "version_added": "46"
-                },
-                {
-                  "prefix": "-webkit-",
-                  "version_added": "≤37"
-                }
-              ]
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "91",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "layout.css.fit-content-function.enabled"
+                  }
+                ]
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": true,
@@ -197,38 +227,26 @@
         },
         "max-content": {
           "__compat": {
-            "description": "<code>max-content</code>",
+            "tags": [
+              "web-features:min-max-content"
+            ],
             "support": {
               "chrome": {
                 "version_added": "46"
               },
-              "chrome_android": {
-                "version_added": "46"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": [
                 {
                   "version_added": "66"
                 },
                 {
-                  "version_added": "3",
-                  "prefix": "-moz-"
+                  "prefix": "-moz-",
+                  "version_added": "3"
                 }
               ],
-              "firefox_android": [
-                {
-                  "version_added": "66"
-                },
-                {
-                  "version_added": "4",
-                  "prefix": "-moz-"
-                }
-              ],
-              "ie": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
               "opera": {
                 "version_added": "44"
               },
@@ -240,25 +258,14 @@
                   "version_added": "11"
                 },
                 {
-                  "version_added": "9",
-                  "prefix": "-webkit-"
+                  "prefix": "-webkit-",
+                  "version_added": "9"
                 }
               ],
-              "safari_ios": [
-                {
-                  "version_added": "11"
-                },
-                {
-                  "version_added": "9",
-                  "prefix": "-webkit-"
-                }
-              ],
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "46"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -269,38 +276,26 @@
         },
         "min-content": {
           "__compat": {
-            "description": "<code>min-content</code>",
+            "tags": [
+              "web-features:min-max-content"
+            ],
             "support": {
               "chrome": {
                 "version_added": "46"
               },
-              "chrome_android": {
-                "version_added": "46"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": [
                 {
                   "version_added": "66"
                 },
                 {
-                  "version_added": "3",
-                  "prefix": "-moz-"
+                  "prefix": "-moz-",
+                  "version_added": "3"
                 }
               ],
-              "firefox_android": [
-                {
-                  "version_added": "66"
-                },
-                {
-                  "version_added": "4",
-                  "prefix": "-moz-"
-                }
-              ],
-              "ie": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
               "opera": {
                 "version_added": "44"
               },
@@ -312,25 +307,14 @@
                   "version_added": "11"
                 },
                 {
-                  "version_added": "9",
-                  "prefix": "-webkit-"
+                  "prefix": "-webkit-",
+                  "version_added": "9"
                 }
               ],
-              "safari_ios": [
-                {
-                  "version_added": "11"
-                },
-                {
-                  "version_added": "9",
-                  "prefix": "-webkit-"
-                }
-              ],
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "46"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -341,56 +325,40 @@
         },
         "stretch": {
           "__compat": {
-            "description": "<code>stretch</code>",
+            "tags": [
+              "web-features:stretch"
+            ],
             "support": {
-              "chrome": {
-                "alternative_name": "-webkit-fill-available",
-                "version_added": "28"
-              },
-              "chrome_android": {
-                "alternative_name": "-webkit-fill-available",
-                "version_added": "28"
-              },
-              "edge": {
-                "alternative_name": "-webkit-fill-available",
-                "version_added": "79"
-              },
+              "chrome": [
+                {
+                  "version_added": "138"
+                },
+                {
+                  "alternative_name": "-webkit-fill-available",
+                  "version_added": "28"
+                }
+              ],
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "alternative_name": "-webkit-fill-available",
-                "version_added": "15"
-              },
-              "opera_android": {
-                "alternative_name": "-webkit-fill-available",
-                "version_added": "15"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "alternative_name": "-webkit-fill-available",
-                "version_added": "9"
+                "version_added": "9",
+                "impl_url": "https://webkit.org/b/277117"
               },
-              "safari_ios": {
-                "alternative_name": "-webkit-fill-available",
-                "version_added": "9"
-              },
-              "samsunginternet_android": {
-                "alternative_name": "-webkit-fill-available",
-                "version_added": "1.5"
-              },
-              "webview_android": {
-                "alternative_name": "-webkit-fill-available",
-                "version_added": "4.4"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }

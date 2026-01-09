@@ -1,0 +1,107 @@
+{
+  "api": {
+    "SharedStorageWorklet": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/SharedStorageWorklet",
+        "spec_url": "https://wicg.github.io/shared-storage/#sharedstorageworklet",
+        "tags": [
+          "web-features:shared-storage"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "126"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": false
+          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": true
+        }
+      },
+      "run": {
+        "__compat": {
+          "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-run",
+          "tags": [
+            "web-features:shared-storage"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "126"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      },
+      "selectURL": {
+        "__compat": {
+          "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-selecturl",
+          "tags": [
+            "web-features:shared-storage"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "126"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      }
+    }
+  }
+}

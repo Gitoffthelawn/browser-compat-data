@@ -2,16 +2,35 @@
   "webextensions": {
     "api": {
       "downloads": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads",
+          "support": {
+            "chrome": {
+              "version_added": "22"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "47"
+            },
+            "firefox_android": {
+              "version_added": "48",
+              "version_removed": "79"
+            },
+            "opera": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror"
+          }
+        },
         "BooleanDelta": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/BooleanDelta",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "29"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -19,12 +38,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -33,11 +51,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DangerType",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -45,12 +61,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -58,12 +73,17 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DoubleDelta",
             "support": {
-              "chrome": {
-                "version_added": true
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome": [
+                {
+                  "version_added": "34"
+                },
+                {
+                  "alternative_name": "LongDelta",
+                  "version_added": "22",
+                  "version_removed": "34"
+                }
+              ],
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -71,38 +91,65 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
         "DownloadItem": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadItem",
+            "support": {
+              "chrome": {
+                "version_added": "22"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "47"
+              },
+              "firefox_android": {
+                "version_added": "48",
+                "version_removed": "79"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          },
           "byExtensionId": {
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "30"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
-                "firefox": {
-                  "version_added": "47"
-                },
+                "edge": "mirror",
+                "firefox": [
+                  {
+                    "version_added": "69"
+                  },
+                  {
+                    "version_added": "47",
+                    "version_removed": "69",
+                    "partial_implementation": true,
+                    "notes": "Always returns `undefined`."
+                  }
+                ],
                 "firefox_android": {
                   "version_added": "48",
-                  "version_removed": "79"
+                  "version_removed": "79",
+                  "partial_implementation": true,
+                  "notes": "Always returns `undefined`."
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -110,24 +157,31 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "30"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
-                "firefox": {
-                  "version_added": "47"
-                },
+                "edge": "mirror",
+                "firefox": [
+                  {
+                    "version_added": "69"
+                  },
+                  {
+                    "version_added": "47",
+                    "version_removed": "69",
+                    "partial_implementation": true,
+                    "notes": "Always returns `undefined`."
+                  }
+                ],
                 "firefox_android": {
                   "version_added": "48",
-                  "version_removed": "79"
+                  "version_removed": "79",
+                  "partial_implementation": true,
+                  "notes": "Always returns `undefined`."
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -135,11 +189,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -147,12 +199,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -160,11 +211,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "30"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -172,12 +221,32 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "cookieStoreId": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "92"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -185,25 +254,21 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
-                  "notes": "Always given as 'safe'.",
-                  "version_added": false
+                  "version_added": false,
+                  "notes": "Always given as 'safe'."
                 },
                 "firefox_android": {
-                  "notes": "Always given as 'safe'.",
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -211,23 +276,18 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": true
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -235,11 +295,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -247,12 +305,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -260,11 +317,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "30"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "57"
                 },
@@ -272,12 +327,11 @@
                   "version_added": "57",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -285,11 +339,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "26"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -297,12 +349,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -310,11 +361,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -322,12 +371,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -335,11 +383,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -347,12 +393,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -360,11 +405,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -372,12 +415,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -385,11 +427,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -397,12 +437,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -410,11 +449,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -422,12 +459,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -435,11 +471,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -447,12 +481,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -460,11 +493,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "30"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -472,12 +503,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -485,11 +515,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -497,12 +525,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -510,11 +537,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -522,12 +547,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -535,11 +559,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -547,12 +569,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -560,11 +581,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -572,12 +591,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -587,11 +605,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadQuery",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -599,11 +615,582 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          },
+          "bytesReceived": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "cookieStoreId": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "92"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "danger": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "endedAfter": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47",
+                  "partial_implementation": true,
+                  "notes": "The parameter is ignored."
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "endedBefore": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47",
+                  "partial_implementation": true,
+                  "notes": "The parameter is ignored."
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "endTime": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": false
+                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "error": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "exists": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "26"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "filename": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "filenameRegex": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "fileSize": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "id": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "limit": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "mime": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "orderBy": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "paused": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "query": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "startedAfter": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "startedBefore": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "startTime": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "state": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "totalBytes": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "totalBytesGreater": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "totalBytesLess": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "url": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "urlRegex": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "22"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "47"
+                },
+                "firefox_android": {
+                  "version_added": "48",
+                  "version_removed": "79"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -613,11 +1200,11 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadTime",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22",
+                "partial_implementation": true,
+                "notes": "Only accepts a string."
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -625,12 +1212,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -639,11 +1225,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/FilenameConflictAction",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "28"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -651,35 +1235,29 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           },
           "prompt": {
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "28"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": false
                 },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": true
-                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -689,24 +1267,22 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/InterruptReason",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "30"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
-                "version_added": "47"
+                "version_added": "47",
+                "notes": "Only returns these errors: `NETWORK_FAILED`, `FILE_FAILED`, `CRASH`, `USER_CANCELED`, `SERVER_BAD_CONTENT`, `SERVER_FORBIDDEN`, `SERVER_UNAUTHORIZED`, and `SERVER_FAILED`."
               },
               "firefox_android": {
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -715,11 +1291,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/State",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -727,12 +1301,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -741,11 +1314,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/StringDelta",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "29"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -753,12 +1324,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -767,23 +1337,18 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/acceptDanger",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -792,11 +1357,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/cancel",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -804,12 +1367,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -818,11 +1380,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/download",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -830,12 +1390,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           },
           "allowHttpErrors": {
@@ -844,21 +1403,18 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "71"
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -866,11 +1422,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "52"
                 },
@@ -878,12 +1432,11 @@
                   "version_added": "52",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -891,11 +1444,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "28"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -903,12 +1454,32 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
+              }
+            }
+          },
+          "cookieStoreId": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "92"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -916,11 +1487,9 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "47"
                 },
@@ -928,12 +1497,11 @@
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -941,25 +1509,22 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
-                  "notes": "<code>Referer</code> headers supported from version 70.",
-                  "version_added": "47"
+                  "version_added": "47",
+                  "notes": "`Referer` headers supported from version 70."
                 },
                 "firefox_android": {
                   "version_added": "48",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -969,9 +1534,7 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "57"
                 },
@@ -979,12 +1542,11 @@
                   "version_added": "57",
                   "version_removed": "79"
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -992,26 +1554,23 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
-                  "notes": "POST is supported from version 52.",
-                  "version_added": "47"
+                  "version_added": "47",
+                  "notes": "POST is supported from version 52."
                 },
                 "firefox_android": {
-                  "notes": "POST is supported from version 52.",
                   "version_added": "48",
-                  "version_removed": "79"
+                  "version_removed": "79",
+                  "notes": "POST is supported from version 52."
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           },
@@ -1019,49 +1578,21 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "22"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
-                  "notes": "Before version 58, if this option was omitted, Firefox would never show the file chooser, regardless of the value of the browser's preference.",
-                  "version_added": "52"
+                  "version_added": "52",
+                  "notes": "Before version 58, if this option was omitted, Firefox would never show the file chooser, regardless of the value of the browser's preference."
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
-              }
-            }
-          }
-        },
-        "drag": {
-          "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/drag",
-            "support": {
-              "chrome": {
-                "version_added": true
-              },
-              "edge": {
-                "version_added": "79"
-              },
-              "firefox": {
-                "version_added": false
-              },
-              "firefox_android": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": true
-              },
-              "safari": {
-                "version_added": false
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -1071,11 +1602,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/erase",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1083,12 +1612,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1097,23 +1625,20 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/getFileIcon",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
               "firefox_android": {
                 "version_added": false
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1122,11 +1647,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onChanged",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -1134,12 +1657,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1148,11 +1670,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onCreated",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1160,12 +1680,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1174,11 +1693,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onErased",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1186,12 +1703,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1200,11 +1716,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/open",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1212,12 +1726,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1226,11 +1739,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/pause",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1238,12 +1749,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1252,11 +1762,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/removeFile",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "30"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1264,12 +1772,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1278,11 +1785,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/resume",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1290,12 +1795,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1304,11 +1808,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/search",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "47"
               },
@@ -1316,12 +1818,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1330,23 +1831,18 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/setShelfEnabled",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "30"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": true
-              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1355,11 +1851,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/show",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "22"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1367,12 +1861,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -1381,11 +1874,9 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/showDefaultFolder",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "30"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "48"
               },
@@ -1393,12 +1884,11 @@
                 "version_added": "48",
                 "version_removed": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         }

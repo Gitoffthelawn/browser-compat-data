@@ -3,13 +3,20 @@
     "CloseEvent": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/CloseEvent",
-        "spec_url": "https://html.spec.whatwg.org/multipage/web-sockets.html#the-closeevent-interface",
+        "spec_url": "https://websockets.spec.whatwg.org/#the-closeevent-interface",
+        "tags": [
+          "web-features:websockets"
+        ],
         "support": {
-          "chrome": {
-            "version_added": "13"
+          "bun": {
+            "version_added": "1.0.0"
           },
-          "chrome_android": {
-            "version_added": "18"
+          "chrome": {
+            "version_added": "15"
+          },
+          "chrome_android": "mirror",
+          "deno": {
+            "version_added": "1.4"
           },
           "edge": {
             "version_added": "12"
@@ -17,8 +24,8 @@
           "firefox": {
             "version_added": "8",
             "notes": [
-              "Prior to Firefox 12, the close code <code>CLOSE_NORMAL</code> was used when the channel was closed due to an unexpected error or unspecified error condition.",
-              "Prior to Firefox 8, the <code>WebSocket</code> close event was sent to the listener as a simple event."
+              "Before Firefox 12, the close code `CLOSE_NORMAL` was used when the channel was closed due to an unexpected error or unspecified error condition.",
+              "Before Firefox 8, the `WebSocket` close event was sent to the listener as a simple event."
             ]
           },
           "firefox_android": {
@@ -27,6 +34,10 @@
           "ie": {
             "version_added": "10"
           },
+          "nodejs": {
+            "version_added": "23.0.0"
+          },
+          "oculus": "mirror",
           "opera": {
             "version_added": "12.1"
           },
@@ -36,15 +47,10 @@
           "safari": {
             "version_added": "6"
           },
-          "safari_ios": {
-            "version_added": "6"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
-          "webview_android": {
-            "version_added": "≤37"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -54,46 +60,47 @@
       },
       "CloseEvent": {
         "__compat": {
+          "description": "`CloseEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CloseEvent/CloseEvent",
-          "spec_url": "https://html.spec.whatwg.org/multipage/web-sockets.html#the-closeevent-interface:dom-event-constructor",
-          "description": "<code>CloseEvent()</code> constructor",
+          "spec_url": "https://websockets.spec.whatwg.org/#dom-closeevent-closeevent",
+          "tags": [
+            "web-features:websockets"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
               "version_added": "16"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.4"
             },
             "edge": {
               "version_added": "14"
             },
             "firefox": {
-              "version_added": "8"
+              "version_added": "11"
             },
-            "firefox_android": {
-              "version_added": "8"
+            "firefox_android": "mirror",
+            "nodejs": {
+              "version_added": "23.0.0"
             },
-            "ie": {
-              "version_added": null
-            },
+            "oculus": "mirror",
             "opera": {
-              "version_added": null
+              "version_added": "12.1"
             },
             "opera_android": {
-              "version_added": null
+              "version_added": "12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -102,54 +109,162 @@
           }
         }
       },
-      "initCloseEvent": {
+      "code": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CloseEvent/initCloseEvent",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CloseEvent/code",
+          "spec_url": "https://websockets.spec.whatwg.org/#ref-for-dom-closeevent-code②",
+          "tags": [
+            "web-features:websockets"
+          ],
           "support": {
-            "chrome": {
-              "version_added": false
+            "bun": {
+              "version_added": "1.0.0"
             },
-            "chrome_android": {
-              "version_added": false
+            "chrome": {
+              "version_added": "15"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.4"
             },
             "edge": {
-              "version_added": "12",
-              "version_removed": "79"
+              "version_added": "12"
             },
             "firefox": {
-              "version_added": "8",
-              "version_removed": "41"
+              "version_added": "8"
             },
-            "firefox_android": {
-              "version_added": "8",
-              "version_removed": "41"
-            },
+            "firefox_android": "mirror",
             "ie": {
-              "version_added": false
+              "version_added": "10"
             },
+            "nodejs": {
+              "version_added": "23.0.0"
+            },
+            "oculus": "mirror",
             "opera": {
-              "version_added": false
+              "version_added": "12.1"
             },
             "opera_android": {
-              "version_added": false
+              "version_added": "12.1"
             },
             "safari": {
-              "version_added": false
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": false,
-            "deprecated": true
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "reason": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CloseEvent/reason",
+          "spec_url": "https://websockets.spec.whatwg.org/#ref-for-dom-closeevent-reason②",
+          "tags": [
+            "web-features:websockets"
+          ],
+          "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
+            "chrome": {
+              "version_added": "15"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.4"
+            },
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "8"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "nodejs": {
+              "version_added": "23.0.0"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12.1"
+            },
+            "opera_android": {
+              "version_added": "12.1"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "wasClean": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CloseEvent/wasClean",
+          "spec_url": "https://websockets.spec.whatwg.org/#ref-for-dom-closeevent-wasclean②",
+          "tags": [
+            "web-features:websockets"
+          ],
+          "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
+            "chrome": {
+              "version_added": "15"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.4"
+            },
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "8"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "nodejs": {
+              "version_added": "23.0.0"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12.1"
+            },
+            "opera_android": {
+              "version_added": "12.1"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
           }
         }
       }

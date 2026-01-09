@@ -4,51 +4,44 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch",
         "spec_url": "https://w3c.github.io/touch-events/#touch-interface",
+        "tags": [
+          "web-features:touch-events"
+        ],
         "support": {
           "chrome": {
             "version_added": "22"
           },
-          "chrome_android": {
-            "version_added": true
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "≤18"
           },
           "firefox": [
             {
               "version_added": "52",
-              "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+              "partial_implementation": true,
+              "notes": "This interface is only exposed if a touch input device is detected."
             },
             {
               "version_added": "18",
               "version_removed": "24",
-              "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+              "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
             }
           ],
           "firefox_android": {
             "version_added": "6"
           },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": true
-          },
-          "opera_android": {
-            "version_added": true
-          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
           "safari": {
             "version_added": false
           },
           "safari_ios": {
-            "version_added": true
+            "version_added": "≤3"
           },
-          "samsunginternet_android": {
-            "version_added": true
-          },
-          "webview_android": {
-            "version_added": true
-          }
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -58,49 +51,41 @@
       },
       "Touch": {
         "__compat": {
+          "description": "`Touch()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/Touch",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-constructor",
-          "description": "<code>Touch()</code> constructor",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "48"
             },
-            "chrome_android": {
-              "version_added": "48"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": "46"
+              "version_added": "52",
+              "partial_implementation": true,
+              "notes": "This interface is only exposed if a touch input device is detected."
             },
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "35"
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤3"
             },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "48"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -108,43 +93,32 @@
       },
       "altitudeAngle": {
         "__compat": {
+          "spec_url": "https://w3c.github.io/touch-events/#dom-touch-altitudeangle",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -155,43 +129,32 @@
       },
       "azimuthAngle": {
         "__compat": {
+          "spec_url": "https://w3c.github.io/touch-events/#dom-touch-azimuthangle",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -204,51 +167,44 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/clientX",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-clientx",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "≤18"
             },
             "firefox": [
               {
                 "version_added": "52",
-                "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
               },
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -261,51 +217,44 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/clientY",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-clienty",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "≤18"
             },
             "firefox": [
               {
                 "version_added": "52",
-                "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
               },
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -318,46 +267,52 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/force",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-force",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
-            "chrome": {
-              "version_added": true
-            },
-            "chrome_android": {
-              "version_added": true
-            },
-            "edge": {
-              "version_added": "≤79"
-            },
-            "firefox": {
-              "version_added": true
-            },
+            "chrome": [
+              {
+                "version_added": "38"
+              },
+              {
+                "prefix": "webkit",
+                "version_added": "22",
+                "version_removed": "47"
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "52",
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
+              },
+              {
+                "version_added": "18",
+                "version_removed": "24",
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
+              }
+            ],
             "firefox_android": {
-              "version_added": true
+              "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -367,51 +322,44 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/identifier",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-identifier",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "≤18"
             },
             "firefox": [
               {
                 "version_added": "52",
-                "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
               },
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -424,51 +372,44 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/pageX",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-pagex",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "≤18"
             },
             "firefox": [
               {
                 "version_added": "52",
-                "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
               },
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -481,51 +422,44 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/pageY",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-pagey",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "≤18"
             },
             "firefox": [
               {
                 "version_added": "52",
-                "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
               },
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -538,46 +472,52 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/radiusX",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-radiusx",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
-            "chrome": {
-              "version_added": "43"
-            },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "≤79"
-            },
-            "firefox": {
-              "version_added": null
-            },
+            "chrome": [
+              {
+                "version_added": "38"
+              },
+              {
+                "prefix": "webkit",
+                "version_added": "22",
+                "version_removed": "47"
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "52",
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
+              },
+              {
+                "version_added": "18",
+                "version_removed": "24",
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
+              }
+            ],
             "firefox_android": {
-              "version_added": true
+              "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -587,46 +527,52 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/radiusY",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-radiusy",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
-            "chrome": {
-              "version_added": "43"
-            },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "≤79"
-            },
-            "firefox": {
-              "version_added": null
-            },
+            "chrome": [
+              {
+                "version_added": "38"
+              },
+              {
+                "prefix": "webkit",
+                "version_added": "22",
+                "version_removed": "47"
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "52",
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
+              },
+              {
+                "version_added": "18",
+                "version_removed": "24",
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
+              }
+            ],
             "firefox_android": {
-              "version_added": true
+              "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -636,46 +582,52 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/rotationAngle",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-rotationangle",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
-            "chrome": {
-              "version_added": "43"
-            },
-            "chrome_android": {
-              "version_added": "43"
-            },
-            "edge": {
-              "version_added": "≤79"
-            },
-            "firefox": {
-              "version_added": null
-            },
+            "chrome": [
+              {
+                "version_added": "43"
+              },
+              {
+                "prefix": "webkit",
+                "version_added": "22",
+                "version_removed": "47"
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "52",
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
+              },
+              {
+                "version_added": "18",
+                "version_removed": "24",
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
+              }
+            ],
             "firefox_android": {
-              "version_added": true
+              "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": "4.0"
-            },
-            "webview_android": {
-              "version_added": "43"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -685,51 +637,44 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/screenX",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-screenx",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "≤18"
             },
             "firefox": [
               {
                 "version_added": "52",
-                "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
               },
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -742,51 +687,44 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/screenY",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-screeny",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "≤18"
             },
             "firefox": [
               {
                 "version_added": "52",
-                "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
               },
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -799,51 +737,44 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Touch/target",
           "spec_url": "https://w3c.github.io/touch-events/#dom-touch-target",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "22"
             },
-            "chrome_android": {
-              "version_added": true
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "≤18"
             },
             "firefox": [
               {
                 "version_added": "52",
-                "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms."
+                "partial_implementation": true,
+                "notes": "This interface is only exposed if a touch input device is detected."
               },
               {
                 "version_added": "18",
                 "version_removed": "24",
-                "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>."
+                "notes": "Removed in [bug 888304](https://bugzil.la/888304) due to web compatibility issues."
               }
             ],
             "firefox_android": {
               "version_added": "6"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -854,43 +785,32 @@
       },
       "touchType": {
         "__compat": {
+          "spec_url": "https://w3c.github.io/touch-events/#dom-touch-touchtype",
+          "tags": [
+            "web-features:touch-events"
+          ],
           "support": {
             "chrome": {
               "version_added": false
             },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
             "safari_ios": {
               "version_added": "10"
             },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

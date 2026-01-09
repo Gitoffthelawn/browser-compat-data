@@ -6,11 +6,11 @@
 
 ### Community members
 
-_Everyone_ who is involved in any form with the project must abide by the project’s [Contribution Guidelines](CODE_OF_CONDUCT.md) and Commit Access Guidelines. Everyone is expected to be respectful of fellow community members and to work collaboratively respective of the Code of Conduct (CPG). Consequences for not adhering to these Guidelines are listed in their respective documents.
+_Everyone_ who is involved in any form with the project must abide by the project’s [Contribution Guidelines](./CODE_OF_CONDUCT.md) and Commit Access Guidelines. Everyone is expected to be respectful of fellow community members and to work collaboratively respective of the Code of Conduct (CPG). Consequences for not adhering to these Guidelines are listed in their respective documents.
 
 ### Users
 
-Users are community members who have a need for the project. They are typically consumers of the compat data (see [data consumers](README.md#projects-using-the-data)). Anyone can be a User; there are no special requirements and the data is licensed under [CC0](LICENSE). Common User contributions include evangelizing the project (e.g., display a link on a website and raise awareness through word-of-mouth), informing developers of strengths and weaknesses from a new user perspective, or providing moral support (a “thank you” goes a long way).
+Users are community members who have a need for the project. They are typically consumers of the compat data (see [data consumers](./README.md#projects-using-the-data)). Anyone can be a User; there are no special requirements and the data is licensed under [CC0](./LICENSE). Common User contributions include evangelizing the project (e.g., display a link on a website and raise awareness through word-of-mouth), informing developers of strengths and weaknesses from a new user perspective, or providing moral support (a “thank you” goes a long way).
 
 Users who continue to engage with the project and its community will often become more and more involved. Such Users may find themselves becoming [Contributors](#Contributors), as described in the next section.
 
@@ -32,12 +32,15 @@ Peers are community members who have shown that they are committed to the contin
 
 Peers:
 
-- Are expected to work on public branches of their forks and submit pull requests to the main branch.
 - Must submit pull requests for all their changes.
 - May label and close issues.
-- May merge other people's pull requests that relate to compat data updates.
-- May merge other people's pull requests that relate to browser data updates (excluding the addition or removal of browsers).
-- Have their non-data update work reviewed and merged by [Owners](#Owners). Non-data pull requests are PRs that change the schema, update project meta-docs, the linter, or other infrastructure changes.
+- May merge pull requests that relate to compat data and browser data updates.
+  - Other contributor's pull requests may be merged by peers.
+  - A peer's own pull requests may be merged after approval from a fellow peer or owner.
+- Have their non-data update work reviewed and merged by [Owners](#Owners).
+  - Non-data pull requests are PRs that change the schema, add or remove browsers, update project meta-docs, the linter, or other infrastructure changes.
+- May merge a pull request that immediately fixes a failing test, regardless of the author.
+  - Owner review should still be requested on "critical fix" PRs.
 - Should ask for additional review from other Peers or Owners on other people's PRs that are disruptive or controversial.
 
 To become a Peer one must:
@@ -54,19 +57,28 @@ It is important to recognize that being a Peer is a privilege, not a right. That
 
 #### List of current peers
 
-- Rachel Andrew (@rachelandrew)
-- Vinyl Darkscratch (@vinyldarkscratch)
 - Alexis Deveria (@Fyrd), Adobe, https://caniuse.com
-- Ryan Johnson (@escattone), Mozilla
-- Joe Medley (@jpmedley), Google
+- Chris David Mills (@chrisdavidmills)
+- Claas Augner (@caugner), Mozilla
+- Daniel Beck (@ddbeck)
+- Estelle Weyl (@estelle), Open Web Docs (Peer for CSS compat data)
+- Hamish Willee (@hamishwillee), Mozilla
+- Luca Casonato (@lucacasonato), Deno
+- Luca Greco (@rpl), Mozilla
 - Michael Smith (@sideshowbarker), W3C
-- Philip Jägenstedt (@foolip), Google
+- Rachel Andrew (@rachelandrew), Google
+- Richard Bloor (@rebloor), Mozilla
+- Rob Wu (@Rob--W), Mozilla
+- Simeon Vincent (@dotproto), Mozilla
+- Tomislav Jovanovic (@zombie), Mozilla
+- Will Bamberg (@wbamberg), Open Web Docs
+- William Durand (@willdurand), Mozilla
 
 A Peer who shows an above-average level of contribution to the project, particularly with respect to its strategic direction and long-term health, may be nominated to become an Owner, described below.
 
 ### Owners
 
-The `@mdn/browser-compat-data` project is jointly governed by the [Mozilla MDN staff team](https://wiki.mozilla.org/Engagement/MDN_Durable_Team#Team_Members), the [MDN Product Advisory Board Members](https://developer.mozilla.org/en-US/docs/MDN/MDN_Product_Advisory_Board/Members), and the [Owner group](#list-of-current-owners). They are collectively responsible for high-level guidance of the project.
+The `@mdn/browser-compat-data` project is jointly governed by the [Mozilla MDN staff team](https://developer.mozilla.org/en-US/about#our_team), the [MDN Product Advisory Board Members](https://developer.mozilla.org/en-US/docs/MDN/MDN_Product_Advisory_Board/Members), and the [Owner group](#list-of-current-owners). They are collectively responsible for high-level guidance of the project.
 
 The [Owner group](#list-of-current-owners) has final authority over this project including:
 
@@ -87,7 +99,8 @@ Owners fulfill all requirements of Peers, and also:
 - Review code contributions, approve changes to this document, manage the copyrights within the project outputs.
 - Participate in the project discussions and meetings.
 - Manage and merge non-data pull requests such as schema, linter, or infrastructure changes.
-- May merge their own pull requests once they have collected the feedback they deem necessary. (No pull request should be merged without at least one peer or owner comment stating they’ve looked at the PR.)
+- May merge pull requests that result in a semver minor version bump, excluding browser additions.
+- May merge pull requests that add or remove a browser, modify a major part of internal infrastructure, or result in a semver major version bump only after seeking approval within the group of owners.
 - Release a new npm version of the project on a regular (weekly) basis.
 
 To become an Owner one must fulfill at least the following conditions and commit to being a part of the community for the long-term.
@@ -101,9 +114,9 @@ An individual is invited to become an Owner by existing Owners. A nomination wil
 #### List of current Owners
 
 - Florian Scholz (@Elchi3), Open Web Docs
-- Daniel Beck (@ddbeck)
-- Will Bamberg (@wbamberg), Open Web Docs
-- Chris David Mills (@chrisdavidmills), Mozilla
+- Philip Jägenstedt (@foolip), Google
+- Ruth John (@Rumyra), Mozilla
+- Vinyl Da.i'gyu (@queengooborg), Gooborg Studios
 
 ## Additional paths to becoming a Peer or Owner
 
@@ -126,7 +139,7 @@ If an agenda item cannot reach a consensus, an owner can call for either a closi
 ## Licensing
 
 Please note that this project is made available using the
-[CC0 license](LICENSE),
+[CC0 license](./LICENSE),
 so anyone contributing should only submit data if they know they have the right to submit it under CC0. If you're not sure about that, just ask.
 
 ## Project Meetings
@@ -138,7 +151,7 @@ Any community member or Peer can ask that something be added to the next meeting
 
 The intention of the agenda is not to approve or review all patches. That should happen continuously on GitHub and be handled by the larger group of Peers. The exception to this is when defining how the schema should look (or when proposing an update), or when a PR discussion has stalled due to disagreement or inaction, and progress needs to be unblocked.
 
-Prior to each project meeting, the moderator will share the agenda with the owners. Owners can add any items they like to the agenda at the beginning of each meeting. The moderator and the owners cannot veto or remove items.
+Before each project meeting, the moderator will share the agenda with the owners. Owners can add any items they like to the agenda at the beginning of each meeting. The moderator and the owners cannot veto or remove items.
 
 The Owners may invite persons or representatives from certain projects to participate in a non-voting capacity.
 
@@ -164,12 +177,13 @@ The moderator is responsible for summarizing the discussion of each agenda item 
 
 The `@mdn/browser-compat-data` project would like to thank the following former Owners and Peers for their contributions and the countless hours invested.
 
-- Richard Bloor (@rebloor) (Peer for WebExtensions compat data)
-- Jean-Yves Perrier (@teoli2003) (Former project lead, schema design co-author)
+- Daniel Beck (@ddbeck) (BCD co-owner until April 2022)
 - Eric Shepherd (@a2sheppy) (BCD peer until August 2020)
-- Kadir Topal (@atopal) (BCD co-owner until September 2020)
-- Estelle Weyl (@estelle) (Peer for CSS compat data)
+- Jean-Yves Perrier (@teoli2003) (Peer)
+- Joe Medley (@jpmedley) (Peer)
 - John Whitlock (@jwhitlock) (Technical design of the former compat data project)
+- Kadir Topal (@atopal) (BCD co-owner until September 2020)
+- Ryan Johnson (@escattone) (Peer)
 
 ## Credits
 

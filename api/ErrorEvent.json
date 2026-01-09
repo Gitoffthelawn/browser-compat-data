@@ -3,26 +3,29 @@
     "ErrorEvent": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent",
-        "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#the-errorevent-interface",
+        "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#errorevent",
         "support": {
+          "bun": {
+            "version_added": "1.0.0"
+          },
           "chrome": {
             "version_added": "10"
           },
-          "chrome_android": {
-            "version_added": "18"
+          "chrome_android": "mirror",
+          "deno": {
+            "version_added": "1.0"
           },
           "edge": {
             "version_added": "12"
           },
           "firefox": {
-            "version_added": "30"
+            "version_added": "27"
           },
-          "firefox_android": {
-            "version_added": "30"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": "10"
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "11"
           },
@@ -30,17 +33,12 @@
             "version_added": "11"
           },
           "safari": {
-            "version_added": true
+            "version_added": "6"
           },
-          "safari_ios": {
-            "version_added": true
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
-          "webview_android": {
-            "version_added": "≤37"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -50,45 +48,37 @@
       },
       "ErrorEvent": {
         "__compat": {
+          "description": "`ErrorEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/ErrorEvent",
-          "description": "<code>ErrorEvent()</code> constructor",
+          "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#errorevent",
           "support": {
-            "chrome": {
-              "version_added": true
+            "bun": {
+              "version_added": "1.0.0"
             },
-            "chrome_android": {
-              "version_added": true
+            "chrome": {
+              "version_added": "16"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
             },
             "edge": {
               "version_added": "14"
             },
             "firefox": {
-              "version_added": "30"
+              "version_added": "27"
             },
-            "firefox_android": {
-              "version_added": "30"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": true
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -100,12 +90,17 @@
       "colno": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/colno",
+          "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-colno",
           "support": {
-            "chrome": {
-              "version_added": true
+            "bun": {
+              "version_added": "1.0.0"
             },
-            "chrome_android": {
-              "version_added": true
+            "chrome": {
+              "version_added": "30"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
             },
             "edge": {
               "version_added": "12"
@@ -113,30 +108,20 @@
             "firefox": {
               "version_added": "31"
             },
-            "firefox_android": {
-              "version_added": "31"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": true
+              "version_added": "8"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -148,12 +133,17 @@
       "error": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/error",
+          "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-error",
           "support": {
-            "chrome": {
-              "version_added": true
+            "bun": {
+              "version_added": "1.0.0"
             },
-            "chrome_android": {
-              "version_added": true
+            "chrome": {
+              "version_added": "30"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
             },
             "edge": {
               "version_added": "12"
@@ -161,33 +151,23 @@
             "firefox": {
               "version_added": "31"
             },
-            "firefox_android": {
-              "version_added": "31"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "11"
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": true
+              "version_added": "10"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": true
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -196,25 +176,29 @@
       "filename": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/filename",
+          "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-filename",
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
               "version_added": "10"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
             },
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": "30"
+              "version_added": "27"
             },
-            "firefox_android": {
-              "version_added": "30"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -222,17 +206,12 @@
               "version_added": "11"
             },
             "safari": {
-              "version_added": true
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -244,25 +223,29 @@
       "lineno": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/lineno",
+          "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-lineno",
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
               "version_added": "10"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
             },
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": "30"
+              "version_added": "27"
             },
-            "firefox_android": {
-              "version_added": "30"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -270,17 +253,12 @@
               "version_added": "11"
             },
             "safari": {
-              "version_added": true
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -292,25 +270,29 @@
       "message": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/message",
+          "spec_url": "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-message",
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
               "version_added": "10"
             },
-            "chrome_android": {
-              "version_added": "18"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
             },
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": "30"
+              "version_added": "27"
             },
-            "firefox_android": {
-              "version_added": "30"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "10"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11"
             },
@@ -318,17 +300,12 @@
               "version_added": "11"
             },
             "safari": {
-              "version_added": true
+              "version_added": "6"
             },
-            "safari_ios": {
-              "version_added": true
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

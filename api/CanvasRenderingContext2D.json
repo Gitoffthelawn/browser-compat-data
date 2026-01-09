@@ -4,25 +4,25 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D",
         "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#2dcontext",
+        "tags": [
+          "web-features:canvas-2d"
+        ],
         "support": {
           "chrome": {
             "version_added": "1"
           },
-          "chrome_android": {
-            "version_added": "18"
-          },
+          "chrome_android": "mirror",
           "edge": {
             "version_added": "12"
           },
           "firefox": {
             "version_added": "1.5"
           },
-          "firefox_android": {
-            "version_added": "4"
-          },
+          "firefox_android": "mirror",
           "ie": {
             "version_added": "9"
           },
+          "oculus": "mirror",
           "opera": {
             "version_added": "9"
           },
@@ -32,15 +32,10 @@
           "safari": {
             "version_added": "2"
           },
-          "safari_ios": {
-            "version_added": "1"
-          },
-          "samsunginternet_android": {
-            "version_added": "1.0"
-          },
-          "webview_android": {
-            "version_added": "1"
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -52,25 +47,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/arc",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-arc-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -83,12 +78,9 @@
             "safari_ios": {
               "version_added": "1"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -101,25 +93,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/arcTo",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-arcto-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -129,15 +121,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -150,25 +137,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/beginPath",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-beginpath-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -178,15 +165,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -199,25 +181,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-beziercurveto-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -227,15 +209,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -248,25 +225,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/canvas",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-canvas-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -279,12 +256,9 @@
             "safari_ios": {
               "version_added": "1"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -297,25 +271,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/clearRect",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-clearrect-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -325,15 +299,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -346,25 +315,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/clip",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-clip-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -374,15 +343,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -392,44 +356,32 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤18"
+                "version_added": "14"
               },
               "firefox": {
                 "version_added": "31"
               },
-              "firefox_android": {
-                "version_added": "31"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": "7"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -443,25 +395,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/closePath",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-closepath-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -471,15 +423,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -491,70 +438,49 @@
       "createConicGradient": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createConicGradient",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createconicgradient-dev",
+          "tags": [
+            "web-features:canvas-createconicgradient"
+          ],
           "support": {
             "chrome": {
-              "version_added": "86",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#new-canvas-2d-api"
-                }
-              ]
+              "version_added": "99"
             },
-            "chrome_android": {
-              "version_added": "86",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "#new-canvas-2d-api"
-                }
-              ]
-            },
-            "edge": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "86",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "canvas.createConicGradient.enabled"
-                }
-              ]
-            },
-            "firefox_android": {
-              "version_added": "86",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "canvas.createConicGradient.enabled"
-                }
-              ]
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "112"
+              },
+              {
+                "version_added": "90",
+                "version_removed": "112",
+                "partial_implementation": true,
+                "notes": "Implements an older version of the specification. The gradient starts from a line going vertically up from the center, like the equivalent CSS function."
+              }
+            ],
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": [
+              {
+                "version_added": "16.1"
+              },
+              {
+                "version_added": "15",
+                "version_removed": "16.1",
+                "partial_implementation": true,
+                "notes": "Implements an older version of the specification. The gradient starts from a line going vertically up from the center, like the equivalent CSS function."
+              }
+            ],
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -564,25 +490,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createImageData",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createimagedata-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": "2"
+              "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -592,15 +518,10 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -613,25 +534,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createLinearGradient",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createlineargradient-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -641,15 +562,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -662,25 +578,26 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createPattern",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createpattern-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": "1.5"
+              "version_added": "1.5",
+              "notes": "The repetition values `repeat-x` and `repeat-y` are not supported with `fill()`, only with `fillRect()`, see [bug 468358](https://bugzil.la/468358)."
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -690,15 +607,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -711,25 +623,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createRadialGradient",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createradialgradient-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -739,15 +651,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -756,205 +663,36 @@
           }
         }
       },
-      "currentTransform": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/currentTransform",
-          "support": {
-            "chrome": {
-              "version_added": "32",
-              "version_removed": "68",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
-            },
-            "chrome_android": {
-              "version_added": "32",
-              "version_removed": "68",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
-            },
-            "edge": {
-              "version_added": "≤18",
-              "version_removed": "79"
-            },
-            "firefox": {
-              "version_added": false,
-              "notes": "See <a href='https://bugzil.la/928150'>bug 928150</a>. Firefox also supports the experimental and prefixed properties mozCurrentTransform and mozCurrentTransformInverse which set or get the current (inverse) transformation matrix."
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "19",
-              "version_removed": "55",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
-            },
-            "opera_android": {
-              "version_added": "19",
-              "version_removed": "48",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
-            },
-            "safari": {
-              "version_added": false,
-              "notes": "See <a href='https://webkit.org/b/174278'>webkitbug(174278)</a>."
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": false,
-            "deprecated": true
-          }
-        },
-        "DOMMatrix_return_value": {
-          "__compat": {
-            "description": "Returns a <code>DOMMatrix</code>",
-            "support": {
-              "chrome": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/637940'>bug 637940</a>."
-              },
-              "chrome_android": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/637940'>bug 637940</a>."
-              },
-              "edge": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/637940'>bug 637940</a>."
-              },
-              "firefox": {
-                "version_added": false
-              },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
-              "safari": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/174278'>bug 174278</a>."
-              },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/637940'>bug 637940</a>."
-              },
-              "webview_android": {
-                "version_added": false,
-                "notes": "See <a href='https://crbug.com/637940'>bug 637940</a>."
-              }
-            },
-            "status": {
-              "experimental": true,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        }
-      },
       "direction": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/direction",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-direction-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
-            "chrome": [
-              {
-                "version_added": "77"
-              },
-              {
-                "version_added": "39",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "Experimental Web Platform Features"
-                  }
-                ]
-              }
-            ],
-            "chrome_android": {
+            "chrome": {
               "version_added": "77"
             },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "101"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": [
-              {
-                "version_added": "64"
-              },
-              {
-                "version_added": "26",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "Experimental Web Platform Features"
-                  }
-                ]
-              }
-            ],
-            "opera_android": {
-              "version_added": "55"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "9"
             },
-            "safari_ios": {
-              "version_added": "9"
-            },
-            "samsunginternet_android": {
-              "version_added": "12.0"
-            },
-            "webview_android": {
-              "version_added": "77"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -964,13 +702,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/drawFocusIfNeeded",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-drawfocusifneeded-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "37"
             },
-            "chrome_android": {
-              "version_added": "37"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "14"
             },
@@ -979,40 +718,21 @@
                 "version_added": "32"
               },
               {
-                "version_added": "28",
-                "alternative_name": "drawSystemFocusRing"
+                "alternative_name": "drawSystemFocusRing",
+                "version_added": "28"
               }
             ],
-            "firefox_android": [
-              {
-                "version_added": "32"
-              },
-              {
-                "version_added": "28",
-                "alternative_name": "drawSystemFocusRing"
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "24"
-            },
-            "opera_android": {
-              "version_added": "24"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "8"
             },
-            "safari_ios": {
-              "version_added": "8"
-            },
-            "samsunginternet_android": {
-              "version_added": "3.0"
-            },
-            "webview_android": {
-              "version_added": "37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1022,44 +742,32 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "37"
               },
-              "chrome_android": {
-                "version_added": "37"
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤79"
+                "version_added": "14"
               },
               "firefox": {
                 "version_added": false
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "24"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": "9"
+                "version_added": "8"
               },
-              "safari_ios": {
-                "version_added": "9"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1073,25 +781,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/drawImage",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-drawimage-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "9"
             },
@@ -1101,15 +809,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1120,95 +823,29 @@
         "ImageBitmap_source_image": {
           "__compat": {
             "description": "ImageBitmap as source image",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
-                "version_added": "30"
+                "version_added": "50"
               },
-              "chrome_android": {
-                "version_added": "30"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "42"
               },
-              "firefox_android": {
-                "version_added": "42"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "17"
-              },
-              "opera_android": {
-                "version_added": "18"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/149990'>bug 149990</a>."
+                "version_added": "15"
               },
-              "safari_ios": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/149990'>bug 149990</a>."
-              },
-              "samsunginternet_android": {
-                "version_added": "2.0"
-              },
-              "webview_android": {
-                "version_added": "≤37"
-              }
-            },
-            "status": {
-              "experimental": false,
-              "standard_track": true,
-              "deprecated": false
-            }
-          }
-        },
-        "Smoothing_downscaling": {
-          "__compat": {
-            "description": "Smoothing when downscaling",
-            "support": {
-              "chrome": {
-                "version_added": true
-              },
-              "chrome_android": {
-                "version_added": true
-              },
-              "edge": {
-                "version_added": "79"
-              },
-              "firefox": {
-                "version_added": "56",
-                "notes": "See <a href='https://bugzil.la/1360415'>bug 1360415</a> for details."
-              },
-              "firefox_android": {
-                "version_added": "56",
-                "notes": "See <a href='https://bugzil.la/1360415'>bug 1360415</a> for details."
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": true
-              },
-              "opera_android": {
-                "version_added": true
-              },
-              "safari": {
-                "version_added": null
-              },
-              "safari_ios": {
-                "version_added": null
-              },
-              "samsunginternet_android": {
-                "version_added": true
-              },
-              "webview_android": {
-                "version_added": true
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1220,45 +857,31 @@
         "SVGImageElement_source_image": {
           "__compat": {
             "description": "SVGImageElement as source image",
+            "tags": [
+              "web-features:svg"
+            ],
             "support": {
               "chrome": {
                 "version_added": "59"
               },
-              "chrome_android": {
-                "version_added": "59"
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": "79"
+                "version_added": "12"
               },
               "firefox": {
                 "version_added": "56"
               },
-              "firefox_android": {
-                "version_added": "56"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "46"
-              },
-              "opera_android": {
-                "version_added": "43"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/226964'>bug 226964</a>."
+                "version_added": "17"
               },
-              "safari_ios": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/226964'>bug 226964</a>."
-              },
-              "samsunginternet_android": {
-                "version_added": "7.0"
-              },
-              "webview_android": {
-                "version_added": "59"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1268,146 +891,38 @@
           }
         }
       },
-      "drawWidgetAsOnScreen": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/drawWidgetAsOnScreen",
-          "support": {
-            "chrome": {
-              "version_added": false
-            },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "41"
-            },
-            "firefox_android": {
-              "version_added": "41"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": false,
-            "deprecated": false
-          }
-        }
-      },
-      "drawWindow": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/drawWindow",
-          "support": {
-            "chrome": {
-              "version_added": false
-            },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "1.5"
-            },
-            "firefox_android": {
-              "version_added": "4"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": false
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": false,
-            "deprecated": true
-          }
-        }
-      },
       "ellipse": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/ellipse",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-ellipse-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "31"
             },
-            "chrome_android": {
-              "version_added": "31"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "13"
             },
             "firefox": {
               "version_added": "48"
             },
-            "firefox_android": {
-              "version_added": "48"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "18"
-            },
-            "opera_android": {
-              "version_added": "18"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "9"
             },
-            "safari_ios": {
-              "version_added": "9"
-            },
-            "samsunginternet_android": {
-              "version_added": "2.0"
-            },
-            "webview_android": {
-              "version_added": "4.4.3"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1417,25 +932,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fill",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fill-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -1445,15 +960,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1463,44 +973,32 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤18"
+                "version_added": "14"
               },
               "firefox": {
                 "version_added": "31"
               },
-              "firefox_android": {
-                "version_added": "31"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": "7"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -1514,25 +1012,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fillRect",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fillrect-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "9"
             },
@@ -1542,15 +1040,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1563,25 +1056,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fillStyle",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fillstyle-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -1591,15 +1084,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1612,25 +1100,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fillText",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filltext-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -1640,15 +1128,10 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1660,47 +1143,34 @@
       "filter": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/filter",
-          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#filters",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filter-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "52"
             },
-            "chrome_android": {
-              "version_added": "52"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "49"
             },
-            "firefox_android": {
-              "version_added": "49"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "39"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/198416"
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "52"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1710,43 +1180,151 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/font",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-font-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
             "opera_android": {
               "version_added": "≤12.1"
             },
+            "safari": [
+              {
+                "version_added": "18.4"
+              },
+              {
+                "version_added": "4",
+                "version_removed": "18.4",
+                "partial_implementation": true,
+                "notes": "The `font-weight` can be set, but is not reflected back (see [bug 284115](https://webkit.org/b/284115))."
+              }
+            ],
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "fontKerning": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontKerning",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontkerning",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "104"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "4"
+              "version_added": false
             },
-            "safari_ios": {
-              "version_added": "3.2"
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "fontStretch": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontStretch",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontstretch",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "117"
             },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "fontVariantCaps": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontVariantCaps",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontvariantcaps",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "117"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1759,6 +1337,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getContextAttributes",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#2dcontext:dom-context-2d-canvas-getcontextattributes-2",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": [
               {
@@ -1769,69 +1350,22 @@
                 "version_removed": "60"
               }
             ],
-            "chrome_android": [
-              {
-                "version_added": "73"
-              },
-              {
-                "version_added": "32",
-                "version_removed": "60"
-              }
-            ],
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "117"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": [
-              {
-                "version_added": "60"
-              },
-              {
-                "version_added": "19",
-                "version_removed": "47"
-              }
-            ],
-            "opera_android": [
-              {
-                "version_added": "52"
-              },
-              {
-                "version_added": "19",
-                "version_removed": "44"
-              }
-            ],
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "15"
             },
-            "safari_ios": {
-              "version_added": "15"
-            },
-            "samsunginternet_android": [
-              {
-                "version_added": "11.0"
-              },
-              {
-                "version_added": "2.0",
-                "version_removed": "8.0"
-              }
-            ],
-            "webview_android": [
-              {
-                "version_added": "73"
-              },
-              {
-                "version_added": "4.4.3",
-                "version_removed": "60"
-              }
-            ]
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1844,27 +1378,26 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getImageData",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-getimagedata-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "2",
-              "notes": "Since Firefox 5, <code>getImageData</code> now correctly accepts rectangles that extend beyond the bounds of the canvas; pixels outside the canvas are returned as transparent black and now also returns at least one pixel's worth of image data if a rectangle smaller than one pixel is specified."
+              "notes": "Since Firefox 5, `getImageData` now correctly accepts rectangles that extend beyond the bounds of the canvas; pixels outside the canvas are returned as transparent black and now also returns at least one pixel's worth of image data if a rectangle smaller than one pixel is specified."
             },
-            "firefox_android": {
-              "version_added": "4",
-              "notes": "Since Firefox 5, <code>getImageData</code> now correctly accepts rectangles that extend beyond the bounds of the canvas; pixels outside the canvas are returned as transparent black and now also returns at least one pixel's worth of image data if a rectangle smaller than one pixel is specified."
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "9.5"
             },
@@ -1874,15 +1407,10 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1895,43 +1423,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getLineDash",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-getlinedash-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "27"
             },
-            "firefox_android": {
-              "version_added": "27"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "11"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1944,43 +1463,29 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getTransform",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-gettransform-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "68"
             },
-            "chrome_android": {
-              "version_added": "68"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "70"
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "55"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
-              "version_added": "11"
+              "version_added": "11.1"
             },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": "10.0"
-            },
-            "webview_android": {
-              "version_added": "68"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1993,25 +1498,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/globalAlpha",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-globalalpha-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -2021,15 +1526,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2042,25 +1542,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-globalcompositeoperation-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "9"
             },
@@ -2070,15 +1570,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2091,96 +1586,38 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-imagesmoothingenabled-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
-            "chrome": [
-              {
-                "version_added": "30"
-              },
-              {
-                "version_added": "21",
-                "version_removed": "30",
-                "prefix": "webkit"
-              }
-            ],
-            "chrome_android": [
-              {
-                "version_added": "30"
-              },
-              {
-                "version_added": "25",
-                "version_removed": "30",
-                "prefix": "webkit"
-              }
-            ],
+            "chrome": {
+              "version_added": "30"
+            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "15"
             },
-            "firefox": [
-              {
-                "version_added": "51"
-              },
-              {
-                "version_added": true,
-                "version_removed": "51",
-                "prefix": "moz"
-              }
-            ],
-            "firefox_android": [
-              {
-                "version_added": "51"
-              },
-              {
-                "version_added": true,
-                "version_removed": "51",
-                "prefix": "moz"
-              }
-            ],
-            "ie": {
-              "version_added": true,
-              "prefix": "ms"
+            "firefox": {
+              "version_added": "51"
             },
-            "opera": [
-              {
-                "version_added": "17"
-              },
-              {
-                "version_added": "15",
-                "version_removed": "17",
-                "prefix": "webkit"
-              }
-            ],
-            "opera_android": [
-              {
-                "version_added": "18"
-              },
-              {
-                "version_added": "14",
-                "version_removed": "18",
-                "prefix": "webkit"
-              }
-            ],
+            "firefox_android": "mirror",
+            "ie": {
+              "prefix": "ms",
+              "version_added": "11"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "9.1"
             },
-            "safari_ios": {
-              "version_added": "9.3"
-            },
-            "samsunginternet_android": [
-              {
-                "version_added": "2.0"
-              },
-              {
-                "version_added": "1.5",
-                "version_removed": "2.0",
-                "prefix": "webkit"
-              }
-            ],
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -2189,47 +1626,68 @@
       "imageSmoothingQuality": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality",
-          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#2dcontext:imagesmoothingquality-2",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-imagesmoothingquality-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "54"
             },
-            "chrome_android": {
-              "version_added": "54"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "41"
-            },
-            "opera_android": {
-              "version_added": "41"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "9.1"
             },
-            "safari_ios": {
-              "version_added": "9.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "6.0"
-            },
-            "webview_android": {
-              "version_added": "54"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "isContextLost": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isContextLost",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-iscontextlost",
+          "tags": [
+            "web-features:canvas-context-lost"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "125"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -2239,25 +1697,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInPath",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-ispointinpath-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "2"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -2267,15 +1725,10 @@
             "safari": {
               "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2285,44 +1738,32 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤18"
+                "version_added": "14"
               },
               "firefox": {
                 "version_added": "31"
               },
-              "firefox_android": {
-                "version_added": "31"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": "7"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -2336,57 +1777,29 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInStroke",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-ispointinstroke-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
             },
-            "chrome_android": {
-              "version_added": "26"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "19"
             },
-            "edge": {
-              "version_added": "79"
-            },
-            "firefox": [
-              {
-                "version_added": "20"
-              },
-              {
-                "version_added": "19",
-                "version_removed": "20",
-                "prefix": "moz"
-              }
-            ],
-            "firefox_android": [
-              {
-                "version_added": "20"
-              },
-              {
-                "version_added": "19",
-                "version_removed": "20",
-                "prefix": "moz"
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2396,44 +1809,30 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "31"
               },
-              "firefox_android": {
-                "version_added": "31"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": "7"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -2443,29 +1842,99 @@
           }
         }
       },
+      "lang": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lang",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-lang",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "136"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "letterSpacing": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/letterSpacing",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-letterspacing",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "115"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "18.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "lineCap": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineCap",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-linecap-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -2475,15 +1944,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2496,13 +1960,14 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineDashOffset",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-linedashoffset-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
@@ -2515,36 +1980,20 @@
                 "version_added": "7"
               }
             ],
-            "firefox_android": [
-              {
-                "version_added": "27"
-              },
-              {
-                "alternative_name": "mozDashOffset",
-                "version_added": "7"
-              }
-            ],
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "11"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2557,25 +2006,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineJoin",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-linejoin-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -2585,15 +2034,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2606,25 +2050,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineTo",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-lineto-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -2634,15 +2078,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2655,25 +2094,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineWidth",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-linewidth-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -2683,15 +2122,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2704,25 +2138,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/measureText",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-measuretext-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
-              "version_added": "2"
+              "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -2732,15 +2166,10 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2753,25 +2182,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/miterLimit",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-miterlimit-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -2781,15 +2210,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2802,25 +2226,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/moveTo",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-moveto-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -2830,15 +2254,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2851,25 +2270,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/putImageData",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-putimagedata-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "2"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -2879,15 +2298,10 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2900,25 +2314,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-quadraticcurveto-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -2931,12 +2345,9 @@
             "safari_ios": {
               "version_added": "1"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2949,25 +2360,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/rect",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-rect-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "11.6"
             },
@@ -2977,15 +2388,45 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "reset": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/reset",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-reset",
+          "tags": [
+            "web-features:canvas-reset"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "113"
             },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "17.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2998,46 +2439,32 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/resetTransform",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-resettransform-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "31"
             },
-            "chrome_android": {
-              "version_added": "31"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": "36"
             },
-            "firefox_android": {
-              "version_added": "36"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "18"
-            },
-            "opera_android": {
-              "version_added": "18"
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "10.1"
             },
-            "safari_ios": {
-              "version_added": "10.3"
-            },
-            "samsunginternet_android": {
-              "version_added": "2.0"
-            },
-            "webview_android": {
-              "version_added": "4.4"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -3047,25 +2474,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/restore",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-restore-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3075,15 +2502,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3096,25 +2518,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/rotate",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-rotate-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3124,15 +2546,45 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "roundRect": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/roundRect",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect",
+          "tags": [
+            "web-features:canvas-roundrect"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "112"
             },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3145,25 +2597,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/save",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-save-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3173,15 +2625,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3194,25 +2641,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/scale",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-scale-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3222,91 +2669,13 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "scrollPathIntoView": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/scrollPathIntoView",
-          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-scrollpathintoview-dev",
-          "support": {
-            "chrome": {
-              "version_added": "36",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
-            },
-            "chrome_android": {
-              "version_added": "36",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
-            },
-            "edge": {
-              "version_added": "≤79",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
-            },
-            "firefox": {
-              "version_added": false
-            },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "23",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Experimental Web Platform Features"
-                }
-              ]
-            },
-            "opera_android": {
-              "version_added": false
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": false
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -3316,43 +2685,34 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setLineDash",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-setlinedash-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
             },
-            "chrome_android": {
-              "version_added": "25"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "27"
             },
-            "firefox_android": {
-              "version_added": "27"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "11"
             },
-            "opera": {
-              "version_added": "15"
-            },
-            "opera_android": {
-              "version_added": "14"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "7"
             },
-            "safari_ios": {
-              "version_added": "7"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.5"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3365,25 +2725,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setTransform",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-settransform-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3393,15 +2753,10 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3412,43 +2767,29 @@
         "matrix_parameter": {
           "__compat": {
             "description": "Accept matrix object as parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
               },
-              "chrome_android": {
-                "version_added": "68"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "70"
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "55"
-              },
-              "opera_android": {
-                "version_added": "48"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": "11"
+                "version_added": "11.1"
               },
-              "safari_ios": {
-                "version_added": "11"
-              },
-              "samsunginternet_android": {
-                "version_added": "10.0"
-              },
-              "webview_android": {
-                "version_added": "68"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -3462,25 +2803,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowBlur",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-shadowblur-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3490,15 +2831,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3511,25 +2847,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowColor",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-shadowcolor-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3539,15 +2875,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3560,25 +2891,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-shadowoffsetx-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3588,15 +2919,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3609,25 +2935,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-shadowoffsety-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3637,15 +2963,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3658,25 +2979,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/stroke",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-stroke-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3686,15 +3007,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3704,44 +3020,32 @@
         },
         "path_parameter": {
           "__compat": {
-            "description": "<code>path</code> parameter",
+            "description": "`path` parameter",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "36"
               },
-              "chrome_android": {
-                "version_added": "36"
-              },
+              "chrome_android": "mirror",
               "edge": {
-                "version_added": "≤18"
+                "version_added": "14"
               },
               "firefox": {
                 "version_added": "31"
               },
-              "firefox_android": {
-                "version_added": "31"
-              },
-              "ie": {
-                "version_added": false
-              },
-              "opera": {
-                "version_added": "23"
-              },
-              "opera_android": {
-                "version_added": "24"
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "7"
               },
-              "safari_ios": {
-                "version_added": "7"
-              },
-              "samsunginternet_android": {
-                "version_added": "3.0"
-              },
-              "webview_android": {
-                "version_added": "37"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -3755,25 +3059,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/strokeRect",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-strokerect-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3783,15 +3087,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3804,25 +3103,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/strokeStyle",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-strokestyle-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3832,15 +3131,10 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3853,25 +3147,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/strokeText",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-stroketext-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": true
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3881,15 +3175,10 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3902,25 +3191,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/textAlign",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-textalign-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3930,15 +3219,10 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -3951,25 +3235,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/textBaseline",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-textbaseline-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -3979,15 +3263,45 @@
             "safari": {
               "version_added": "4"
             },
-            "safari_ios": {
-              "version_added": "3.2"
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "textRendering": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/textRendering",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-textrendering",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "116"
             },
-            "webview_android": {
-              "version_added": "≤37"
-            }
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -4000,25 +3314,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/transform",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-transform-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "3"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -4028,15 +3342,10 @@
             "safari": {
               "version_added": "3.1"
             },
-            "safari_ios": {
-              "version_added": "2"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -4049,25 +3358,25 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/translate",
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-translate-dev",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1.5"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "9"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "≤12.1"
             },
@@ -4077,15 +3386,45 @@
             "safari": {
               "version_added": "2"
             },
-            "safari_ios": {
-              "version_added": "1"
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "wordSpacing": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/wordSpacing",
+          "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-wordspacing",
+          "tags": [
+            "web-features:canvas-2d"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "99"
             },
-            "samsunginternet_android": {
-              "version_added": "1.0"
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "115"
             },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "18.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

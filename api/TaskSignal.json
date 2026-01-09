@@ -1,0 +1,149 @@
+{
+  "api": {
+    "TaskSignal": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/TaskSignal",
+        "spec_url": "https://wicg.github.io/scheduling-apis/#tasksignal",
+        "tags": [
+          "web-features:scheduler"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "94"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "142"
+          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "any_static": {
+        "__compat": {
+          "description": "`any()` static method",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/TaskSignal/any_static",
+          "spec_url": "https://wicg.github.io/scheduling-apis/#dom-tasksignal-any",
+          "tags": [
+            "web-features:scheduler"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "116"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "142"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "priority": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/TaskSignal/priority",
+          "spec_url": "https://wicg.github.io/scheduling-apis/#dom-tasksignal-priority",
+          "tags": [
+            "web-features:scheduler"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "142"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "prioritychange_event": {
+        "__compat": {
+          "description": "`prioritychange` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/TaskSignal/prioritychange_event",
+          "spec_url": [
+            "https://wicg.github.io/scheduling-apis/#eventdef-tasksignal-prioritychange",
+            "https://wicg.github.io/scheduling-apis/#dom-tasksignal-onprioritychange"
+          ],
+          "tags": [
+            "web-features:scheduler"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "142"
+            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

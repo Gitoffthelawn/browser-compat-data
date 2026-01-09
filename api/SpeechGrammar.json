@@ -3,235 +3,200 @@
     "SpeechGrammar": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammar",
-        "spec_url": "https://wicg.github.io/speech-api/#speechreco-speechgrammar",
+        "spec_url": "https://webaudio.github.io/web-speech-api/#speechreco-speechgrammar",
+        "tags": [
+          "web-features:speech-recognition-grammar"
+        ],
         "support": {
           "chrome": {
-            "version_added": "25",
-            "prefix": "webkit"
+            "prefix": "webkit",
+            "version_added": "25"
           },
-          "chrome_android": {
-            "version_added": "64",
-            "prefix": "webkit"
-          },
-          "edge": {
-            "version_added": "79",
-            "prefix": "webkit"
-          },
-          "firefox": {
-            "version_added": "44",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "media.webspeech.recognition.enable",
-                "value_to_set": "true"
-              }
-            ],
-            "notes": "Note that currently only the speech synthesis part is available in Firefox Desktop - the speech recognition part will be available soon, once the required internal permissions are sorted out."
-          },
-          "firefox_android": {
-            "version_added": false
-          },
-          "ie": {
-            "version_added": false
-          },
-          "opera": {
-            "version_added": "27"
-          },
-          "opera_android": {
-            "version_added": false
-          },
-          "safari": {
-            "version_added": false
-          },
-          "safari_ios": {
-            "version_added": false
-          },
-          "samsunginternet_android": {
-            "version_added": "9.0",
-            "prefix": "webkit"
-          },
-          "webview_android": {
-            "version_added": false
-          }
-        },
-        "status": {
-          "experimental": true,
-          "standard_track": true,
-          "deprecated": false
-        }
-      },
-      "SpeechGrammar": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammar/SpeechGrammar",
-          "description": "<code>SpeechGrammar()</code> constructor",
-          "support": {
-            "chrome": {
-              "version_added": "25",
-              "prefix": "webkit"
-            },
-            "chrome_android": {
-              "version_added": "64",
-              "prefix": "webkit"
-            },
-            "edge": {
-              "version_added": "79",
-              "prefix": "webkit"
-            },
-            "firefox": {
-              "version_added": "44",
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": [
+            {
+              "version_added": "142",
               "flags": [
                 {
                   "type": "preference",
                   "name": "media.webspeech.recognition.enable",
                   "value_to_set": "true"
                 }
-              ],
-              "notes": "Note that currently only the speech synthesis part is available in Firefox Desktop - the speech recognition part will be available soon, once the required internal permissions are sorted out."
+              ]
             },
-            "firefox_android": {
-              "version_added": false
+            {
+              "prefix": "webkit",
+              "version_added": "142",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "media.webspeech.recognition.enable",
+                  "value_to_set": "true"
+                }
+              ]
+            }
+          ],
+          "firefox_android": "mirror",
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": false
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": true
+        }
+      },
+      "SpeechGrammar": {
+        "__compat": {
+          "description": "`SpeechGrammar()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammar/SpeechGrammar",
+          "support": {
+            "chrome": {
+              "prefix": "webkit",
+              "version_added": "25"
             },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "27"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "142",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "media.webspeech.recognition.enable",
+                    "value_to_set": "true"
+                  }
+                ]
+              },
+              {
+                "prefix": "webkit",
+                "version_added": "142",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "media.webspeech.recognition.enable",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "9.0",
-              "prefix": "webkit"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": false,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
       "src": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammar/src",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechgrammar-src",
+          "spec_url": "https://webaudio.github.io/web-speech-api/#dom-speechgrammar-src",
+          "tags": [
+            "web-features:speech-recognition-grammar"
+          ],
           "support": {
             "chrome": {
               "version_added": "25"
             },
-            "chrome_android": {
-              "version_added": "64"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": "44",
+              "version_added": "142",
               "flags": [
                 {
                   "type": "preference",
                   "name": "media.webspeech.recognition.enable",
                   "value_to_set": "true"
                 }
-              ],
-              "notes": "Note that currently only the speech synthesis part is available in Firefox Desktop - the speech recognition part will be available soon, once the required internal permissions are sorted out."
+              ]
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "27"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "9.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
       "weight": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechGrammar/weight",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechgrammar-weight",
+          "spec_url": "https://webaudio.github.io/web-speech-api/#dom-speechgrammar-weight",
+          "tags": [
+            "web-features:speech-recognition-grammar"
+          ],
           "support": {
             "chrome": {
               "version_added": "25"
             },
-            "chrome_android": {
-              "version_added": "64"
-            },
-            "edge": {
-              "version_added": "79"
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
-              "version_added": "44",
+              "version_added": "142",
               "flags": [
                 {
                   "type": "preference",
                   "name": "media.webspeech.recognition.enable",
                   "value_to_set": "true"
                 }
-              ],
-              "notes": "Note that currently only the speech synthesis part is available in Firefox Desktop - the speech recognition part will be available soon, once the required internal permissions are sorted out."
+              ]
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "27"
-            },
-            "opera_android": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": false
             },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": "9.0"
-            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       }

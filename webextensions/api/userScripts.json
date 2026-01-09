@@ -2,114 +2,267 @@
   "webextensions": {
     "api": {
       "userScripts": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts",
+          "support": {
+            "chrome": {
+              "version_added": "120",
+              "notes": "Available for use with Manifest V3 only."
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "136",
+              "notes": [
+                "Available for use with Manifest V3 only.",
+                "An incompatible version of this API is available for Manifest V2. See [userScripts (Legacy)](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy)."
+              ]
+            },
+            "firefox_android": {
+              "version_added": "138"
+            },
+            "opera": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror"
+          }
+        },
+        "ExecutionWorld": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/ExecutionWorld",
+            "support": {
+              "chrome": {
+                "version_added": "120"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
         "RegisteredUserScript": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/RegisteredUserScript",
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "120"
               },
-              "edge": {
-                "version_added": false
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
               },
-              "firefox": [
-                {
-                  "version_added": "68"
-                },
-                {
-                  "version_added": "66",
-                  "flags": [
-                    {
-                      "type": "preference",
-                      "name": "extensions.webextensions.userScripts.enabled",
-                      "value_to_set": "true"
-                    }
-                  ]
-                }
-              ],
               "firefox_android": {
-                "version_added": "68"
+                "version_added": "138"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           },
-          "unregister": {
+          "worldId": {
             "__compat": {
-              "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/RegisteredUserScript/unregister",
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": "133"
                 },
-                "edge": {
-                  "version_added": false
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "136"
                 },
-                "firefox": [
-                  {
-                    "version_added": "68"
-                  },
-                  {
-                    "version_added": "66",
-                    "flags": [
-                      {
-                        "type": "preference",
-                        "name": "extensions.webextensions.userScripts.enabled",
-                        "value_to_set": "true"
-                      }
-                    ]
-                  }
-                ],
                 "firefox_android": {
-                  "version_added": "68"
+                  "version_added": "138"
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": false
-                }
+                },
+                "safari_ios": "mirror"
               }
             }
           }
         },
-        "onBeforeScript": {
+        "ScriptSource": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/onBeforeScript",
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/ScriptSource",
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "120"
               },
-              "edge": {
-                "version_added": false
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
               },
-              "firefox": [
-                {
-                  "version_added": "68"
-                },
-                {
-                  "version_added": "66",
-                  "flags": [
-                    {
-                      "type": "preference",
-                      "name": "extensions.webextensions.userScripts.enabled",
-                      "value_to_set": "true"
-                    }
-                  ]
-                }
-              ],
               "firefox_android": {
-                "version_added": "68"
+                "version_added": "138"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "UserScriptFilter": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/UserScriptFilter",
+            "support": {
+              "chrome": {
+                "version_added": "120"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "WorldProperties": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/WorldProperties",
+            "support": {
+              "chrome": {
+                "version_added": "120"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          },
+          "worldId": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "133"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "136"
+                },
+                "firefox_android": {
+                  "version_added": "138"
+                },
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": "mirror"
               }
+            }
+          }
+        },
+        "configureWorld": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/configureWorld",
+            "support": {
+              "chrome": {
+                "version_added": "120"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "execute": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/execute",
+            "support": {
+              "chrome": {
+                "version_added": "135"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false,
+                "impl_url": "https://bugzil.la/1930776"
+              },
+              "firefox_android": "mirror",
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "getScripts": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/getScripts",
+            "support": {
+              "chrome": {
+                "version_added": "120"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "getWorldConfigurations": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/getWorldConfigurations",
+            "support": {
+              "chrome": {
+                "version_added": "133"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -118,35 +271,87 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/register",
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "120"
               },
-              "edge": {
-                "version_added": false
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136",
+                "notes": "An incompatible version of this function is available for Manifest V2. See [userScripts (Legacy)](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/register)."
               },
-              "firefox": [
-                {
-                  "version_added": "68"
-                },
-                {
-                  "version_added": "66",
-                  "flags": [
-                    {
-                      "type": "preference",
-                      "name": "extensions.webextensions.userScripts.enabled",
-                      "value_to_set": "true"
-                    }
-                  ]
-                }
-              ],
               "firefox_android": {
-                "version_added": "68"
+                "version_added": "138"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "resetWorldConfiguration": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/resetWorldConfiguration",
+            "support": {
+              "chrome": {
+                "version_added": "133"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "unregister": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/unregister",
+            "support": {
+              "chrome": {
+                "version_added": "120"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
+            }
+          }
+        },
+        "update": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/update",
+            "support": {
+              "chrome": {
+                "version_added": "120"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "136"
+              },
+              "firefox_android": {
+                "version_added": "138"
+              },
+              "opera": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror"
             }
           }
         }

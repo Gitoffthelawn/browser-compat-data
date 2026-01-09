@@ -2,27 +2,54 @@
   "webextensions": {
     "api": {
       "pageAction": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction",
+          "support": {
+            "chrome": {
+              "version_added": "≤23",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "edge": {
+              "version_added": "14",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "firefox": {
+              "version_added": "45"
+            },
+            "firefox_android": {
+              "version_added": "50"
+            },
+            "opera": "mirror",
+            "safari": {
+              "version_added": "14",
+              "notes": "Available for use in Manifest V2 only."
+            },
+            "safari_ios": {
+              "version_added": "15",
+              "notes": "Available for use in Manifest V2 only."
+            }
+          }
+        },
         "ImageDataType": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/ImageDataType",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "23"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "45"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -32,7 +59,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getPopup",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "19"
               },
               "edge": {
                 "version_added": "14"
@@ -41,14 +68,15 @@
                 "version_added": "45"
               },
               "firefox_android": {
-                "notes": "The 'tabId' parameter is ignored: the page action popup is the same for all tabs.",
-                "version_added": "50"
+                "version_added": "50",
+                "notes": "The 'tabId' parameter is ignored: the page action popup is the same for all tabs."
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -58,7 +86,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getTitle",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "19"
               },
               "edge": {
                 "version_added": "14"
@@ -67,13 +95,14 @@
                 "version_added": "45"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           }
@@ -83,7 +112,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/hide",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
@@ -92,15 +121,14 @@
                 "version_added": "45"
               },
               "firefox_android": {
-                "notes": "Before version 56, the 'tabId' parameter was ignored, and the page action was hidden for all tabs.",
-                "version_added": "50"
+                "version_added": "50",
+                "notes": "Before version 56, the 'tabId' parameter was ignored, and the page action was hidden for all tabs."
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -111,21 +139,18 @@
               "chrome": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "59"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "79"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -134,7 +159,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
@@ -145,11 +170,12 @@
               "firefox_android": {
                 "version_added": "50"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
@@ -159,20 +185,19 @@
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "72"
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": "14"
+                },
+                "safari_ios": {
+                  "version_added": "15"
                 }
               }
             }
@@ -181,7 +206,7 @@
             "__compat": {
               "support": {
                 "chrome": {
-                  "version_added": true
+                  "version_added": "≤78"
                 },
                 "edge": {
                   "version_added": "14"
@@ -192,11 +217,12 @@
                 "firefox_android": {
                   "version_added": "50"
                 },
-                "opera": {
-                  "version_added": true
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": "14"
+                },
+                "safari_ios": {
+                  "version_added": "15"
                 }
               }
             }
@@ -209,21 +235,18 @@
               "chrome": {
                 "version_added": false
               },
-              "edge": {
-                "version_added": false
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "57"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "79"
               },
-              "opera": {
-                "version_added": false
-              },
+              "opera": "mirror",
               "safari": {
-                "version_added": false
-              }
+                "version_added": "16"
+              },
+              "safari_ios": "mirror"
             }
           }
         },
@@ -232,7 +255,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setIcon",
             "support": {
               "chrome": {
-                "version_added": true,
+                "version_added": "≤23",
                 "notes": "Before Chrome 23, `path` couldn't specify multiple icon files, but had to be a string specifying a single icon path."
               },
               "edge": {
@@ -242,13 +265,16 @@
                 "version_added": "45"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "79"
               },
               "opera": {
                 "version_added": "15"
               },
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
@@ -258,46 +284,42 @@
                 "chrome": {
                   "version_added": "23"
                 },
-                "edge": {
-                  "version_added": "79"
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "45"
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": "15"
-                },
+                "opera": "mirror",
                 "safari": {
                   "version_added": "14"
+                },
+                "safari_ios": {
+                  "version_added": "15"
                 }
               }
             }
           },
           "null": {
             "__compat": {
-              "description": "The <code>path</code> and <code>imageData</code> properties of the <code>details</code> parameter can be set to <code>null</code>.",
+              "description": "The `path` and `imageData` properties of the `details` parameter can be set to `null`.",
               "support": {
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": "14"
-                }
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -307,7 +329,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setPopup",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "5"
               },
               "edge": {
                 "version_added": "14"
@@ -316,39 +338,37 @@
                 "version_added": "45"
               },
               "firefox_android": {
-                "notes": "The 'tabId' parameter is ignored, and the popup is set for all tabs.",
-                "version_added": "50"
+                "version_added": "50",
+                "notes": "The 'tabId' parameter is ignored, and the popup is set for all tabs."
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15"
               }
             }
           },
           "null": {
             "__compat": {
-              "description": "The <code>popup</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "description": "The `popup` property of the `details` parameter can be set to `null`.",
               "support": {
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": "14"
-                }
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -358,7 +378,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setTitle",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
@@ -367,38 +387,38 @@
                 "version_added": "45"
               },
               "firefox_android": {
-                "version_added": false
+                "version_added": "79"
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": "14"
+              },
+              "safari_ios": {
+                "version_added": "15",
+                "partial_implementation": true,
+                "notes": "The API exists, but the title not visible in the UI."
               }
             }
           },
           "null": {
             "__compat": {
-              "description": "The <code>title</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "description": "The `title` property of the `details` parameter can be set to `null`.",
               "support": {
                 "chrome": {
                   "version_added": false
                 },
-                "edge": {
-                  "version_added": false
-                },
+                "edge": "mirror",
                 "firefox": {
                   "version_added": "59"
                 },
                 "firefox_android": {
                   "version_added": false
                 },
-                "opera": {
-                  "version_added": false
-                },
+                "opera": "mirror",
                 "safari": {
-                  "version_added": "14"
-                }
+                  "version_added": "18"
+                },
+                "safari_ios": "mirror"
               }
             }
           }
@@ -408,7 +428,7 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/show",
             "support": {
               "chrome": {
-                "version_added": true
+                "version_added": "4"
               },
               "edge": {
                 "version_added": "14"
@@ -417,15 +437,14 @@
                 "version_added": "45"
               },
               "firefox_android": {
-                "notes": "Before version 56, the 'tabId' parameter was ignored, and the page action was shown for all tabs.",
-                "version_added": "50"
+                "version_added": "50",
+                "notes": "Before version 56, the 'tabId' parameter was ignored, and the page action was shown for all tabs."
               },
-              "opera": {
-                "version_added": true
-              },
+              "opera": "mirror",
               "safari": {
                 "version_added": false
-              }
+              },
+              "safari_ios": "mirror"
             }
           }
         }

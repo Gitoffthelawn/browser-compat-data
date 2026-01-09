@@ -3,29 +3,21 @@
     "SpeechRecognitionResult": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResult",
-        "spec_url": "https://wicg.github.io/speech-api/#speechreco-result",
+        "spec_url": "https://webaudio.github.io/web-speech-api/#speechreco-result",
+        "tags": [
+          "web-features:speech-recognition"
+        ],
         "support": {
           "chrome": {
-            "version_added": "33",
-            "notes": "You'll need to serve your code through a web server for recognition to work."
+            "version_added": "33"
           },
-          "chrome_android": {
-            "version_added": true,
-            "notes": "You'll need to serve your code through a web server for recognition to work."
-          },
-          "edge": {
-            "version_added": "≤79",
-            "notes": "You'll need to serve your code through a web server for recognition to work."
-          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
           "firefox": {
             "version_added": false
           },
-          "firefox_android": {
-            "version_added": false
-          },
-          "ie": {
-            "version_added": false
-          },
+          "firefox_android": "mirror",
+          "oculus": "mirror",
           "opera": {
             "version_added": false
           },
@@ -35,20 +27,13 @@
           "safari": {
             "version_added": "14.1"
           },
-          "safari_ios": {
-            "version_added": "14.5"
-          },
-          "samsunginternet_android": {
-            "version_added": true,
-            "notes": "You'll need to serve your code through a web server for recognition to work."
-          },
-          "webview_android": {
-            "version_added": true,
-            "notes": "You'll need to serve your code through a web server for recognition to work."
-          }
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
@@ -56,29 +41,21 @@
       "isFinal": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResult/isFinal",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechrecognitionresult-isfinal",
+          "spec_url": "https://webaudio.github.io/web-speech-api/#dom-speechrecognitionresult-isfinal",
+          "tags": [
+            "web-features:speech-recognition"
+          ],
           "support": {
             "chrome": {
-              "version_added": "33",
-              "notes": "You'll need to serve your code through a web server for recognition to work."
+              "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
-            "edge": {
-              "version_added": "≤79",
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -88,20 +65,13 @@
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
-            "webview_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -110,29 +80,21 @@
       "item": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResult/item",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechrecognitionresult-item",
+          "spec_url": "https://webaudio.github.io/web-speech-api/#dom-speechrecognitionresult-item",
+          "tags": [
+            "web-features:speech-recognition"
+          ],
           "support": {
             "chrome": {
-              "version_added": "33",
-              "notes": "You'll need to serve your code through a web server for recognition to work."
+              "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
-            "edge": {
-              "version_added": "≤79",
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -142,20 +104,13 @@
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
-            "webview_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -164,29 +119,21 @@
       "length": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResult/length",
-          "spec_url": "https://wicg.github.io/speech-api/#dom-speechrecognitionresult-length",
+          "spec_url": "https://webaudio.github.io/web-speech-api/#dom-speechrecognitionresult-length",
+          "tags": [
+            "web-features:speech-recognition"
+          ],
           "support": {
             "chrome": {
-              "version_added": "33",
-              "notes": "You'll need to serve your code through a web server for recognition to work."
+              "version_added": "33"
             },
-            "chrome_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
-            "edge": {
-              "version_added": "≤79",
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
             "firefox": {
               "version_added": false
             },
-            "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
+            "oculus": "mirror",
             "opera": {
               "version_added": false
             },
@@ -196,20 +143,13 @@
             "safari": {
               "version_added": "14.1"
             },
-            "safari_ios": {
-              "version_added": "14.5"
-            },
-            "samsunginternet_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            },
-            "webview_android": {
-              "version_added": true,
-              "notes": "You'll need to serve your code through a web server for recognition to work."
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

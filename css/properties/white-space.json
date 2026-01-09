@@ -3,27 +3,30 @@
     "properties": {
       "white-space": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/white-space",
-          "spec_url": "https://drafts.csswg.org/css-text/#white-space-property",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/white-space",
+          "spec_url": [
+            "https://drafts.csswg.org/css-text-4/#white-space-property",
+            "https://svgwg.org/svg2-draft/text.html#TextWhiteSpace"
+          ],
+          "tags": [
+            "web-features:white-space"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
             },
-            "chrome_android": {
-              "version_added": "18"
-            },
+            "chrome_android": "mirror",
             "edge": {
               "version_added": "12"
             },
             "firefox": {
               "version_added": "1"
             },
-            "firefox_android": {
-              "version_added": "4"
-            },
+            "firefox_android": "mirror",
             "ie": {
               "version_added": "5.5"
             },
+            "oculus": "mirror",
             "opera": {
               "version_added": "4"
             },
@@ -33,15 +36,10 @@
             "safari": {
               "version_added": "1"
             },
-            "safari_ios": {
-              "version_added": "1"
-            },
-            "samsunginternet_android": {
-              "version_added": "1.0"
-            },
-            "webview_android": {
-              "version_added": "1"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -51,44 +49,102 @@
         },
         "break-spaces": {
           "__compat": {
-            "description": "<code>break-spaces</code>",
+            "spec_url": "https://drafts.csswg.org/css-text/#valdef-white-space-break-spaces",
+            "tags": [
+              "web-features:white-space"
+            ],
             "support": {
               "chrome": {
                 "version_added": "76"
               },
-              "chrome_android": {
-                "version_added": "76"
-              },
-              "edge": {
-                "version_added": "79"
-              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
               "firefox": {
                 "version_added": "69"
               },
-              "firefox_android": {
-                "version_added": false
-              },
-              "ie": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
               "opera": {
                 "version_added": "62"
               },
-              "opera_android": {
-                "version_added": "54"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "13.1"
               },
-              "safari_ios": {
-                "version_added": "13.4"
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "collapse": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-collapse",
+            "support": {
+              "chrome": {
+                "version_added": "114"
               },
-              "samsunginternet_android": {
-                "version_added": "12.0"
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "124"
               },
-              "webview_android": {
-                "version_added": "76"
-              }
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "18"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "normal": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-text/#valdef-white-space-normal",
+            "tags": [
+              "web-features:white-space"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "≤11"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -99,26 +155,26 @@
         },
         "nowrap": {
           "__compat": {
-            "description": "<code>nowrap</code>",
+            "spec_url": "https://drafts.csswg.org/css-text/#valdef-white-space-nowrap",
+            "tags": [
+              "web-features:white-space"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "5.5"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "4"
               },
@@ -128,15 +184,10 @@
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
-              "webview_android": {
-                "version_added": "1"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -147,44 +198,39 @@
         },
         "pre": {
           "__compat": {
-            "description": "<code>pre</code>",
+            "spec_url": "https://drafts.csswg.org/css-text/#valdef-white-space-pre",
+            "tags": [
+              "web-features:white-space"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "1"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "6"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "4"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "37"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -195,44 +241,41 @@
         },
         "pre-line": {
           "__compat": {
-            "description": "<code>pre-line</code>",
+            "spec_url": "https://drafts.csswg.org/css-text/#valdef-white-space-pre-line",
+            "tags": [
+              "web-features:white-space"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "3.5"
               },
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "8"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "9.5"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
                 "version_added": "1"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "37"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -243,14 +286,15 @@
         },
         "pre-wrap": {
           "__compat": {
-            "description": "<code>pre-wrap</code>",
+            "spec_url": "https://drafts.csswg.org/css-text/#valdef-white-space-pre-wrap",
+            "tags": [
+              "web-features:white-space"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
@@ -264,31 +308,27 @@
                   "version_removed": "3.6"
                 }
               ],
-              "firefox_android": {
-                "version_added": "4"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "8",
-                "notes": "From Internet Explorer 5.5 to 7, <code>word-wrap: break-word;</code> can be used for line breaks in <code>pre</code> elements."
+                "notes": "From Internet Explorer 5.5 to 7, `word-wrap: break-word;` can be used for line breaks in `pre` elements."
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "8"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "3"
               },
               "safari_ios": {
                 "version_added": "1"
               },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "37"
-              }
+              },
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -297,16 +337,149 @@
             }
           }
         },
-        "svg_support": {
+        "preserve": {
           "__compat": {
-            "description": "Support in SVG",
+            "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-preserve",
+            "support": {
+              "chrome": {
+                "version_added": "114"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "124"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "18"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "preserve-breaks": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-preserve-breaks",
+            "support": {
+              "chrome": {
+                "version_added": "114"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "124"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "18"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "preserve-spaces": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-preserve-spaces",
             "support": {
               "chrome": {
                 "version_added": false
               },
-              "chrome_android": {
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "124"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
                 "version_added": false
               },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "shorthand_values": {
+          "__compat": {
+            "description": "Accepts shorthand values",
+            "tags": [
+              "web-features:white-space"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "114",
+                "partial_implementation": true,
+                "notes": "Only accepts values for `white-space-collapse` and `text-wrap-mode`, not `white-space-trim`."
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "124",
+                "partial_implementation": true,
+                "notes": "Only accepts values for `white-space-collapse` and `text-wrap-mode`, not `white-space-trim`."
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "svg_elements": {
+          "__compat": {
+            "description": "On SVG elements",
+            "tags": [
+              "web-features:white-space"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": false,
+                "impl_url": "https://crbug.com/40362378"
+              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12",
                 "version_removed": "79"
@@ -314,30 +487,21 @@
               "firefox": {
                 "version_added": "36"
               },
-              "firefox_android": {
-                "version_added": "36"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "10"
               },
-              "opera": {
-                "version_added": false
-              },
-              "opera_android": {
-                "version_added": false
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": false,
+                "impl_url": "https://webkit.org/b/293213"
               },
-              "safari_ios": {
-                "version_added": false
-              },
-              "samsunginternet_android": {
-                "version_added": false
-              },
-              "webview_android": {
-                "version_added": false
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -348,44 +512,70 @@
         },
         "textarea_support": {
           "__compat": {
-            "description": "Support on <code>&lt;textarea&gt;</code>",
+            "description": "Support on `<textarea>`",
+            "tags": [
+              "web-features:white-space"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
               },
-              "chrome_android": {
-                "version_added": "18"
-              },
+              "chrome_android": "mirror",
               "edge": {
                 "version_added": "12"
               },
               "firefox": {
                 "version_added": "36"
               },
-              "firefox_android": {
-                "version_added": "36"
-              },
+              "firefox_android": "mirror",
               "ie": {
                 "version_added": "5.5"
               },
+              "oculus": "mirror",
               "opera": {
                 "version_added": "4"
               },
-              "opera_android": {
-                "version_added": "14"
-              },
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "1"
               },
-              "safari_ios": {
-                "version_added": "1"
-              },
-              "samsunginternet_android": {
-                "version_added": "1.0"
-              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
               "webview_android": {
                 "version_added": "37"
-              }
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "wrap": {
+          "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-text-wrap-mode-wrap",
+            "support": {
+              "chrome": {
+                "version_added": "114"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "124"
+              },
+              "firefox_android": "mirror",
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "18"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

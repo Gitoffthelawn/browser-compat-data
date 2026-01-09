@@ -4,14 +4,25 @@
       "destructuring": {
         "__compat": {
           "description": "Destructuring assignment",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
-          "spec_url": "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring",
+          "spec_url": [
+            "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+            "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns"
+          ],
+          "tags": [
+            "web-features:snapshot:ecmascript-2015",
+            "web-features:destructuring"
+          ],
           "support": {
+            "bun": {
+              "version_added": "1.0.0"
+            },
             "chrome": {
               "version_added": "49"
             },
-            "chrome_android": {
-              "version_added": "49"
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.0"
             },
             "edge": {
               "version_added": "14"
@@ -20,34 +31,20 @@
               "version_added": "41",
               "notes": "Firefox provided a non-standard destructuring implementation from Firefox 2 to 40."
             },
-            "firefox_android": {
-              "version_added": "41",
-              "notes": "Firefox provided a non-standard destructuring implementation from Firefox 2 to 40."
-            },
-            "ie": {
-              "version_added": false
-            },
+            "firefox_android": "mirror",
             "nodejs": {
               "version_added": "6.0.0"
             },
-            "opera": {
-              "version_added": "36"
-            },
-            "opera_android": {
-              "version_added": "36"
-            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
             "safari": {
               "version_added": "8"
             },
-            "safari_ios": {
-              "version_added": "8"
-            },
-            "samsunginternet_android": {
-              "version_added": "5.0"
-            },
-            "webview_android": {
-              "version_added": "49"
-            }
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -58,12 +55,20 @@
         "computed_property_names": {
           "__compat": {
             "description": "Computed property names",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:destructuring"
+            ],
             "support": {
+              "bun": {
+                "version_added": "1.0.0"
+              },
               "chrome": {
                 "version_added": "49"
               },
-              "chrome_android": {
-                "version_added": "49"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
               },
               "edge": {
                 "version_added": "14"
@@ -71,33 +76,20 @@
               "firefox": {
                 "version_added": "41"
               },
-              "firefox_android": {
-                "version_added": "41"
-              },
-              "ie": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "nodejs": {
                 "version_added": "6.0.0"
               },
-              "opera": {
-                "version_added": "36"
-              },
-              "opera_android": {
-                "version_added": "36"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "10"
               },
-              "safari_ios": {
-                "version_added": "10"
-              },
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "49"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -109,57 +101,41 @@
         "rest_in_arrays": {
           "__compat": {
             "description": "Rest in arrays",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:destructuring"
+            ],
             "support": {
+              "bun": {
+                "version_added": "1.0.0"
+              },
               "chrome": {
                 "version_added": "49"
               },
-              "chrome_android": {
-                "version_added": "49"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
               },
-              "edge": [
-                {
-                  "version_added": "16"
-                },
-                {
-                  "version_added": "14",
-                  "flags": [
-                    {
-                      "type": "preference",
-                      "name": "Enable experimental Javascript features"
-                    }
-                  ]
-                }
-              ],
+              "edge": {
+                "version_added": "16"
+              },
               "firefox": {
                 "version_added": "41"
               },
-              "firefox_android": {
-                "version_added": "41"
-              },
-              "ie": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "nodejs": {
                 "version_added": "6.0.0"
               },
-              "opera": {
-                "version_added": "36"
-              },
-              "opera_android": {
-                "version_added": "36"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "9.1"
               },
-              "safari_ios": {
-                "version_added": "9.3"
-              },
-              "samsunginternet_android": {
-                "version_added": "5.0"
-              },
-              "webview_android": {
-                "version_added": "49"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -171,49 +147,42 @@
         "rest_in_objects": {
           "__compat": {
             "description": "Rest in objects",
+            "tags": [
+              "web-features:snapshot:ecmascript-2015",
+              "web-features:destructuring"
+            ],
             "support": {
+              "bun": {
+                "version_added": "1.0.0"
+              },
               "chrome": {
                 "version_added": "60"
               },
-              "chrome_android": {
-                "version_added": "60"
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": "1.0"
               },
-              "edge": {
-                "version_added": "79"
-              },
+              "edge": "mirror",
               "firefox": {
                 "version_added": "55"
               },
-              "firefox_android": {
-                "version_added": "55"
-              },
-              "ie": {
-                "version_added": false
-              },
+              "firefox_android": "mirror",
               "nodejs": {
                 "version_added": "8.3.0"
               },
-              "opera": {
-                "version_added": "47"
-              },
-              "opera_android": {
-                "version_added": "44"
-              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
               "safari": {
                 "version_added": "11.1"
               },
-              "safari_ios": {
-                "version_added": "11.3"
-              },
-              "samsunginternet_android": {
-                "version_added": "8.0"
-              },
-              "webview_android": {
-                "version_added": "60"
-              }
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
